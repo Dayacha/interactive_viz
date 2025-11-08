@@ -22,13 +22,7 @@ I am not choosing the Option c with MapLibreGL because I feel that my map is not
   - [Our World in Dtata Migration Flows](https://pages.owid.io/explorers/migration-flows?utm_source=chatgpt.com)
     
 ## Mockup
-
-{
-At least one image file with a mock-up of what you're considering.
-If multiple images help make the intent clear, please include more.
-This can be a quick pen & paper sketch of your current idea, or you can use Inkscape/any tool you wish.
-A rough sense of what will be shown and how the user will interact with it should be clear from your illustration(s).
-}
+![](Interactive_Viz_Mock.png)
 
 ## Data Sources
 
