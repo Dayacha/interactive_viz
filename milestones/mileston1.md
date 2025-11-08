@@ -16,10 +16,11 @@ A map will serve as the centerpiece of the narrative, with panels and explanator
 
 I am not choosing the Option c with MapLibreGL because I feel that my map is not a zoom in map en explore. It is more about showing a specifics for each country in LAC. 
 
-
 - Inspiration :
   - [IOM interactive Migration Report 2024](https://worldmigrationreport.iom.int/msite/wmr-2024-interactive/)
   - [2024 Migration Proyect by Magdalena Barros](https://mmbarrosmigrationviz.netlify.app)
+  - [Our World in Dtata Migration Flows](https://pages.owid.io/explorers/migration-flows?utm_source=chatgpt.com)
+    
 ## Mockup
 
 {
