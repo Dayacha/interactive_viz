@@ -22,7 +22,7 @@ I am not choosing the Option c with MapLibreGL because I feel that my map is not
   - [Our World in Dtata Migration Flows](https://pages.owid.io/explorers/migration-flows?utm_source=chatgpt.com)
     
 ## Mockup
-![](Interactive_Viz_Mock.png)
+![](Mock.png)
 
 ## Data Sources
 
