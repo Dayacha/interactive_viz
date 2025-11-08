@@ -16,6 +16,10 @@ A map will serve as the centerpiece of the narrative, with panels and explanator
 
 I am not choosing the Option c with MapLibreGL because I feel that my map is not a zoom in map en explore. It is more about showing a specifics for each country in LAC. 
 
+
+- Inspiration :
+  - [IOM interactive Migration Report 2024](https://worldmigrationreport.iom.int/msite/wmr-2024-interactive/)
+  - [2024 Migration Proyect by Magdalena Barros](https://mmbarrosmigrationviz.netlify.app)
 ## Mockup
 
 {
@@ -40,8 +44,6 @@ A rough sense of what will be shown and how the user will interact with it shoul
 
 
 ## Questions
-
-{Numbered list of questions for course staff, if any.}
 
 1. Do you think the interaction of selecting one country to update contextual information is sufficient to qualify as “non-trivial interactivity,” or should I include an additional interaction (e.g., variable toggle or animation over time)?
 2. Is it possibel to use Option A and still make the user click on tha country, instead of using a dropdown menu?
