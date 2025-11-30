@@ -1,0 +1,22 @@
+[project]
+name = "interactive-migration-viz"
+version = "0.1.0"
+description = "Data cleaning pipeline and D3.js interactive visualization of global migration stocks."
+authors = [
+    { name = "Daniela Ayala Chavez" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "polars>=0.19.0",
+    "pyarrow>=15.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel",
+    "jupyter",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}

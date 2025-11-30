@@ -1,1 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Migration Since 1990</title>
 
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<header>
+  <h1>How The World Has Moved Since 1990</h1>
+  <p class="subtitle">A scrollytelling exploration of global migration stocks.</p>
+</header>
+
+<!-- SEARCH -->
+<div class="search-section">
+  <input 
+    id="country-input"
+    class="search-input"
+    type="text"
+    placeholder="Search for a country..."
+    autocomplete="off"
+  />
+  <div id="suggestions" class="suggestions"></div>
+</div>
+<!-- section one text-->
+<section class="section-intro">
+  <h2>Long-Term Migration Trends</h2>
+  <p>
+    Explore how the number of people born abroad has changed since 1990.  
+    Select any country to see how emigration and immigration evolved over time.
+  </p>
+</section>
+
+<!-- section one line graph-->
+<section id="scrolly" class="scrolly-container">
+
+  <!-- STEPS PRIMERO -->
+  <div class="scrolly-text">
+    <div class="step" data-step="1">How many emigrants does this country have?</div>
+    <div class="step" data-step="2">What share do they represent globally?</div>
+    <div class="step" data-step="3">How has emigration changed since 1990?</div>
+    <div class="step" data-step="4">People also arrive—immigration trends.</div>
+  </div>
+
+  <!-- STICKY GRAPHIC DESPUÉS -->
+  <div class="scrolly-graphic">
+    <div class="chart-card">
+      <div id="graphic"></div>
+
+      <div id="chart-text-card" class="info-box">
+        <h3 id="chart-title">Select a country</h3>
+        <p id="chart-description">Use the search bar.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- section two text-->
+<section class="section-intro">
+  <h2>Net Migration Across the World</h2>
+  <p>
+    Compare countries that attract more people than they lose 
+    versus those experiencing net population declines due to migration.
+  </p>
+</section>
+<!-- section two map-->
+<section id="scrolly-map" class="scrolly-container">
+
+  <div id="map-tooltip"></div>
+
+  <div class="scrolly-graphic">
+    <div class="chart-card">
+      <div id="map-graphic"></div>
+
+      <!-- Floating card -->
+      <div id="map-text-card" class="info-box">
+        <h3 id="map-title"></h3>
+        <p id="map-description"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scrolly-text">
+    <div class="step" data-step="5">What does global net migration look like?</div>
+    <div class="step" data-step="6">Who gains population through migration?</div>
+    <div class="step" data-step="7">Who loses population?</div>
+    <div class="step" data-step="8">Specific Country</div>
+  </div>
+
+</section>
+
+
+<!-- section three text-->
+<section class="section-intro">
+  <h2>Migration Corridors</h2>
+  <p>
+    See where emigrants from each country go.  
+    Are flows concentrated in a single corridor—or spread across many destinations?
+  </p>
+</section>
+
+<!-- section three sankey-->
+<section id="scrolly-sankey" class="scrolly-container">
+
+  <div class="scrolly-graphic">
+    <div class="chart-card"> 
+      <div id="sankey-graphic"></div>
+
+      <!-- Floating card -->
+      <div id="sankey-text-card" class="info-box">
+        <h2 id="sankey-title"></h2>
+        <p id="sankey-description"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scrolly-text">
+    <div class="step" data-step="9">Where do emigrants go?</div>
+    <div class="step" data-step="10">Countries with concentrated corridors…</div>
+    <div class="step" data-step="11">Countries with diversified migration flows…</div>
+  </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+
+</body>
+
+<!-- LINE CHART -->
+  <script>
+
+    let cleanData = [];
+
+    let lineSvg;
+    let xScale, yScale;
+    let linePath, focusCircle;
+    let xAxisGroup, yAxisGroup;
+    let tooltip;
+    let immLinePath;
+    let immFocusCircle;
+
+    // floating text box
+    let titleEl, descEl;
+
+    let chartMode = "emigrants";  
+    function loadDataAndInitCharts() {
+      d3.csv("data/clean/country_migration_totals.csv").then(data => {
+        data.forEach(d => {
+          d.year = +d.year;
+          d.migrants = +d.emigrants;
+          d.migrants_millions = d.emigrants / 1e6;
+
+          d.immigrants = +d.immigrants;
+          d.immigrants_millions = d.immigrants / 1e6;
+        });
+
+        cleanData = data;
+
+        initLineChart();
+
+        // Default: WORLD
+        updateLineChart("World");
+      });
+    }
+
+    function initLineChart() {
+
+      titleEl = d3.select("#chart-title");
+      descEl  = d3.select("#chart-description");
+
+      const container = d3.select("#graphic");
+      const node = document.getElementById("graphic");
+
+      const card = node.closest(".chart-card");
+
+      const styles = getComputedStyle(card);
+      const paddingTop = parseFloat(styles.paddingTop);
+      const paddingBottom = parseFloat(styles.paddingBottom);
+
+      // Real drawing area
+      const width = card.clientWidth;
+      const height = card.clientHeight - paddingTop - paddingBottom;
+
+      // Larger margins to avoid touching card edges
+      const margin = { top: 60, right: 80, bottom: 60, left: 80 };
+
+      container.selectAll("*").remove();
+
+      // responsive 
+      lineSvg = container.append("svg")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .classed("responsive-svg", true);
+
+      // scales & axes
+      xScale = d3.scaleLinear().range([margin.left, width - margin.right]);
+      yScale = d3.scaleLinear().range([height - margin.bottom, margin.top]);
+      xAxisGroup = lineSvg.append("g")
+        .attr("transform", `translate(0, ${height - margin.bottom})`);
+
+      yAxisGroup = lineSvg.append("g")
+        .attr("transform", `translate(${margin.left}, 0)`);
+
+      lineSvg.append("text")
+        .attr("class", "x-label")
+        .attr("x", width / 2)
+        .attr("y", height - 10)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .text("Year");
+
+      lineSvg.append("text")
+        .attr("class", "y-label")
+        .attr("x", -height / 2)
+        .attr("y", 25)
+        .attr("transform", "rotate(-90)")
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .text("Migrants (millions)");
+
+      // line path
+      linePath = lineSvg.append("path")
+        .attr("fill", "none")
+        .attr("stroke", "#ff7f0e")
+        .attr("stroke-width", 3);
+
+      immLinePath = lineSvg.append("path")
+        .attr("fill", "none")
+        .attr("stroke", "#1f77b4")
+        .attr("stroke-width", 3)
+        .style("opacity", 0);
+
+
+      focusCircle = lineSvg.append("circle")
+        .attr("r", 5).attr("fill", "#ff7f0e").style("opacity", 0);
+
+      immFocusCircle = lineSvg.append("circle")
+        .attr("r", 5).attr("fill", "#1f77b4").style("opacity", 0);
+
+
+      tooltip = d3.select("#graphic")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("padding", "8px 12px")
+        .style("background", "white")
+        .style("border-radius", "6px")
+        .style("border", "1px solid #ccc")
+        .style("box-shadow", "0 2px 4px rgba(0,0,0,0.2)")
+        .style("pointer-events", "none")
+        .style("opacity", 0);
+
+      titleEl.text("Select a country");
+      descEl.text("Use the search bar.");
+    }
+    // chart updates
+    function updateLineChart(countryName) {
+
+      const countryData = cleanData
+        .filter(d => d.country === countryName)
+        .sort((a, b) => a.year - b.year);
+
+      if (!countryData.length) {
+        titleEl.text(countryName);
+        descEl.text(`No migration data available for ${countryName}`);
+        return;
+      }
+
+      const maxEm = d3.max(countryData, d => d.migrants_millions);
+      const maxImm = d3.max(countryData, d => d.immigrants_millions);
+      const maxY = chartMode === "emigrants" ? maxEm : Math.max(maxEm, maxImm);
+
+      xScale.domain(d3.extent(countryData, d => d.year));
+      yScale.domain([0, maxY * 1.15]);
+
+      // Axes
+      xAxisGroup.transition().duration(600)
+        .call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
+
+      yAxisGroup.transition().duration(600)
+        .call(d3.axisLeft(yScale));
+
+      // Line generator
+      const line = d3.line()
+        .x(d => xScale(d.year))
+        .y(d => yScale(d.migrants_millions))
+        .curve(d3.curveMonotoneX);
+
+      linePath.datum(countryData).attr("d", line);
+
+      // Animate
+      const totalLength = linePath.node().getTotalLength();
+
+      linePath
+        .interrupt()
+        .attr("stroke-dasharray", `${totalLength} ${totalLength}`)
+        .attr("stroke-dashoffset", totalLength)
+        .transition()
+        .duration(3200)
+        .ease(d3.easeLinear)
+        .attr("stroke-dashoffset", 0);
+
+      const last = countryData[countryData.length - 1];
+
+      focusCircle.style("opacity", 1)
+        .attr("cx", xScale(last.year))
+        .attr("cy", yScale(last.migrants_millions));
+
+      // Hover
+      lineSvg
+        .on("mousemove", event => {
+          const [mx] = d3.pointer(event);
+          const year = Math.round(xScale.invert(mx));
+
+          const closest = countryData.reduce((a, b) =>
+            Math.abs(b.year - year) < Math.abs(a.year - year) ? b : a
+          );
+
+          focusCircle
+            .style("opacity", 1)
+            .attr("cx", xScale(closest.year))
+            .attr("cy", yScale(closest.migrants_millions));
+
+          tooltip
+            .style("opacity", 1)
+            .style("left", `${xScale(closest.year) + 30}px`)
+            .style("top", `${yScale(closest.migrants_millions) - 20}px`)
+            .html(`
+              <strong>${countryName}</strong><br>
+              Year: ${closest.year}<br>
+              Migrants: ${(closest.migrants_millions).toFixed(2)} M
+            `);
+        })
+        .on("mouseleave", () => {
+          tooltip.style("opacity", 0);
+          focusCircle.style("opacity", 0);
+        });
+
+      titleEl.text(countryName);
+      descEl.html(`
+        ${countryName} has about <strong>${last.migrants_millions.toFixed(2)}</strong> 
+        million emigrants as of <strong>${last.year}</strong>.
+      `);
+
+      // Save for scroll steps
+      window.currentCountryData = {
+        country: countryName,
+        last: last.migrants_millions.toFixed(2),
+        year: last.year,
+        first: countryData[0].migrants_millions.toFixed(2),
+        change_since_1990: (
+          (last.migrants_millions - countryData[0].migrants_millions) /
+          countryData[0].migrants_millions * 100
+        ).toFixed(1),
+        share_global: ((last.migrants_millions / 281) * 100).toFixed(1),
+        last_imm: (last.immigrants_millions || 0).toFixed(2),
+      };
+    }
+
+
+    // immigrants new line
+
+    function drawImmigrantsLine(countryName) {
+
+      const countryData = cleanData
+        .filter(d => d.country === countryName)
+        .sort((a, b) => a.year - b.year);
+
+      const immLine = d3.line()
+        .x(d => xScale(d.year))
+        .y(d => yScale(d.immigrants_millions || 0))
+        .curve(d3.curveMonotoneX);
+
+      immLinePath.datum(countryData)
+        .attr("d", immLine)
+        .style("opacity", 1);
+
+      const length = immLinePath.node().getTotalLength();
+
+      immLinePath
+        .interrupt()
+        .attr("stroke-dasharray", `${length} ${length}`)
+        .attr("stroke-dashoffset", length)
+        .transition()
+        .duration(3200)
+        .ease(d3.easeLinear)
+        .attr("stroke-dashoffset", 0);
+
+      const last = countryData[countryData.length - 1];
+
+      immFocusCircle
+        .style("opacity", 1)
+        .attr("cx", xScale(last.year))
+        .attr("cy", yScale(last.immigrants_millions || 0));
+    }
+
+
+    function updateCountry(countryName) {
+      updateLineChart(countryName);
+    }
+
+    window.updateCountry = updateCountry;
+
+    // steps
+
+    function updateScene(step) {
+
+      if (!window.currentCountryData) return;
+
+      const d = window.currentCountryData;
+
+      if (step === "0") {
+        titleEl.text(d.country);
+        descEl.html(`
+          ${d.country} has about <strong>${d.last}</strong> million emigrants 
+          as of <strong>${d.year}</strong>.
+        `);
+      }
+
+      if (step === "1") {
+        titleEl.text(`Share of global migrants`);
+        descEl.html(`
+          Migrants from <strong>${d.country}</strong> account for 
+          <strong>${d.share_global}%</strong> of all migrants worldwide.
+        `);
+      }
+
+      if (step === "2") {
+        titleEl.text(`Long-term change`);
+        descEl.html(`
+          Since 1990, emigration from <strong>${d.country}</strong> changed by 
+          <strong>${d.change_since_1990}%</strong>.
+        `);
+      }
+
+      if (step === "3") {
+        chartMode = "both";
+        updateLineChart(d.country);
+        drawImmigrantsLine(d.country);
+
+        titleEl.text(`Immigration also matters`);
+        descEl.html(`
+          <strong>${d.country}</strong> receives around 
+          <strong>${d.last_imm}</strong> million immigrants today.
+        `);
+      }
+
+      if (step === "4") {
+        const net = (d.last_imm - d.last).toFixed(2);
+
+        titleEl.text(`Net migration`);
+        descEl.html(`
+          Net migration for <strong>${d.country}</strong> is
+          <strong>${net} million</strong>.
+        `);
+      }
+    }
+
+    window.updateScene = updateScene;
+
+    let resizeTimeout;
+
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimeout);
+
+      resizeTimeout = setTimeout(() => {
+
+        const country = window.currentCountryData
+          ? window.currentCountryData.country
+          : "World";
+
+        initLineChart();    
+        updateLineChart(country);
+
+        if (chartMode === "both") {
+          drawImmigrantsLine(country);
+        }
+
+      }, 250);
+    });
+
+    document.addEventListener("DOMContentLoaded", loadDataAndInitCharts);
+  </script>
+
+
+
+  <!-- MAP-->
+  <script>
+
+    let mapSvg, mapProjection, mapPath, zoomBehavior;
+    let worldGeoJSON;
+    let migrationByISO = {};
+    let migrationTS = {};
+    let currentYear = 2024;
+    let currentZoomISO = null;
+
+    // Color scale
+    const netColor = d3.scaleDiverging()
+        .interpolator(d3.interpolateRdBu)
+        .domain([600000, 0, -600000]);
+
+
+    function initMap() {
+        const container = d3.select("#map-graphic");
+        const card = container.node().closest(".chart-card");
+
+        const styles = getComputedStyle(card);
+        const padTop = parseFloat(styles.paddingTop);
+        const padBottom = parseFloat(styles.paddingBottom);
+
+        const width  = card.clientWidth;
+        const height = card.clientHeight - padTop - padBottom;
+
+        container.selectAll("*").remove();
+
+        mapSvg = container.append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // GROUP
+        mapSvg.append("g").attr("id", "map-group");
+
+        // ZOOM / PAN
+        zoomBehavior = d3.zoom()
+            .scaleExtent([1, 7])               
+            .on("zoom", (event) => {
+                mapSvg.select("#map-group")
+                    .attr("transform", event.transform);
+            });
+
+        mapSvg.call(zoomBehavior);
+
+        // Load data
+        Promise.all([
+            d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+            d3.csv("data/clean/country_migration_totals.csv")
+        ]).then(([geo, csv]) => {
+
+            worldGeoJSON = geo;
+
+            migrationByISO = {};
+            migrationTS = {};
+
+            csv.forEach(d => {
+                const iso = d.iso3;
+                const year = +d.year;
+
+                if (!migrationTS[iso]) migrationTS[iso] = [];
+
+                migrationTS[iso].push({
+                    year,
+                    net: +d.net_migration,
+                    emigrants: +d.emigrants,
+                    immigrants: +d.immigrants
+                });
+
+                if (year === currentYear) {
+                    migrationByISO[iso] = {
+                        iso,
+                        country: d.country,
+                        region: d.region,
+                        subregion: d.subregion,
+                        emigrants: +d.emigrants,
+                        immigrants: +d.immigrants,
+                        net: +d.net_migration
+                    };
+                }
+            });
+
+            drawMap();
+        });
+    }
+
+    function drawMap() {
+        const container = d3.select("#map-graphic");
+        const width  = container.node().clientWidth;
+        const height = container.node().clientHeight;
+
+        container.selectAll("*").remove();
+
+        mapSvg = container.append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .call(zoomBehavior);   
+
+        const g = mapSvg.append("g").attr("id", "map-group");
+
+        mapProjection = d3.geoMercator().fitSize([width, height], worldGeoJSON);
+        mapPath = d3.geoPath().projection(mapProjection);
+
+        const tooltip = d3.select("#map-tooltip");
+
+        const countries = g.selectAll(".country")
+            .data(worldGeoJSON.features)
+            .enter()
+            .append("path")
+            .attr("class", "country")
+            .attr("d", mapPath)
+            .attr("fill", d => {
+                const iso = d.properties.ISO3 || d.id;
+                const val = migrationByISO[iso]?.net;
+                return val != null ? netColor(val) : "#cccccc";
+            })
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 0.5)
+            .attr("opacity", 0)
+            .on("mouseover", function (event, d) {
+                const iso = d.properties.ISO3 || d.id;
+                const rec = migrationByISO[iso] || {};
+                const name = d.properties.name || iso;
+
+                d3.select(this).attr("stroke", "#000").attr("stroke-width", 2);
+
+                tooltip.style("display", "block").html(`
+                    <strong>${name}</strong><br>
+                    Emigrants: ${rec.emigrants?.toLocaleString() ?? "N/A"}<br>
+                    Immigrants: ${rec.immigrants?.toLocaleString() ?? "N/A"}<br>
+                    Net migration: ${rec.net?.toLocaleString() ?? "N/A"}
+                `);
+            })
+            .on("mousemove", e => {
+                tooltip
+                    .style("top",  (e.pageY + 10) + "px")
+                    .style("left", (e.pageX + 10) + "px");
+            })
+            .on("mouseout", function () {
+                d3.select(this).attr("stroke", "#fff").attr("stroke-width", 0.5);
+                tooltip.style("display", "none");
+            })
+            .on("click", (event, d) => {
+                const iso = d.properties.ISO3 || d.id;
+                currentZoomISO = iso;
+                zoomToCountry(iso);
+                showCountryInfo(iso);
+            });
+
+        countries.transition().duration(800).attr("opacity", 1);
+    }
+
+
+    function zoomToCountry(iso) {
+        const g = mapSvg.select("#map-group");
+
+        const feature = worldGeoJSON.features.find(f =>
+            f.properties.ISO3 === iso || f.id === iso
+        );
+        if (!feature) return;
+
+        const bounds = mapPath.bounds(feature);
+        const [[x0, y0], [x1, y1]] = bounds;
+
+        const container = d3.select("#map-graphic");
+        const width  = container.node().clientWidth;
+        const height = container.node().clientHeight;
+
+        const dx = x1 - x0;
+        const dy = y1 - y0;
+
+        const scale = Math.min(7, 0.85 / Math.max(dx / width, dy / height));
+        const tx = width / 2 - scale * (x0 + dx / 2);
+        const ty = height / 2 - scale * (y0 + dy / 2);
+
+        mapSvg.transition()
+            .duration(1200)
+            .call(
+                zoomBehavior.transform,
+                d3.zoomIdentity.translate(tx, ty).scale(scale)
+            );
+    }
+
+    function resetZoom() {
+        mapSvg.transition()
+            .duration(900)
+            .call(zoomBehavior.transform, d3.zoomIdentity);
+    }
+
+
+    function drawSparkline(iso) {
+
+        const series = migrationTS[iso];
+        if (!series) return;
+
+        // Remove old sparkline if exists
+        d3.select("#map-text-card").selectAll(".sparkline-wrapper").remove();
+
+        // Container inside the info-box
+        const wrapper = d3.select("#map-text-card")
+            .append("div")
+            .attr("class", "sparkline-wrapper")
+            .style("margin-top", "14px");
+
+        const w = 230;
+        const h = 90;
+        const margin = { top: 10, right: 20, bottom: 20, left: 30 };
+
+        const svg = wrapper.append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        const x = d3.scaleLinear()
+            .domain(d3.extent(series, d => d.year))
+            .range([margin.left, w - margin.right]);
+
+        const y = d3.scaleLinear()
+            .domain(d3.extent(series, d => d.net))
+            .nice()
+            .range([h - margin.bottom, margin.top]);
+
+        // Axes
+        svg.append("g")
+            .attr("transform", `translate(0, ${h - margin.bottom})`)
+            .call(d3.axisBottom(x).ticks(4).tickFormat(d3.format("d")))
+            .attr("font-size", "9px");
+
+        svg.append("g")
+            .attr("transform", `translate(${margin.left},0)`)
+            .call(d3.axisLeft(y).ticks(4).tickFormat(d3.format(".2s")))
+            .attr("font-size", "9px");
+
+        // Line generator
+        const line = d3.line()
+            .x(d => x(d.year))
+            .y(d => y(d.net))
+            .curve(d3.curveMonotoneX);
+
+        const path = svg.append("path")
+            .datum(series)
+            .attr("fill", "none")
+            .attr("stroke", "#2C5985")
+            .attr("stroke-width", 2)
+            .attr("d", line);
+
+        // Animate the line
+        const totalLength = path.node().getTotalLength();
+
+        path
+            .attr("stroke-dasharray", totalLength)
+            .attr("stroke-dashoffset", totalLength)
+            .transition()
+            .duration(1200)
+            .ease(d3.easeCubicOut)
+            .attr("stroke-dashoffset", 0);
+
+        // Points appear after line
+        svg.selectAll("circle")
+            .data(series)
+            .enter()
+            .append("circle")
+            .attr("cx", d => x(d.year))
+            .attr("cy", d => y(d.net))
+            .attr("r", 3)
+            .attr("fill", "#2C5985")
+            .attr("opacity", 0)
+            .transition()
+            .delay(500)
+            .duration(300)
+            .attr("opacity", 1);
+    }
+
+
+    function showCountryInfo(iso) {
+        const rec = migrationByISO[iso];
+        if (!rec) return;
+
+        const title = d3.select("#map-title");
+        const desc  = d3.select("#map-description");
+
+        const rank = getGlobalRank(iso);
+        const neighbors = getNeighbors(iso);
+        const spark = drawSparkline(iso);
+
+        title.text(`${rec.country} — Migration Profile`);
+
+        desc.html(`
+            <strong>Net migration (${currentYear}):</strong> 
+            ${rec.net.toLocaleString()}<br><br>
+
+            <strong>Global position:</strong> ${rank} of ${Object.keys(migrationByISO).length} countries.<br><br>
+
+            <strong>Historical trajectory (1990–2020):</strong><br>
+            ${spark}<br><br>
+
+            <strong>Neighboring comparison:</strong><br>
+            ${neighbors.map(n => {
+                const x = migrationByISO[n];
+                return x ? `${x.country}: ${x.net.toLocaleString()}` : "";
+            }).join("<br>")}
+        `);
+    }
+
+
+    function getGlobalRank(iso) {
+        const arr = Object.values(migrationByISO).sort((a, b) => b.net - a.net);
+        return arr.findIndex(d => d.iso === iso) + 1;
+    }
+
+
+    function getNeighbors(iso) {
+        const borders = {
+            "MEX": ["USA", "GTM", "BLZ"],
+            "GTM": ["MEX", "SLV", "HND"],
+            "HND": ["GTM", "SLV", "NIC"],
+            "USA": ["CAN", "MEX"],
+            "SLV": ["GTM", "HND"],
+            "NIC": ["HND", "CRI"],
+            "CRI": ["NIC", "PAN"],
+            "PAN": ["CRI", "COL"],
+        };
+        return borders[iso] || [];
+    }
+
+    function restoreMapColors() {
+        d3.select("#map-group")
+            .selectAll(".country")
+            .transition()
+            .duration(500)
+            .attr("opacity", 1)
+            .attr("fill", d => {
+                const iso = d.properties.ISO3 || d.id;
+                const val = migrationByISO[iso]?.net;
+                return val != null ? netColor(val) : "#e7e7e7";
+            })
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 0.5);
+    }
+
+    function updateMapScene(step) {
+        if (!mapSvg) return;
+
+        const title = d3.select("#map-title");
+        const desc  = d3.select("#map-description");
+        const g = mapSvg.select("#map-group");
+
+        // Helper highlight
+        const highlight = fn => {
+            g.selectAll(".country")
+                .transition()
+                .duration(450)
+                .attr("opacity", d => {
+                    const iso = d.properties.ISO3 || d.id;
+                    const rec = migrationByISO[iso];
+                    return fn(rec) ? 1 : 0.15;
+                });
+        };
+
+        // ----------------------------------------------
+        // STEP 6 → Global view
+        // ----------------------------------------------
+        if (step === "5") {
+            resetZoom();
+
+            title.text("Global Migration Patterns");
+            desc.html(`
+                Net migration varies widely across regions.<br>
+                Blue countries show net gains, while red countries show net losses.<br>
+                Click any country for details, rankings, and historical trends.
+            `);
+
+            // Remove dimming
+            highlight(() => true);
+        }
+
+        // ----------------------------------------------
+        // STEP 7 → Positive net migration highlighted
+        // ----------------------------------------------
+        if (step === "6") {
+
+            title.text("Countries With Positive Net Migration");
+            desc.html(`
+                These countries attract more migrants than they lose.<br><br>
+                Below are the top 5 destinations by net migration:
+                <ol>
+                    ${Object.values(migrationByISO)
+                        .sort((a, b) => b.net - a.net)
+                        .slice(0, 5)
+                        .map(d => `<li>${d.country}: ${d.net.toLocaleString()}</li>`)
+                        .join("")}
+                </ol>
+            `);
+
+            highlight(rec => rec && rec.net > 0);
+        }
+
+        // ----------------------------------------------
+        // STEP 8 → Negative net migration highlighted
+        // ----------------------------------------------
+        if (step === "7") {
+
+            title.text("Countries With Negative Net Migration");
+            desc.html(`
+                These countries lose more people than they gain.<br><br>
+                Below are the top 5 countries with the largest net losses:
+                <ol>
+                    ${Object.values(migrationByISO)
+                        .sort((a, b) => a.net - b.net)
+                        .slice(0, 5)
+                        .map(d => `<li>${d.country}: ${d.net.toLocaleString()}</li>`)
+                        .join("")}
+                </ol>
+            `);
+
+            highlight(rec => rec && rec.net < 0);
+        }
+
+        // ----------------------------------------------
+        // STEP 9 → Zoom on selected country
+        // ----------------------------------------------
+        if (step === "8") {
+            restoreMapColors();
+            const iso = findISOByName(window.currentCountry || "Mexico");
+            currentZoomISO = iso;
+            zoomToCountry(iso);
+            showCountryInfo(iso);
+        }
+    }
+
+
+    // Ranking steps (no scrollama direct use, but kept for buttons if needed)
+    function showTop5Positive() {
+        const arr = Object.values(migrationByISO).sort((a, b) => b.net - a.net);
+        const top = arr.slice(0, 5);
+
+        d3.select("#map-title").text("Countries With Largest Net Migration Gains");
+        d3.select("#map-description").html(
+            `<ol>${top.map(d => `<li>${d.country}: ${d.net.toLocaleString()}</li>`).join("")}</ol>`
+        );
+    }
+
+    function showTop5Negative() {
+        const arr = Object.values(migrationByISO).sort((a, b) => a.net - b.net);
+        const bot = arr.slice(0, 5);
+
+        d3.select("#map-title").text("Countries With Largest Net Migration Losses");
+        d3.select("#map-description").html(
+            `<ol>${bot.map(d => `<li>${d.country}: ${d.net.toLocaleString()}</li>`).join("")}</ol>`
+        );
+    }
+
+
+    // Utility
+    function findISOByName(name) {
+        const match = Object.values(migrationByISO)
+            .find(d => d.country?.toLowerCase() === name?.toLowerCase());
+        return match ? match.iso : "MEX";
+    }
+
+
+    // Make some functions public
+    window.initMap = initMap;
+    window.updateMapScene = updateMapScene;
+  </script>
+
+
+
+  <!--SCRIPT 3 — SANKEY-->
+  <script>
+
+    let sankeySvg;
+    let sankeyDataRaw = null;
+    let currentOrigin = "World";
+    let sankeyInitialized = false;
+
+    let sankeyWidth = 900;
+    let sankeyHeight = 550;
+
+    // Sankey generator
+    const sankeyGenerator = d3.sankey()
+      .nodeWidth(16)
+      .nodePadding(14);
+
+    const linkPath = d3.sankeyLinkHorizontal();
+
+    function generateSankeyInsights(originName, flows, latestYear) {
+      if (!flows || flows.length === 0) {
+        return {
+          title: `No data available for ${originName}`,
+          text: `We could not identify migration corridors for ${originName} in the latest UN dataset.`
+        };
+      }
+
+      const totalMigrants = d3.sum(flows, d => d.migrants);
+
+      const top = flows[0];
+      const topShare = (top.migrants / totalMigrants) * 100;
+
+      // Simple concentration index (HHI)
+      const hhi = flows.reduce(
+        (acc, f) => acc + Math.pow(f.migrants / totalMigrants, 2), 
+        0
+      );
+
+      let pattern;
+      if (hhi > 0.45) pattern = "a highly concentrated emigration pattern";
+      else if (hhi > 0.25) pattern = "a moderately concentrated pattern";
+      else pattern = "a diversified mix of global destinations";
+
+      return {
+        title: `Latest migrant destinations for ${originName} (${latestYear})`,
+        text: `
+          Around <strong>${totalMigrants.toLocaleString()}</strong> people born in 
+          <strong>${originName}</strong> were living abroad in ${latestYear} (top 10 destinations).
+          <br><br>
+          The largest corridor is toward <strong>${top.destination}</strong>,
+          which receives <strong>${topShare.toFixed(1)}%</strong> of all emigrants.
+          <br><br>
+          Overall, ${originName} exhibits <strong>${pattern}</strong>, based on the
+          distribution of migrant stocks across destinations.`
+      };
+    }
+
+
+    function initSankey() {
+      if (sankeyInitialized) return;
+      sankeyInitialized = true;
+
+      d3.csv("data/clean/migrants_stock_clean.csv").then(data => {
+
+        data.forEach(d => {
+          d.year = +d.year;
+          d.migrants = +d.migrants;
+        });
+
+        sankeyDataRaw = data.filter(d =>
+          d.destination_iso3 && /^[A-Z]{3}$/i.test(d.destination_iso3)
+        );
+
+        console.log("Sankey data loaded:", sankeyDataRaw.length);
+
+        const originName = window.currentCountry || currentOrigin;
+        currentOrigin = originName;
+        drawSankey(originName);
+      });
+    }
+
+    function buildFlowsForOrigin(originName) {
+      const data = sankeyDataRaw;
+      if (!data) return { nodes: [], links: [] };
+
+      const rowsForOrigin = data.filter(d =>
+        d.origin_country_name === originName ||
+        d.origin === originName
+      );
+
+      if (!rowsForOrigin.length) {
+        return { nodes: [], links: [] };
+      }
+
+      const latestYear = d3.max(rowsForOrigin, d => d.year);
+      const latestRows = rowsForOrigin.filter(d => d.year === latestYear);
+
+      let flowMap = d3.rollup(
+        latestRows,
+        v => d3.sum(v, d => d.migrants),
+        d => d.destination_country_name || d.destination
+      );
+
+      let flows = Array.from(flowMap, ([dest, migrants]) => ({
+        destination: dest,
+        migrants
+      }))
+      .filter(f => 
+        f.destination &&
+        f.destination.toLowerCase() !== "world" &&
+        f.migrants > 0
+      )
+      .sort((a, b) => b.migrants - a.migrants)
+      .slice(0, 10);
+
+      const nodes = [];
+      const nodeIndex = {};
+
+      nodeIndex[originName] = 0;
+      nodes.push({ name: originName, type: "origin" });
+
+      flows.forEach(f => {
+        if (!(f.destination in nodeIndex)) {
+          nodeIndex[f.destination] = nodes.length;
+          nodes.push({ name: f.destination, type: "destination" });
+        }
+      });
+
+      const links = flows.map(f => ({
+        source: nodeIndex[originName],
+        target: nodeIndex[f.destination],
+        value: f.migrants
+      }));
+
+      return { nodes, links, flows, latestYear };
+    }
+
+    function drawSankey(originName) {
+      if (!sankeyDataRaw) return;
+
+      currentOrigin = originName;
+
+      const container = d3.select("#sankey-graphic");
+      container.selectAll("*").remove();
+
+      sankeyWidth = container.node().clientWidth || 900;
+      sankeyHeight = 550;
+
+      sankeySvg = container.append("svg")
+        .attr("viewBox", `0 0 ${sankeyWidth} ${sankeyHeight}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .classed("responsive-svg", true);
+
+      const { nodes, links, flows, latestYear } = buildFlowsForOrigin(originName);
+
+      // If no nodes
+      if (!nodes.length) {
+        sankeySvg.append("text")
+          .attr("x", sankeyWidth / 2)
+          .attr("y", sankeyHeight / 2)
+          .attr("text-anchor", "middle")
+          .text(`No migration flow data for ${originName}`);
+        return;
+      }
+
+      // Total migrants of these top flows
+      const totalMigrants = d3.sum(flows, d => d.migrants);
+
+      sankeyGenerator.extent([[0, 0], [sankeyWidth - 20, sankeyHeight - 20]]);
+
+      const graph = sankeyGenerator({
+        nodes: nodes.map(d => ({ ...d })),
+        links: links.map(d => ({ ...d }))
+      });
+
+      const color = d3.scaleOrdinal(d3.schemeTableau10);
+
+      // Tooltip
+      let tooltip = d3.select(".sankey-tooltip");
+      if (tooltip.empty()) {
+        tooltip = d3.select("body")
+          .append("div")
+          .attr("class", "sankey-tooltip")
+          .style("position", "absolute")
+          .style("display", "none")
+          .style("background", "rgba(255,255,255,0.9)")
+          .style("padding", "8px 10px")
+          .style("border-radius", "6px")
+          .style("font-size", "13px")
+          .style("box-shadow", "0 2px 8px rgba(0,0,0,0.2)");
+      }
+      sankeySvg.append("g")
+        .selectAll("path")
+        .data(graph.links)
+        .join("path")
+        .attr("d", linkPath)
+        .attr("stroke", d => color(d.target.name))
+        .attr("stroke-width", d => Math.max(1, d.width))
+        .attr("stroke-opacity", 0.5)
+        .on("mouseover", function (event, d) {
+
+          // find matching flow for % calculation
+          const flow = flows.find(f => f.destination === d.target.name);
+          const pct = flow ? ((flow.migrants / totalMigrants) * 100).toFixed(1) : "–";
+
+          tooltip.style("display", "block").html(`
+            <strong>${d.source.name}</strong> → <strong>${d.target.name}</strong><br>
+            Migrants: ${d.value.toLocaleString()}<br>
+            Share: <strong>${pct}%</strong>
+          `);
+
+          d3.select(this).attr("stroke-opacity", 0.8);
+        })
+        .on("mousemove", event => {
+          tooltip
+            .style("left", event.pageX + 12 + "px")
+            .style("top", event.pageY + 12 + "px");
+        })
+        .on("mouseout", function () {
+          tooltip.style("display", "none");
+          d3.select(this).attr("stroke-opacity", 0.5);
+        });
+
+      sankeySvg.append("g")
+        .selectAll("rect")
+        .data(graph.nodes)
+        .join("rect")
+        .attr("x", d => d.x0)
+        .attr("y", d => d.y0)
+        .attr("width", d => d.x1 - d.x0)
+        .attr("height", d => Math.max(2, d.y1 - d.y0))
+        .attr("fill", d => d.type === "origin" ? "#333" : color(d.name))
+        .attr("stroke", "#000");
+
+      sankeySvg.append("g")
+        .selectAll("text")
+        .data(graph.nodes)
+        .join("text")
+        .attr("x", d => d.x0 < sankeyWidth / 2 ? d.x1 + 6 : d.x0 - 6)
+        .attr("y", d => (d.y0 + d.y1) / 2)
+        .attr("dy", "0.35em")
+        .attr("font-size", "13px")
+        .attr("text-anchor", d => d.x0 < sankeyWidth / 2 ? "start" : "end")
+        .text(d => d.name);
+
+      const insights = generateSankeyInsights(originName, flows, latestYear);
+      d3.select("#sankey-title").text(insights.title);
+      d3.select("#sankey-description").html(insights.text);
+    }
+
+    // Scroll steps
+    function updateSankeyScene(step) {
+      if (!sankeyDataRaw) {
+        initSankey();
+        return;
+      }
+
+      const originName = window.currentCountry || currentOrigin;
+
+      if (step === "10") {
+        drawSankey(originName);
+      }
+    }
+
+
+    // Make globally available
+    window.initSankey = initSankey;
+    window.updateSankeyScene = updateSankeyScene;
+    window.drawSankey = drawSankey;
+  </script>
+
+
+
+  <!-- Scroll -->
+  <script>
+
+        // scroll magic
+    window.addEventListener("load", () => {
+      console.log("Scroller fully ready");
+
+      // map ready
+      initMap();
+      // line chart
+      const scroller1 = scrollama();
+
+      scroller1
+        .setup({
+          step: "#scrolly .step",
+          offset: 0.6,
+          debug: false
+        })
+        .onStepEnter(response => {
+          const stepNum = response.element.dataset.step;
+          console.log("CHART STEP:", stepNum);
+
+          document.querySelectorAll("#scrolly .step")
+            .forEach(s => s.classList.remove("is-active"));
+          response.element.classList.add("is-active");
+
+          updateScene(stepNum);
+        });
+
+      window.addEventListener("resize", () => scroller1.resize());
+
+
+      // map
+
+      const scroller2 = scrollama();
+
+      scroller2
+        .setup({
+          step: "#scrolly-map .step",
+          offset: 0.6,
+          debug: false
+        })
+        .onStepEnter(response => {
+          const stepNum = response.element.dataset.step;
+          console.log("MAP STEP:", stepNum);
+
+          document.querySelectorAll("#scrolly-map .step")
+            .forEach(s => s.classList.remove("is-active"));
+          response.element.classList.add("is-active");
+
+          updateMapScene(stepNum);
+        });
+
+      window.addEventListener("resize", () => scroller2.resize());
+
+
+      // sankey
+
+      const scroller3 = scrollama();
+
+      scroller3
+        .setup({
+          step: "#scrolly-sankey .step",
+          offset: 0.6,
+          debug: false
+        })
+        .onStepEnter(response => {
+          const stepNum = response.element.dataset.step;
+          console.log("SANKEY STEP:", stepNum);
+
+          document.querySelectorAll("#scrolly-sankey .step")
+            .forEach(s => s.classList.remove("is-active"));
+          response.element.classList.add("is-active");
+
+          updateSankeyScene(stepNum);
+        });
+
+      window.addEventListener("resize", () => scroller3.resize());
+
+
+      // smooth layout fix
+      setTimeout(() => {
+        scroller1.resize();
+        scroller2.resize();
+        scroller3.resize();
+      }, 350);
+    });
+
+  </script>
+
+
+
+  <!-- SEARCHBAR  -->
+  <script>
+    // we start with the searchbar autocompletion dynamic
+
+    let countries = [];
+    let fullData = [];
+    let currentCountry = "World";
+
+    // list of countries from data
+    d3.csv("data/clean/country_migration_totals.csv").then(data => {
+
+      fullData = data;
+
+      countries = [...new Set(
+        data
+          .map(d => d.country?.trim())
+          .filter(d => d && d.length > 0)
+      )];
+
+      console.log("Loaded countries:", countries.length);
+    });
+
+    // autocomplete elements
+
+    const input = document.getElementById("country-input");
+    const suggestions = document.getElementById("suggestions");
+
+    // show suggestions on input
+
+    input.addEventListener("input", () => {
+      const query = input.value.toLowerCase();
+
+      const matches = countries
+        .filter(c => c.toLowerCase().includes(query))
+        .slice(0, 8);
+
+      suggestions.innerHTML = matches
+        .map(c => `<div class="suggestion-item">${c}</div>`)
+        .join("");
+
+      suggestions.style.display = matches.length ? "block" : "none";
+    });
+
+    // click on suggestion → update all visuals
+    suggestions.addEventListener("click", (e) => {
+      if (e.target.classList.contains("suggestion-item")) {
+        const selectedCountry = e.target.textContent;
+        input.value = selectedCountry;
+        suggestions.style.display = "none";
+
+        currentCountry = selectedCountry;
+        window.currentCountry = selectedCountry;  // ensure global is synced
+
+        console.log("Country selected:", selectedCountry);
+
+        // lines
+        if (typeof updateCountry === "function") {
+          updateCountry(selectedCountry);
+        }
+
+
+        if (typeof updateScene === "function") {
+          updateScene("1");
+        }
+
+        if (typeof updateMapScene === "function") {
+          updateMapScene("9");
+        }
+
+        if (typeof drawSankey === "function") {
+          drawSankey(selectedCountry);
+        }
+      }
+    });
+
+    // hide suggestions when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".search-input-wrapper")) {
+        suggestions.style.display = "none";
+      }
+    });
+  </script>
