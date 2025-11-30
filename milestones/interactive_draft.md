@@ -1,4 +1,4 @@
-# {A scroll on global migration stocks}
+# A scroll on global migration stocks
 Daniela Ayala
 
 ## Goal
