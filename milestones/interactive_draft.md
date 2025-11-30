@@ -19,18 +19,17 @@ However, the primary challenge has been scroll-driven interaction, specifically:
 
 ## Walk Through
 1. I want the user to choose the region or country they want to start exploring so the search bar autocomplets with the possible contries and regions
-![](milestones/Screenshot 2025-11-29 at 7.32.21 PM.png)
+![](Screenshot 2025-11-29 at 7.32.21 PM.png)
 
 2. When the user scrolls down they will see the graph and how the text gives more insigts so every scroll is a differnt text. It starts with the line for emigrants and then inmigrants. Both lines are animated and introduces Net migration.
-![](milestones/milestone2/Screenshot 2025-11-29 at 7.34.26 PM.png)
+![](Screenshot 2025-11-29 at 7.34.26 PM.png)
 
 3. The choropleth map shows net migration for the whole world but when scrolling then the user see positive net migration countries and negative ones. The last scroll in this section is a zoom in into the conyty the user choose and the info. the user can click on any other country of the map.
-![](milestones/milestone2/Screenshot 2025-11-29 at 7.34.44 PM.png)
-![](milestones/milestone2/Screenshot 2025-11-29 at 7.35.31 PM.png)
+![](Screenshot 2025-11-29 at 7.34.44 PM.png)
+![](Screenshot 2025-11-29 at 7.35.31 PM.png)
 
 4. Finally the user can scroll once more and see the migrayion flows, They can hover around and look into percentages. 
-
-![](milestones/milestone2/Screenshot 2025-11-29 at 7.35.46 PM.png)
+![](Screenshot 2025-11-29 at 7.35.46 PM.png)
 
 ## Questions
 
