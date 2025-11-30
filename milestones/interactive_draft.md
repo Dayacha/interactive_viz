@@ -19,7 +19,7 @@ However, the primary challenge has been scroll-driven interaction, specifically:
 
 ## Walk Through
 1. I want the user to choose the region or country they want to start exploring so the search bar autocomplets with the possible contries and regions
-![](milestones/milestone2/Screenshot 2025-11-29 at 7.32.21 PM.png)
+![](milestones/Screenshot 2025-11-29 at 7.32.21 PM.png)
 
 2. When the user scrolls down they will see the graph and how the text gives more insigts so every scroll is a differnt text. It starts with the line for emigrants and then inmigrants. Both lines are animated and introduces Net migration.
 ![](milestones/milestone2/Screenshot 2025-11-29 at 7.34.26 PM.png)
