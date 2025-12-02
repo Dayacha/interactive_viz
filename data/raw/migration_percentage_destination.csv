@@ -1,0 +1,862 @@
+index,Region,Subregion,destination,Location code,1990,1995,2000,2005,2010,2015,2020,2024,gender
+1,,,World,900,2.9,2.8,2.8,2.9,3.1,3.3,3.5,3.7,total
+2,,,Sub-Saharan Africa,1834,2.8,2.5,2.1,2,1.8,2.1,2,2,total
+3,,,Northern Africa and Western Asia,1833,5.8,5.7,5.5,5.7,7.2,8.9,9,9.3,total
+4,,,Central and Southern Asia,1831,2,1.4,1.2,1,1,0.9,0.9,0.9,total
+5,,,Eastern and South-Eastern Asia,1832,0.4,0.4,0.5,0.6,0.7,0.8,0.9,1,total
+6,,,Latin America and the Caribbean,1830,1.6,1.4,1.3,1.3,1.4,1.5,2.2,2.6,total
+7,,,Oceania (excluding Australia and New Zealand),1835,4.1,3.9,3.5,3.2,2.8,2.5,2.4,2.3,total
+8,,,Australia/New Zealand,1836,22,22.1,22.1,23.5,25.8,27.5,29,30,total
+9,,,Europe and Northern America,1829,7.9,8.7,9.6,10.5,11.4,11.9,12.6,13.7,total
+10,,,More developed regions,901,7.4,8.2,8.9,9.8,10.7,11.3,12,13.1,total
+11,,,Less developed regions,902,1.7,1.5,1.4,1.4,1.5,1.7,1.8,2,total
+12,,,Least developed countries,941,2.2,2,1.5,1.3,1.2,1.3,1.5,1.7,total
+13,,,"Less developed regions, excluding least developed countries",934,1.6,1.4,1.3,1.4,1.6,1.8,1.9,2,total
+14,,,"Less developed regions, excluding China",948,2.2,1.9,1.7,1.7,1.9,2.1,2.2,2.4,total
+15,,,Land-locked Developing Countries (LLDC),1636,5.2,4,3.2,2.8,2.3,2.4,2.4,2.5,total
+16,,,Small Island Developing States (SIDS),1637,4.5,4.9,5.4,5.5,6.3,6.8,6.8,7.2,total
+17,,,High-and-upper-middle-income countries,5503,3.4,3.6,3.8,4.2,4.7,5.2,5.6,6,total
+18,,,Low-and-Lower-middle-income countries,5504,2.2,1.8,1.5,1.3,1.3,1.3,1.3,1.4,total
+19,,,High-income countries,1503,7.5,8.5,9.5,10.7,12.2,13.6,14.6,15.7,total
+20,,,Low-and-middle-income countries,1859,1.8,1.5,1.4,1.3,1.3,1.3,1.4,1.5,total
+21,,,Middle-income countries,1517,1.7,1.5,1.3,1.3,1.3,1.3,1.4,1.5,total
+22,,,Upper-middle-income countries,1502,1.4,1.3,1.2,1.2,1.3,1.4,1.5,1.7,total
+23,,,Lower-middle-income countries,1501,2,1.7,1.5,1.3,1.3,1.3,1.2,1.3,total
+24,,,Low-income countries,1500,3,2.4,1.8,1.6,1.5,1.6,1.7,1.9,total
+25,,,No income group available,1518,5.2,4.7,4.2,4.1,4.7,4.7,4.7,4.5,total
+26,AFRICA,,AFRICA,903,2.5,2.3,1.9,1.8,1.7,1.9,1.8,1.9,total
+27,AFRICA,Eastern Africa,Eastern Africa,910,3.2,2.4,2,1.7,1.3,1.6,1.7,1.7,total
+28,AFRICA,Eastern Africa,Burundi,108,6,4.2,1.9,2.5,2.6,2.7,2.7,2.8,total
+29,AFRICA,Eastern Africa,Comoros,174,3.2,2.8,2.6,2.2,1.9,1.7,1.6,1.4,total
+30,AFRICA,Eastern Africa,Djibouti,262,21.1,15.8,13.4,11,11,11,10.8,10.8,total
+31,AFRICA,Eastern Africa,Eritrea,232,0.6,0.6,0.6,0.6,0.5,0.5,0.4,0.4,total
+32,AFRICA,Eastern Africa,Ethiopia,231,1.8,0.8,0.5,0.2,0.3,0.8,0.7,0.9,total
+33,AFRICA,Eastern Africa,Kenya,404,1.3,2.3,2.3,2.2,2.3,2.4,2,1.8,total
+34,AFRICA,Eastern Africa,Madagascar,450,0.2,0.2,0.1,0.1,0.1,0.1,0.1,0.1,total
+35,AFRICA,Eastern Africa,Malawi,454,11.8,2.4,2.1,1.7,1.5,1.2,1,0.9,total
+36,AFRICA,Eastern Africa,Mauritius,480,0.3,0.6,1.3,1.6,1.9,2.2,2.3,2.3,total
+37,AFRICA,Eastern Africa,Mayotte,175,17,21.5,29.1,35.2,35.1,33.1,39.2,44,total
+38,AFRICA,Eastern Africa,Mozambique,508,0.9,1.1,1.1,1.3,1.3,1.2,1.1,1,total
+39,AFRICA,Eastern Africa,Réunion,638,8.8,10.9,13.2,14.4,14.6,14.7,15.3,15.4,total
+40,AFRICA,Eastern Africa,Rwanda,646,2.2,3.8,4.2,4.7,4.1,4.4,3.9,3.6,total
+41,AFRICA,Eastern Africa,Seychelles,690,5,6.6,7.9,10.1,12,11.9,10.8,10.2,total
+42,AFRICA,Eastern Africa,Somalia,706,6.8,0.3,0.2,0.2,0.4,0.3,0.4,0.4,total
+43,AFRICA,Eastern Africa,South Sudan,728,13.8,12.5,10.8,8.6,2.4,7.6,8.2,7.7,total
+44,AFRICA,Eastern Africa,Uganda,800,3.2,3.2,2.6,2.3,1.6,2.2,4,4.1,total
+45,AFRICA,Eastern Africa,United Republic of Tanzania,834,2.2,3.6,2.8,2,0.7,0.7,0.7,0.7,total
+46,AFRICA,Eastern Africa,Zambia,894,3.6,2.8,3.4,2.2,1.1,0.8,1,1.2,total
+47,AFRICA,Eastern Africa,Zimbabwe,716,6.3,3.9,3.4,3.2,3,2.8,2.7,2.6,total
+48,AFRICA,Eastern Africa,Eastern Africa,911,2,3.1,1.8,1.7,1.8,2.2,2.1,2.3,total
+49,AFRICA,Eastern Africa,Angola,24,0.3,0.3,0.3,0.3,1.4,2.2,2,1.8,total
+50,AFRICA,Eastern Africa,Cameroon,120,2.3,1.9,1.5,1.6,1.5,2.2,2.2,2.2,total
+51,AFRICA,Eastern Africa,Central African Republic,140,2.3,3,3.2,2.2,2.1,1.8,1.8,1.8,total
+52,AFRICA,Eastern Africa,Chad,148,1.2,1.3,1.2,3.4,3.4,3.2,3.2,6.3,total
+53,AFRICA,Eastern Africa,Congo,178,5.4,7,9.7,8.6,9.5,7.7,6.7,6.1,total
+54,AFRICA,Eastern Africa,Democratic Republic of the Congo,180,2.1,4.1,1.5,1.1,0.9,1,1,1,total
+55,AFRICA,Eastern Africa,Equatorial Guinea,226,0.6,0.6,0.6,0.7,0.7,14.4,13.4,13.2,total
+56,AFRICA,Eastern Africa,Gabon,266,13,15.3,16.8,16,15.7,18.6,17.9,17.7,total
+57,AFRICA,Eastern Africa,Sao Tome and Principe,678,4.5,3.7,3,2.1,1.5,1.2,1,0.8,total
+58,AFRICA,Northern Africa,Northern Africa,912,1.7,1.3,1.1,0.9,0.9,1,1.3,1.8,total
+59,AFRICA,Northern Africa,Algeria,12,1.1,0.9,0.8,0.6,0.6,0.6,0.6,0.6,total
+60,AFRICA,Northern Africa,Egypt,818,0.2,0.2,0.2,0.4,0.4,0.5,0.6,1,total
+61,AFRICA,Northern Africa,Libya,434,10.3,10.4,10.7,10.7,10.6,11.8,11.7,12.2,total
+62,AFRICA,Northern Africa,Morocco,504,0.2,0.2,0.2,0.2,0.2,0.3,0.3,0.3,total
+63,AFRICA,Northern Africa,Sudan,729,6.4,4.3,2.9,1.7,1.7,1.6,2.9,4.8,total
+64,AFRICA,Northern Africa,Tunisia,788,0.5,0.4,0.4,0.3,0.4,0.5,0.5,0.5,total
+65,AFRICA,Northern Africa,Western Sahara,732,1.5,1.4,1.2,1.1,1.1,1.1,1,1,total
+66,AFRICA,Southern Africa,Southern Africa,913,3.3,2.4,2.3,3.1,4.2,5.3,4.2,4,total
+67,AFRICA,Southern Africa,Botswana,72,2.1,2.7,4.5,4.6,4.7,4.7,4.7,4.6,total
+68,AFRICA,Southern Africa,Eswatini,748,8.6,3.6,3.3,3.1,2.9,2.8,2.8,2.7,total
+69,AFRICA,Southern Africa,Lesotho,426,0.5,0.4,0.3,0.3,0.3,0.4,0.5,0.6,total
+70,AFRICA,Southern Africa,Namibia,516,8.8,7.2,7.5,5.5,4.9,4.3,4,3.8,total
+71,AFRICA,Southern Africa,South Africa,710,3.2,2.3,2.1,3.1,4.3,5.6,4.4,4.1,total
+72,AFRICA,Western Africa,Western Africa,914,2.4,2.5,2.2,2.2,2,2,1.9,1.8,total
+73,AFRICA,Western Africa,Benin,204,1.5,1.7,1.9,2.9,3.2,3.2,3,2.9,total
+74,AFRICA,Western Africa,Burkina Faso,854,3.8,4.5,4.4,4.3,4.2,3.8,3.4,3.1,total
+75,AFRICA,Western Africa,Cabo Verde,132,2.4,2.4,2.4,2.6,2.8,2.9,3.1,3.1,total
+76,AFRICA,Western Africa,Côte d'Ivoire,384,15,13.4,12.2,11.5,10.9,10.3,9.5,9,total
+77,AFRICA,Western Africa,Gambia,270,11.2,11.9,12.5,10.9,9.6,8.7,8.6,8.6,total
+78,AFRICA,Western Africa,Ghana,288,1.1,1.5,1,1.4,1.3,1.4,1.5,1.5,total
+79,AFRICA,Western Africa,Guinea,324,6.3,10.3,6.6,2.5,1.7,1.1,0.9,0.8,total
+80,AFRICA,Western Africa,Guinea-Bissau,624,1.6,2.5,1.7,1.5,1.4,1.3,0.9,0.7,total
+81,AFRICA,Western Africa,Liberia,430,4.3,9.6,5.2,2.6,2.4,2.4,1.7,1.3,total
+82,AFRICA,Western Africa,Mali,466,1.8,1.7,1.6,1.9,2.1,2.3,2.2,2.2,total
+83,AFRICA,Western Africa,Mauritania,478,5.7,3.9,2.2,2,2.5,4.2,4,3.8,total
+84,AFRICA,Western Africa,Niger,562,1.4,1.5,1.1,0.9,0.8,1.3,1.5,1.7,total
+85,AFRICA,Western Africa,Nigeria,566,0.5,0.4,0.4,0.7,0.6,0.6,0.6,0.6,total
+86,AFRICA,Western Africa,Saint Helena,654,2.7,1.8,1.8,2.9,4.7,6.8,8,9.4,total
+87,AFRICA,Western Africa,Senegal,686,3.5,3.3,2.3,2.1,2,1.8,1.6,1.5,total
+88,AFRICA,Western Africa,Sierra Leone,694,5.3,2.4,2.2,2.7,1.3,0.8,0.7,0.6,total
+89,AFRICA,Western Africa,Togo,768,2.1,2.3,2.7,3.5,3.8,3.6,3.2,3,total
+90,ASIA,,ASIA,935,1.5,1.3,1.3,1.3,1.5,1.7,1.8,1.9,total
+91,ASIA,Central Asia,Central Asia,5500,12.3,9,7.2,6.7,5.9,5.4,5,4.8,total
+92,ASIA,Central Asia,Kazakhstan,398,19.2,13.5,11.2,11.6,11,10.6,10.2,10.1,total
+93,ASIA,Central Asia,Kyrgyzstan,417,14,11,7.8,5.9,4.2,3.4,3,2.7,total
+94,ASIA,Central Asia,Tajikistan,762,7.9,5.9,4.8,4.1,3.7,3.2,2.8,2.6,total
+95,ASIA,Central Asia,Turkmenistan,795,8.2,6.5,4.8,4.2,3.6,3.2,2.8,2.6,total
+96,ASIA,Central Asia,Uzbekistan,860,8.1,6.6,5.7,5,4.3,3.8,3.5,3.2,total
+97,ASIA,Eastern Asia,Eastern Asia,906,0.3,0.3,0.4,0.4,0.5,0.6,0.7,0.7,total
+98,ASIA,Eastern Asia,China,156,0,0.1,0.1,0.1,0.1,0.1,0.1,0.1,total
+99,ASIA,Eastern Asia,"China, Hong Kong SAR",344,39.9,39.6,39.8,39.4,39.1,38.6,39.6,41.3,total
+100,ASIA,Eastern Asia,"China, Macao SAR",446,58.4,56.4,55.1,56.4,56.6,60.4,59.1,59.3,total
+101,ASIA,Eastern Asia,"China, Taiwan Province of China",158,0.3,1.1,2,2.4,2.5,3.7,4.5,4.9,total
+102,ASIA,Eastern Asia,Dem. People's Republic of Korea,408,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,total
+103,ASIA,Eastern Asia,Japan,392,0.9,1.1,1.3,1.5,1.7,2,2.6,2.8,total
+104,ASIA,Eastern Asia,Mongolia,496,0.3,0.3,0.3,0.4,0.6,0.7,0.6,0.6,total
+105,ASIA,Eastern Asia,Republic of Korea,410,0,0.1,0.3,0.5,1.2,2.6,3.3,3.5,total
+106,ASIA,Southern Asia,Southern Asia,5501,1.6,1.1,1,0.8,0.8,0.7,0.7,0.8,total
+107,ASIA,Southern Asia,Afghanistan,4,0.5,0.4,0.4,0.4,0.4,1,0.4,0.2,total
+108,ASIA,Southern Asia,Bangladesh,50,0.8,0.8,0.7,0.7,0.9,0.9,1.3,1.7,total
+109,ASIA,Southern Asia,Bhutan,64,4,5.1,5.4,6.1,6.9,6.9,7,7,total
+110,ASIA,Southern Asia,India,356,0.8,0.7,0.6,0.5,0.5,0.4,0.4,0.3,total
+111,ASIA,Southern Asia,Iran (Islamic Republic of),364,7.4,4.7,3.7,3.6,3.5,3.3,3.2,4.2,total
+112,ASIA,Southern Asia,Maldives,462,3.9,7.2,9.6,14.7,15.1,15,14,14.2,total
+113,ASIA,Southern Asia,Nepal,524,2.2,3.1,2.9,2.6,2.1,1.8,1.7,1.6,total
+114,ASIA,Southern Asia,Pakistan,586,5.3,2.7,2.7,1.8,2,1.6,1.4,1.7,total
+115,ASIA,Southern Asia,Sri Lanka,144,0.3,0.2,0.2,0.2,0.2,0.2,0.2,0.2,total
+116,ASIA,South-Eastern Asia,South-Eastern Asia,920,0.6,0.7,0.9,1.1,1.4,1.5,1.5,1.6,total
+117,ASIA,South-Eastern Asia,Brunei Darussalam,96,28.7,29.1,29.5,27.4,25.6,24.3,25,25.9,total
+118,ASIA,South-Eastern Asia,Cambodia,116,0.5,0.9,1.2,0.8,0.6,0.5,0.5,0.5,total
+119,ASIA,South-Eastern Asia,Indonesia,360,0.1,0.1,0.1,0,0,0.1,0.1,0.2,total
+120,ASIA,South-Eastern Asia,Lao People's Democratic Republic,418,0.5,0.5,0.4,0.3,0.5,0.7,0.7,0.7,total
+121,ASIA,South-Eastern Asia,Malaysia,458,5.8,6.5,7,8.4,10.8,11.2,11,10.7,total
+122,ASIA,South-Eastern Asia,Myanmar,104,0.3,0.3,0.2,0.2,0.2,0.1,0.1,0.1,total
+123,ASIA,South-Eastern Asia,Philippines,608,0.2,0.2,0.2,0.2,0.2,0.1,0.1,0.1,total
+124,ASIA,South-Eastern Asia,Singapore,702,24,28.1,32.7,35,42.6,45.9,46.1,48.7,total
+125,ASIA,South-Eastern Asia,Thailand,764,0.5,0.5,1.2,2.6,3.9,4,4.2,4.4,total
+126,ASIA,South-Eastern Asia,Timor-Leste,626,1.2,1.1,1.4,1.2,1.1,0.7,0.6,0.6,total
+127,ASIA,South-Eastern Asia,Viet Nam,704,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.3,total
+128,ASIA,Western Asia,Western Asia,922,9.8,9.9,9.7,10.2,12.8,15.8,15.9,15.9,total
+129,ASIA,Western Asia,Armenia,51,12.2,18.8,18.8,15.9,7.2,6.5,7.2,9.2,total
+130,ASIA,Western Asia,Azerbaijan,31,5.6,7.6,6.4,3.5,2.7,2.3,2,2.1,total
+131,ASIA,Western Asia,Bahrain,48,34.4,36,35.7,41.6,53,52.7,53,52.3,total
+132,ASIA,Western Asia,Cyprus,196,5.6,7.2,8.4,11.9,16.7,14.5,14.6,14.9,total
+133,ASIA,Western Asia,Georgia,268,5.6,3.1,1.8,1.8,1.9,2,2.1,2.1,total
+134,ASIA,Western Asia,Iraq,368,0.5,1,0.9,0.5,0.4,1,0.9,0.8,total
+135,ASIA,Western Asia,Israel,376,35.7,33.3,30.1,28,26.6,25.1,23.5,22.3,total
+136,ASIA,Western Asia,Jordan,400,31.2,31.8,34,37,51,46,45.5,45.7,total
+137,ASIA,Western Asia,Kuwait,414,62.7,55.6,57.1,60.5,63.6,68.1,68.9,67.3,total
+138,ASIA,Western Asia,Lebanon,422,11.8,11.8,11.9,11.9,12.4,27.2,27.8,24.5,total
+139,ASIA,Western Asia,Oman,512,29.9,25.4,24.1,24.7,29.1,43.7,39.1,43.2,total
+140,ASIA,Western Asia,Qatar,634,49,59.8,68.1,77.9,82.4,86.1,77.8,76.7,total
+141,ASIA,Western Asia,Saudi Arabia,682,42.1,36.5,32.3,32.1,35.7,44.2,42.2,40.3,total
+142,ASIA,Western Asia,State of Palestine,275,13.5,10.7,8.7,7.7,6.8,6,5.4,5,total
+143,ASIA,Western Asia,Syrian Arab Republic,760,5.7,5.7,5,4.7,7.9,4.3,4.1,3.6,total
+144,ASIA,Western Asia,Türkiye,792,2.1,2,2,1.9,1.9,4.7,7.6,8.1,total
+145,ASIA,Western Asia,United Arab Emirates,784,68.6,73.7,67.9,69,78.5,79.1,76,74,total
+146,ASIA,Western Asia,Yemen,887,0.9,0.8,0.7,0.8,1.1,1.2,1.1,1,total
+147,EUROPE,Western Asia,EUROPE,908,7.1,7.7,8.1,9,9.8,10.2,11.1,12.6,total
+148,EUROPE,Eastern Europe,Eastern Europe,923,7.2,7,6.8,6.7,6.6,6,5.5,6.5,total
+149,EUROPE,Eastern Europe,Belarus,112,12.3,11.6,11.2,11.5,11.5,11.4,11.4,11.6,total
+150,EUROPE,Eastern Europe,Bulgaria,100,0.2,0.4,0.5,0.8,1,1.7,2.7,4.4,total
+151,EUROPE,Eastern Europe,Czechia,203,4.3,5.1,6.2,6.5,6.6,6.5,6.4,9.5,total
+152,EUROPE,Eastern Europe,Hungary,348,3.3,3.1,2.9,3.6,4.4,4.8,6,7.1,total
+153,EUROPE,Eastern Europe,Poland,616,3,2.5,2.2,1.9,1.7,1.8,1.9,4.5,total
+154,EUROPE,Eastern Europe,Republic of Moldova*,498,12,8.3,5.9,4.4,3.6,3.1,2.5,6.2,total
+155,EUROPE,Eastern Europe,Romania,642,0.6,0.6,0.6,0.7,0.7,1.1,1.7,3.4,total
+156,EUROPE,Eastern Europe,Russian Federation,643,7.7,8,8.1,8.1,7.8,6.3,5,5.3,total
+157,EUROPE,Eastern Europe,Slovakia,703,0.8,1.3,2.2,2.4,2.7,3.3,3.6,5.9,total
+158,EUROPE,Eastern Europe,Ukraine*,804,13.2,11.9,11.2,10.6,10.4,10.7,11.2,13.4,total
+159,EUROPE,Northern Europe,Northern Europe,924,7.2,7.7,8.4,10,12,13.5,15.3,17,total
+160,EUROPE,Northern Europe,Channel Islands*,830,43.1,41.7,43.4,46.3,48.9,50.4,50.6,50.9,total
+161,EUROPE,Northern Europe,Denmark*,208,4.6,5.7,7,7.8,9.2,10.9,12.3,14.2,total
+162,EUROPE,Northern Europe,Estonia,233,24.3,21.7,17.9,17.2,16.4,14.8,15,14.9,total
+163,EUROPE,Northern Europe,Faroe Islands*,234,9,6.6,7.9,9.5,10.6,11.2,13,14.6,total
+164,EUROPE,Northern Europe,Finland*,246,1.3,2,2.6,3.7,4.3,5.7,7,9.2,total
+165,EUROPE,Northern Europe,Iceland,352,3.8,4.8,5.6,8.6,11,11.8,17.8,25.1,total
+166,EUROPE,Northern Europe,Ireland,372,6.5,6.9,9.9,14.9,16.5,17.1,19.1,23.1,total
+167,EUROPE,Northern Europe,Isle of Man*,833,50.5,51.6,51.5,52.2,51.8,50.5,51.2,51.9,total
+168,EUROPE,Northern Europe,Latvia,428,24.3,21.6,18.2,16.8,15,13.4,12.6,11.8,total
+169,EUROPE,Northern Europe,Lithuania,440,9.5,7.5,6.1,6.1,5.2,4.7,5.2,6.1,total
+170,EUROPE,Northern Europe,Norway*,578,4.5,5.4,6.5,7.8,10.7,14.4,15.8,18.2,total
+171,EUROPE,Northern Europe,Sweden,752,9.2,10.7,11.5,12.5,14.6,16.7,19.6,21.4,total
+172,EUROPE,Northern Europe,United Kingdom*,826,6.4,7.2,8,9.9,12.2,13.9,15.6,17.1,total
+173,EUROPE,Southern Europe,Southern Europe,925,3.8,5,5.9,7.9,9.9,10.1,11.6,13.3,total
+174,EUROPE,Southern Europe,Albania,8,2,2.2,2.4,2.1,1.8,1.8,1.7,1.7,total
+175,EUROPE,Southern Europe,Andorra,20,73.9,69.2,64.2,65,64.5,58.6,58.9,59.1,total
+176,EUROPE,Southern Europe,Bosnia and Herzegovina,70,1.3,1.9,2,1.2,1,1.1,1.1,1.1,total
+177,EUROPE,Southern Europe,Croatia,191,9.8,14.6,13.5,13.4,13.3,13.4,13.4,13.6,total
+178,EUROPE,Southern Europe,Gibraltar*,292,32,30.6,29.1,31.6,33.2,33.3,30.9,28.7,total
+179,EUROPE,Southern Europe,Greece,300,6,8.2,10.3,10.8,11.9,11.5,12.5,14.2,total
+180,EUROPE,Southern Europe,Holy See*,336,100,100,100,100,100,100,100,100,total
+181,EUROPE,Southern Europe,Italy,380,2.7,3.2,3.7,5.6,7.8,9.1,10.4,11,total
+182,EUROPE,Southern Europe,Malta,470,4.1,4.6,5.4,5.9,7.8,11.8,22.1,37,total
+183,EUROPE,Southern Europe,Montenegro,499,11.9,11.7,11.6,11.6,12.4,11.4,11.7,14.4,total
+184,EUROPE,Southern Europe,North Macedonia,807,4.6,5.5,6.1,6.1,6.3,6.6,7,8.3,total
+185,EUROPE,Southern Europe,Portugal,620,4.4,5.3,6.3,7.3,7.2,8.3,9.7,10.8,total
+186,EUROPE,Southern Europe,San Marino,674,14.1,14.5,15.1,14.8,15.9,15.3,15.9,17.4,total
+187,EUROPE,Southern Europe,Serbia*,688,13.5,19.7,18.5,14.3,12.2,11.1,10.6,10.6,total
+188,EUROPE,Southern Europe,Slovenia,705,8.9,8.8,10.8,10.9,12.4,11.5,13.2,14.9,total
+189,EUROPE,Southern Europe,Spain*,724,2.1,3.1,4.9,9.9,13.4,12.6,15,18.5,total
+190,EUROPE,Western Europe,Western Europe,926,9.6,11.2,11.9,12.9,13.8,14.9,16.7,18.4,total
+191,EUROPE,Western Europe,Austria,40,8.3,9.6,11.5,14.3,15.4,17.8,20,25.5,total
+192,EUROPE,Western Europe,Belgium,56,9.5,9.9,10.5,11.9,14.3,16.1,17.7,20,total
+193,EUROPE,Western Europe,France*,250,10.3,10.2,10.3,11.1,11.5,12.3,13.1,13.8,total
+194,EUROPE,Western Europe,Germany,276,8.7,11.7,12.7,13.7,14.4,15.4,18,19.8,total
+195,EUROPE,Western Europe,Liechtenstein,438,37.8,42.9,46.8,54.5,62.1,63.6,66.8,69.4,total
+196,EUROPE,Western Europe,Luxembourg,442,29.8,30.9,32,32.4,32.2,43.7,47.3,51.2,total
+197,EUROPE,Western Europe,Monaco,492,67.1,66.6,67.1,66.2,63.7,70.7,69.9,70.2,total
+198,EUROPE,Western Europe,Netherlands*,528,7.9,9,9.9,10.5,11,11.8,13.8,16.2,total
+199,EUROPE,Western Europe,Switzerland,756,18.7,19.4,20.7,23.4,26.2,28.8,30.2,31.1,total
+200,LATIN AMERICA AND THE CARIBBEAN,Western Europe,LATIN AMERICA AND THE CARIBBEAN,904,1.6,1.4,1.3,1.3,1.4,1.5,2.2,2.6,total
+201,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Caribbean,915,3.2,3.3,3.4,3.3,3.2,3.5,3.7,4.1,total
+202,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Anguilla*,660,30.6,34.1,36.4,38.2,38.2,38.5,38.5,40.5,total
+203,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Antigua and Barbuda,28,19.1,25.7,30.8,31.1,31,31.4,32,32.5,total
+204,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Aruba*,533,22.4,29.3,33.9,34.5,34.3,34.7,49.9,68,total
+205,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Bahamas,44,9.7,10.5,11.3,13.2,14.9,15.4,16.1,16.8,total
+206,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Barbados,52,9.3,10,10.8,11.4,11.9,12.4,12.4,12.5,total
+207,LATIN AMERICA AND THE CARIBBEAN,Caribbean,"Bonaire, Sint Eustatius and Saba*",535,100,100,100,100,100,100,100,100,total
+208,LATIN AMERICA AND THE CARIBBEAN,Caribbean,British Virgin Islands*,92,51.2,56.3,64,63.5,61.7,56.6,59.7,62.1,total
+209,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cayman Islands*,136,35.8,38.7,48.3,44.2,44.5,42.5,42.6,42.9,total
+210,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cuba,192,0.3,0.2,0.2,0.1,0.1,0,0,0,total
+211,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Curaçao*,531,27.7,28.3,29.7,28.5,22.1,22.6,30.9,43.1,total
+212,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominica,212,3.6,4.5,5.4,6.9,11.8,11.5,12.3,12.7,total
+213,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominican Republic,214,4.1,4.1,4.1,4.1,4,5.3,5.5,6.5,total
+214,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Grenada,308,4.3,5.3,6.4,6.3,6.3,6.2,6.2,6.3,total
+215,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Guadeloupe*,312,17,18.2,19.8,21.8,23.2,22.5,22.1,23.9,total
+216,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Haiti,332,0.3,0.2,0.2,0.2,0.2,0.2,0.2,0.2,total
+217,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Jamaica,388,0.9,0.9,1,0.9,0.9,0.8,0.8,0.8,total
+218,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Martinique*,474,10.4,11.5,12.9,14.2,15,18,19.2,19.9,total
+219,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Montserrat*,500,18.9,19.6,24.1,27.4,26.9,28.9,30.6,31.9,total
+220,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Puerto Rico*,630,9.1,9.2,9.3,9.3,8.2,8,7.5,6.9,total
+221,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Barthélemy*,652,,,,,,,,,total
+222,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Kitts and Nevis,659,7.9,10,13,14.4,15.5,15.8,16.5,17,total
+223,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Lucia,662,3.8,4.8,6.2,5.9,5.3,5,4.7,4.5,total
+224,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Martin (French part)*,663,,,,,,,,,total
+225,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Vincent and the Grenadines,670,3.6,3.7,3.8,3.9,4.2,4.3,4.6,4.8,total
+226,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Sint Maarten (Dutch part)*,534,85,75.1,77.5,40.9,77.5,72.8,70.3,69.5,total
+227,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Trinidad and Tobago,780,4,3.6,3.2,3.3,3.5,3.5,5.3,7.5,total
+228,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Turks and Caicos Islands*,796,43.3,46.8,48.1,54.7,57.9,62.1,58,61.1,total
+229,LATIN AMERICA AND THE CARIBBEAN,Caribbean,United States Virgin Islands*,850,50.8,50.7,52.1,52.6,53.3,56.6,64.7,66.9,total
+230,LATIN AMERICA AND THE CARIBBEAN,Central America,Central America,916,1.6,1,0.8,0.9,1.1,1.2,1.4,1.7,total
+231,LATIN AMERICA AND THE CARIBBEAN,Central America,Belize,84,16.6,16.4,15.2,14.8,14.5,15.3,15.9,16.5,total
+232,LATIN AMERICA AND THE CARIBBEAN,Central America,Costa Rica,188,13.4,10.3,7.9,8.4,8.9,8.5,10.3,12.2,total
+233,LATIN AMERICA AND THE CARIBBEAN,Central America,El Salvador,222,0.9,0.7,0.5,0.6,0.7,0.7,0.7,0.7,total
+234,LATIN AMERICA AND THE CARIBBEAN,Central America,Guatemala,320,2.9,1.5,0.4,0.4,0.5,0.5,0.5,0.5,total
+235,LATIN AMERICA AND THE CARIBBEAN,Central America,Honduras,340,5.4,2.6,0.4,0.4,0.3,0.4,0.4,0.4,total
+236,LATIN AMERICA AND THE CARIBBEAN,Central America,Mexico,484,0.8,0.5,0.5,0.7,0.8,0.9,1.1,1.3,total
+237,LATIN AMERICA AND THE CARIBBEAN,Central America,Nicaragua,558,1,0.6,0.6,0.7,0.7,0.7,0.6,0.6,total
+238,LATIN AMERICA AND THE CARIBBEAN,Central America,Panama,591,2.6,2.6,2.8,3.3,4.3,4.7,7.3,10.6,total
+239,LATIN AMERICA AND THE CARIBBEAN,South America,South America,931,1.5,1.3,1.2,1.2,1.3,1.4,2.4,2.9,total
+240,LATIN AMERICA AND THE CARIBBEAN,South America,Argentina,32,5,4.5,4.1,4.2,4.4,4.3,4.2,4.3,total
+241,LATIN AMERICA AND THE CARIBBEAN,South America,Bolivia (Plurinational State of),68,1,1.1,1.1,1.2,1.2,1.3,1.4,1.5,total
+242,LATIN AMERICA AND THE CARIBBEAN,South America,Brazil,76,0.5,0.5,0.4,0.3,0.3,0.3,0.5,0.7,total
+243,LATIN AMERICA AND THE CARIBBEAN,South America,Chile,152,0.7,0.9,1.1,1.5,2.1,3.3,7.6,7.8,total
+244,LATIN AMERICA AND THE CARIBBEAN,South America,Colombia,170,0.3,0.3,0.3,0.3,0.3,0.3,3.8,5.8,total
+245,LATIN AMERICA AND THE CARIBBEAN,South America,Ecuador,218,1.3,1.3,1.2,1,2.4,2,4.1,4.1,total
+246,LATIN AMERICA AND THE CARIBBEAN,South America,Falkland Islands (Malvinas)*,238,36.4,31.4,34.5,36.2,44.9,46.1,55.8,67.2,total
+247,LATIN AMERICA AND THE CARIBBEAN,South America,French Guiana*,254,56.5,52.1,47.7,42.7,41,39.8,41.3,42.4,total
+248,LATIN AMERICA AND THE CARIBBEAN,South America,Guyana,328,0.5,0.8,1.1,1.4,1.1,1.1,3.9,6.5,total
+249,LATIN AMERICA AND THE CARIBBEAN,South America,Paraguay,600,4.9,4.1,3.5,3.1,2.8,2.5,2.6,2.6,total
+250,LATIN AMERICA AND THE CARIBBEAN,South America,Peru,604,0.2,0.2,0.2,0.3,0.4,0.5,3.6,5.4,total
+251,LATIN AMERICA AND THE CARIBBEAN,South America,Suriname,740,4.4,5.2,5.8,6.5,7.2,7.4,7.8,8.2,total
+252,LATIN AMERICA AND THE CARIBBEAN,South America,Uruguay,858,3.2,2.9,2.7,2.5,2.3,2.3,3.2,4.7,total
+253,LATIN AMERICA AND THE CARIBBEAN,South America,Venezuela (Bolivarian Republic of),862,5.2,4.6,4.1,4,4.7,4.6,4.7,4.4,total
+254,NORTHERN AMERICA,NORTHERN AMERICA,NORTHERN AMERICA,905,9.8,11.2,12.9,13.9,14.8,15.5,15.6,15.9,total
+255,NORTHERN AMERICA,NORTHERN AMERICA,Bermuda*,60,27.2,28,28.7,28.9,29.1,30.3,30.7,31.2,total
+256,NORTHERN AMERICA,NORTHERN AMERICA,Canada,124,15.3,16.5,17.9,18.8,20.6,22.4,21.8,22.2,total
+257,NORTHERN AMERICA,NORTHERN AMERICA,Greenland*,304,16.7,12.8,11.7,11.5,10.8,10.7,10.5,10.4,total
+258,NORTHERN AMERICA,NORTHERN AMERICA,Saint Pierre and Miquelon*,666,17.3,20.5,23.2,18.8,16.9,16.6,17.1,17.9,total
+259,NORTHERN AMERICA,NORTHERN AMERICA,United States of America*,840,9.2,10.6,12.4,13.4,14.1,14.7,14.9,15.2,total
+260,,,OCEANIA,909,17.8,17.5,17.1,17.8,19.2,20.1,21,21.5,total
+261,OCEANIA,Australia/New Zealand,Australia/New Zealand,927,22,22.1,22.1,23.5,25.8,27.5,29,30,total
+262,OCEANIA,Australia/New Zealand,Australia*,36,23.3,23.3,22.9,24.1,26.6,28.1,29.5,30.4,total
+263,OCEANIA,Australia/New Zealand,New Zealand*,554,15.5,16.2,17.8,20.7,22,24.5,26.5,28.2,total
+264,OCEANIA,Melanesia,Melanesia,928,1.7,1.6,1.3,1.2,1.2,1.1,1,1,total
+265,OCEANIA,Melanesia,Fiji,242,1.7,1.6,1.5,1.4,1.5,1.5,1.5,1.5,total
+266,OCEANIA,Melanesia,New Caledonia*,540,21.3,21.8,22.3,22.7,23.4,24.3,25.7,26.2,total
+267,OCEANIA,Melanesia,Papua New Guinea,598,0.9,0.7,0.5,0.5,0.4,0.4,0.3,0.3,total
+268,OCEANIA,Melanesia,Solomon Islands,90,1.3,1.1,0.9,0.7,0.5,0.4,0.3,0.3,total
+269,OCEANIA,Melanesia,Vanuatu,548,1.6,1.5,1.4,1.3,1.3,1.2,1.1,1,total
+270,OCEANIA,Micronesia,Micronesia,954,25.5,25.5,25.6,24.8,22.2,21.8,22.9,23.4,total
+271,OCEANIA,Micronesia,Guam*,316,50.3,47.9,46.3,45.5,45.3,46.1,49.6,50.2,total
+272,OCEANIA,Micronesia,Kiribati,296,2.9,2.7,2.6,2.5,2.6,2.5,2.5,2.5,total
+273,OCEANIA,Micronesia,Marshall Islands,584,2.6,3.1,3.7,4.7,5.9,6.7,7.7,8.8,total
+274,OCEANIA,Micronesia,Micronesia (Fed. States of),583,3.7,3,2.8,2.6,2.6,2.5,2.6,2.6,total
+275,OCEANIA,Micronesia,Nauru,520,29.3,25.6,23.5,22.4,9,16.7,18.9,21.3,total
+276,OCEANIA,Micronesia,Northern Mariana Islands*,580,61.4,67.2,58.7,60.2,44.7,42,46,49.7,total
+277,OCEANIA,Micronesia,Palau,585,18.4,27.6,32.9,30.5,29.8,27.8,28.6,29.5,total
+278,OCEANIA,Polynesia*,Polynesia*,957,10.4,10.9,11.4,11.3,10.9,10.3,10.2,10.2,total
+279,OCEANIA,Polynesia*,American Samoa*,16,45.6,44.2,43.8,42.8,42.7,44.5,47.4,50.6,total
+280,OCEANIA,Polynesia*,Cook Islands*,184,15.1,15.1,17.6,21.7,22.2,23.9,29.3,36,total
+281,OCEANIA,Polynesia*,French Polynesia*,258,12.7,12.8,12.6,12.4,11.7,10.8,10.8,10.7,total
+282,OCEANIA,Polynesia*,Niue*,570,18.6,20.8,24.3,28.6,33.3,33.1,32.7,32.3,total
+283,OCEANIA,Polynesia*,Samoa,882,2,2.7,3.3,3.1,2.7,2.1,1.9,1.8,total
+284,OCEANIA,Polynesia*,Tokelau*,772,20.4,28.6,38.6,61.5,71.2,69.8,58.2,51.2,total
+285,OCEANIA,Polynesia*,Tonga,776,2.9,3.3,3.6,4.1,4.3,3.7,3.5,3.4,total
+286,OCEANIA,Polynesia*,Tuvalu,798,3.6,2.8,2.3,2.1,2.1,2.1,2.3,2.6,total
+287,OCEANIA,Polynesia*,Wallis and Futuna Islands*,876,10.4,12,13.6,15,16,16.9,17.6,18,total
+1,Region,Subregion,World,900,2.9,2.9,2.8,3,3.2,3.5,3.6,3.9,male
+2,,,Sub-Saharan Africa,1834,3,2.7,2.2,2.2,2,2.3,2.1,2.1,male
+3,,,Northern Africa and Western Asia,1833,6.6,6.7,6.5,7,8.8,11.3,11.3,11.6,male
+4,,,Central and Southern Asia,1831,2,1.4,1.2,1,1,0.9,0.8,0.9,male
+5,,,Eastern and South-Eastern Asia,1832,0.4,0.4,0.5,0.6,0.7,0.8,0.9,1,male
+6,,,Latin America and the Caribbean,1830,1.7,1.4,1.3,1.3,1.4,1.5,2.3,2.7,male
+7,,,Oceania (excluding Australia and New Zealand),1835,4.4,4.1,3.6,3.3,2.9,2.6,2.4,2.3,male
+8,,,Australia/New Zealand,1836,22.5,22.3,22.2,23.4,25.7,27.2,28.6,29.4,male
+9,,,Europe and Northern America,1829,7.8,8.7,9.6,10.6,11.3,11.8,12.5,13.6,male
+10,,,More developed regions,901,7.3,8.2,8.9,9.9,10.6,11.1,11.9,13,male
+11,,,Less developed regions,902,1.7,1.5,1.5,1.5,1.7,2,2.1,2.2,male
+12,,,Least developed countries,941,2.2,2,1.5,1.3,1.2,1.3,1.5,1.6,male
+13,,,"Less developed regions, excluding least developed countries",934,1.7,1.5,1.4,1.5,1.8,2.1,2.2,2.3,male
+14,,,"Less developed regions, excluding China",948,2.3,2,1.9,1.9,2.1,2.5,2.5,2.7,male
+15,,,Land-locked Developing Countries (LLDC),1636,5,3.7,3,2.6,2.1,2.3,2.3,2.4,male
+16,,,Small Island Developing States (SIDS),1637,4.6,4.9,5.2,5.3,6,6.5,6.5,6.9,male
+17,,,High-and-upper-middle-income countries,5503,3.4,3.6,3.9,4.3,4.8,5.4,5.8,6.3,male
+18,,,Low-and-Lower-middle-income countries,5504,2.1,1.8,1.5,1.3,1.3,1.3,1.3,1.4,male
+19,,,High-income countries,1503,7.7,8.7,9.7,11.1,12.6,14.3,15.2,16.5,male
+20,,,Low-and-middle-income countries,1859,1.8,1.5,1.4,1.3,1.3,1.4,1.4,1.5,male
+21,,,Middle-income countries,1517,1.7,1.5,1.3,1.3,1.3,1.3,1.4,1.5,male
+22,,,Upper-middle-income countries,1502,1.4,1.3,1.2,1.3,1.3,1.4,1.6,1.8,male
+23,,,Lower-middle-income countries,1501,2,1.6,1.5,1.3,1.3,1.3,1.2,1.3,male
+24,,,Low-income countries,1500,3,2.5,1.8,1.6,1.5,1.6,1.7,1.9,male
+25,,,No income group available,1518,5.3,4.7,4.2,4.1,4.8,4.7,4.7,4.5,male
+26,AFRICA,,AFRICA,903,2.7,2.4,2,1.9,1.8,2,2,2,male
+27,AFRICA,Eastern Africa,Eastern Africa,910,3.3,2.5,2.1,1.8,1.3,1.6,1.7,1.7,male
+28,AFRICA,Eastern Africa,Burundi,108,5.9,4.2,1.9,2.5,2.6,2.7,2.7,2.7,male
+29,AFRICA,Eastern Africa,Comoros,174,3.1,2.7,2.5,2.1,1.9,1.7,1.5,1.4,male
+30,AFRICA,Eastern Africa,Djibouti,262,22.3,16.7,14.2,12.3,11.6,11.7,11.5,11.4,male
+31,AFRICA,Eastern Africa,Eritrea,232,0.6,0.7,0.6,0.7,0.6,0.6,0.5,0.4,male
+32,AFRICA,Eastern Africa,Ethiopia,231,1.9,0.8,0.5,0.2,0.3,0.8,0.7,0.9,male
+33,AFRICA,Eastern Africa,Kenya,404,1.4,2.4,2.3,2.2,2.3,2.4,2,1.8,male
+34,AFRICA,Eastern Africa,Madagascar,450,0.2,0.2,0.2,0.2,0.1,0.1,0.1,0.1,male
+35,AFRICA,Eastern Africa,Malawi,454,11.8,2.4,2,1.7,1.4,1.1,1,0.9,male
+36,AFRICA,Eastern Africa,Mauritius,480,0.3,0.5,0.9,1.4,2,2.4,2.5,2.5,male
+37,AFRICA,Eastern Africa,Mayotte,175,19.7,24,30.1,35.6,34.9,32.6,38.1,42.6,male
+38,AFRICA,Eastern Africa,Mozambique,508,1,1.2,1.2,1.3,1.3,1.2,1.1,1,male
+39,AFRICA,Eastern Africa,Réunion,638,9.5,11.6,13.9,15.3,15.5,15.7,16.3,16.5,male
+40,AFRICA,Eastern Africa,Rwanda,646,2.2,4,4.5,4.9,4.3,4.5,4.1,3.7,male
+41,AFRICA,Eastern Africa,Seychelles,690,5.8,7.6,9,12.6,15.7,15.5,13.9,12.9,male
+42,AFRICA,Eastern Africa,Somalia,706,6.9,0.3,0.2,0.2,0.4,0.3,0.4,0.5,male
+43,AFRICA,Eastern Africa,South Sudan,728,14.3,13.1,11.3,8.9,2.5,7.8,8.4,7.8,male
+44,AFRICA,Eastern Africa,Uganda,800,3.3,3.3,2.6,2.3,1.6,2.2,3.9,3.7,male
+45,AFRICA,Eastern Africa,United Republic of Tanzania,834,2.2,3.6,2.8,2.5,0.7,0.7,0.7,0.7,male
+46,AFRICA,Eastern Africa,Zambia,894,3.8,3,3.6,2.3,1.1,0.8,1,1.2,male
+47,AFRICA,Eastern Africa,Zimbabwe,716,7.2,4.7,4.1,3.9,3.6,3.3,3.2,3.1,male
+48,AFRICA,Eastern Africa,Eastern Africa,911,2.1,3.2,1.9,1.7,1.8,2.3,2.2,2.4,male
+49,AFRICA,Eastern Africa,Angola,24,0.3,0.3,0.3,0.3,1.4,2.2,2,1.8,male
+50,AFRICA,Eastern Africa,Cameroon,120,2.6,2.1,1.7,1.7,1.6,2.2,2.2,2.2,male
+51,AFRICA,Eastern Africa,Central African Republic,140,2.5,3.1,3.4,2.4,2.3,1.9,1.9,1.9,male
+52,AFRICA,Eastern Africa,Chad,148,1.4,1.4,1.3,3.1,3,2.9,2.9,5.5,male
+53,AFRICA,Eastern Africa,Congo,178,5.4,7,9.8,9.4,10.4,8.4,7.3,6.6,male
+54,AFRICA,Eastern Africa,Democratic Republic of the Congo,180,2,4.1,1.5,1,0.8,1,1,1,male
+55,AFRICA,Eastern Africa,Equatorial Guinea,226,0.6,0.7,0.7,0.7,0.8,21,19.6,19.2,male
+56,AFRICA,Eastern Africa,Gabon,266,15.2,17.7,19.5,18.5,18.3,23.4,22.7,22.4,male
+57,AFRICA,Eastern Africa,Sao Tome and Principe,678,4.8,3.8,3.1,2.1,1.5,1.2,1,0.8,male
+58,AFRICA,Northern Africa,Northern Africa,912,1.7,1.4,1.2,1.1,1.1,1.1,1.4,1.9,male
+59,AFRICA,Northern Africa,Algeria,12,1.1,1,0.9,0.6,0.6,0.6,0.6,0.6,male
+60,AFRICA,Northern Africa,Egypt,818,0.3,0.3,0.3,0.4,0.4,0.5,0.6,1,male
+61,AFRICA,Northern Africa,Libya,434,10,11.4,13,14.8,14.8,16.4,16.5,17.2,male
+62,AFRICA,Northern Africa,Morocco,504,0.2,0.2,0.2,0.2,0.2,0.3,0.3,0.3,male
+63,AFRICA,Northern Africa,Sudan,729,6.3,4.2,2.9,1.8,1.8,1.6,3,4.8,male
+64,AFRICA,Northern Africa,Tunisia,788,0.4,0.4,0.4,0.3,0.4,0.5,0.5,0.5,male
+65,AFRICA,Northern Africa,Western Sahara,732,1.7,1.6,1.3,1.2,1.2,1.1,1.1,1,male
+66,AFRICA,Southern Africa,Southern Africa,913,4,3,2.9,3.9,5.4,6.9,5.1,4.7,male
+67,AFRICA,Southern Africa,Botswana,72,2.6,3.2,5.3,5.4,5.4,5.4,5.3,5.3,male
+68,AFRICA,Southern Africa,Eswatini,748,9.4,4,3.6,3.4,3.1,3,2.9,2.8,male
+69,AFRICA,Southern Africa,Lesotho,426,0.5,0.4,0.3,0.4,0.4,0.5,0.6,0.7,male
+70,AFRICA,Southern Africa,Namibia,516,9.6,7.9,8.3,6.1,5.5,4.7,4.4,4.2,male
+71,AFRICA,Southern Africa,South Africa,710,4,2.9,2.7,3.9,5.6,7.4,5.4,4.9,male
+72,AFRICA,Western Africa,Western Africa,914,2.7,2.8,2.4,2.4,2.2,2.1,2,2,male
+73,AFRICA,Western Africa,Benin,204,1.6,1.8,2,2.9,2.9,3,2.8,2.7,male
+74,AFRICA,Western Africa,Burkina Faso,854,3.7,4.4,4.3,4.1,4,3.6,3.2,3,male
+75,AFRICA,Western Africa,Cabo Verde,132,2.5,2.5,2.6,2.7,2.8,2.9,3.1,3.1,male
+76,AFRICA,Western Africa,Côte d'Ivoire,384,17.5,15.8,14.4,13.7,12.9,12,11.2,10.6,male
+77,AFRICA,Western Africa,Gambia,270,12.7,13.1,13.5,11.7,10.3,9.2,9.1,9.1,male
+78,AFRICA,Western Africa,Ghana,288,1.1,1.5,1,1.4,1.4,1.5,1.6,1.7,male
+79,AFRICA,Western Africa,Guinea,324,6.4,10.4,6.7,2.5,1.8,1.3,1.1,0.9,male
+80,AFRICA,Western Africa,Guinea-Bissau,624,1.6,2.5,1.7,1.5,1.4,1.2,0.9,0.7,male
+81,AFRICA,Western Africa,Liberia,430,4.9,10.4,5.7,3.1,2.8,2.8,2,1.5,male
+82,AFRICA,Western Africa,Mali,466,1.8,1.8,1.7,2,2.2,2.3,2.2,2.2,male
+83,AFRICA,Western Africa,Mauritania,478,5.9,4.1,2.4,2.2,2.9,4.9,4.6,4.4,male
+84,AFRICA,Western Africa,Niger,562,1.3,1.4,1,0.9,0.7,1.2,1.3,1.5,male
+85,AFRICA,Western Africa,Nigeria,566,0.5,0.5,0.4,0.8,0.7,0.7,0.7,0.7,male
+86,AFRICA,Western Africa,Saint Helena,654,3.4,2.2,2,3,4.9,8.6,11.1,13.2,male
+87,AFRICA,Western Africa,Senegal,686,3.6,3.4,2.5,2.2,2.2,1.9,1.7,1.6,male
+88,AFRICA,Western Africa,Sierra Leone,694,5.9,2.7,2.5,2.8,1.4,0.9,0.8,0.7,male
+89,AFRICA,Western Africa,Togo,768,2.2,2.3,2.7,3.5,3.8,3.6,3.3,3,male
+90,ASIA,,ASIA,935,1.5,1.4,1.3,1.4,1.7,2,2.1,2.2,male
+91,ASIA,Central Asia,Central Asia,5500,11.2,8.1,6.5,6,5.3,4.8,4.4,4.1,male
+92,ASIA,Central Asia,Kazakhstan,398,18.3,12.7,10.5,10.6,9.9,9.3,8.7,8.5,male
+93,ASIA,Central Asia,Kyrgyzstan,417,12.3,9.6,6.8,5.1,3.5,2.8,2.4,2.2,male
+94,ASIA,Central Asia,Tajikistan,762,7.2,5.2,4.4,3.6,3.3,2.8,2.5,2.3,male
+95,ASIA,Central Asia,Turkmenistan,795,7.3,6.4,4.5,4.1,3.3,3,2.7,2.5,male
+96,ASIA,Central Asia,Uzbekistan,860,7.1,5.7,4.9,4.5,3.9,3.5,3.2,2.9,male
+97,ASIA,Eastern Asia,Eastern Asia,906,0.3,0.3,0.4,0.4,0.4,0.5,0.6,0.6,male
+98,ASIA,Eastern Asia,China,156,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,male
+99,ASIA,Eastern Asia,"China, Hong Kong SAR",344,39.9,38.2,37.5,36.1,34.8,33.3,32.8,34.3,male
+100,ASIA,Eastern Asia,"China, Macao SAR",446,56.6,54,52.3,55.2,54.7,59.6,59,59.7,male
+101,ASIA,Eastern Asia,"China, Taiwan Province of China",158,0.2,1.2,1.7,1.4,1.4,2.5,3.3,3.9,male
+102,ASIA,Eastern Asia,Dem. People's Republic of Korea,408,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,male
+103,ASIA,Eastern Asia,Japan,392,0.9,1.1,1.3,1.5,1.6,1.9,2.6,2.8,male
+104,ASIA,Eastern Asia,Mongolia,496,0.3,0.3,0.4,0.6,0.9,0.9,0.9,0.9,male
+105,ASIA,Eastern Asia,Republic of Korea,410,0,0.1,0.4,0.6,1.3,3,3.7,3.7,male
+106,ASIA,Southern Asia,Southern Asia,5501,1.6,1.1,1,0.8,0.8,0.7,0.7,0.7,male
+107,ASIA,Southern Asia,Afghanistan,4,0.5,0.5,0.4,0.4,0.4,1,0.4,0.2,male
+108,ASIA,Southern Asia,Bangladesh,50,0.8,0.8,0.8,0.8,0.9,1,1.3,1.8,male
+109,ASIA,Southern Asia,Bhutan,64,6.3,8,8.4,9.2,10.4,10.9,11,11.2,male
+110,ASIA,Southern Asia,India,356,0.8,0.7,0.6,0.5,0.4,0.4,0.3,0.3,male
+111,ASIA,Southern Asia,Iran (Islamic Republic of),364,7.9,5.1,4.1,3.8,3.8,3.5,3.4,4,male
+112,ASIA,Southern Asia,Maldives,462,4,6.9,10.1,16.8,20.7,22.3,19.9,20.1,male
+113,ASIA,Southern Asia,Nepal,524,1.3,1.9,2,1.8,1.4,1.2,1.1,1,male
+114,ASIA,Southern Asia,Pakistan,586,5.4,2.8,2.8,1.9,2,1.7,1.5,1.7,male
+115,ASIA,Southern Asia,Sri Lanka,144,0.3,0.3,0.2,0.2,0.2,0.2,0.2,0.2,male
+116,ASIA,South-Eastern Asia,South-Eastern Asia,920,0.7,0.7,0.9,1.1,1.5,1.6,1.7,1.9,male
+117,ASIA,South-Eastern Asia,Brunei Darussalam,96,30,30.3,30.6,28.7,27.3,26,26.6,27.6,male
+118,ASIA,South-Eastern Asia,Cambodia,116,0.5,0.9,1.2,0.9,0.6,0.5,0.5,0.5,male
+119,ASIA,South-Eastern Asia,Indonesia,360,0.1,0.1,0.2,0,0,0.1,0.1,0.2,male
+120,ASIA,South-Eastern Asia,Lao People's Democratic Republic,418,0.5,0.5,0.4,0.4,0.6,0.9,0.8,0.8,male
+121,ASIA,South-Eastern Asia,Malaysia,458,6.6,7.1,7.5,8.9,12.7,12.7,14.5,15.8,male
+122,ASIA,South-Eastern Asia,Myanmar,104,0.4,0.3,0.2,0.2,0.2,0.2,0.2,0.2,male
+123,ASIA,South-Eastern Asia,Philippines,608,0.2,0.2,0.2,0.2,0.2,0.2,0.1,0.1,male
+124,ASIA,South-Eastern Asia,Singapore,702,22.3,25.3,28.4,30.6,35.9,38.1,38.3,40.5,male
+125,ASIA,South-Eastern Asia,Thailand,764,0.7,0.6,1.2,2.8,4.3,4.6,4.8,5.1,male
+126,ASIA,South-Eastern Asia,Timor-Leste,626,1.1,1.1,1.3,1.1,1.1,0.8,0.8,0.7,male
+127,ASIA,South-Eastern Asia,Viet Nam,704,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.3,male
+128,ASIA,Western Asia,Western Asia,922,11.5,11.7,11.5,12.4,15.6,19.8,19.7,19.8,male
+129,ASIA,Western Asia,Armenia,51,10.5,16.8,17.3,14.7,6.4,5.8,6.5,8.5,male
+130,ASIA,Western Asia,Azerbaijan,31,5.4,7.8,6.6,3.5,2.7,2.2,1.9,2.1,male
+131,ASIA,Western Asia,Bahrain,48,40.5,43,41.7,48.6,61.8,61,62.2,61.8,male
+132,ASIA,Western Asia,Cyprus,196,5.1,6.3,7.2,10.2,14.4,12.6,13,13.3,male
+133,ASIA,Western Asia,Georgia,268,5.2,2.9,1.7,1.7,1.8,1.9,2,2,male
+134,ASIA,Western Asia,Iraq,368,0.6,1.1,1,0.6,0.5,1.1,1,0.9,male
+135,ASIA,Western Asia,Israel,376,33.6,31.2,28.1,26,24.9,23.5,21.8,20.4,male
+136,ASIA,Western Asia,Jordan,400,35,33.8,35.9,39,54.2,49.5,49,49.4,male
+137,ASIA,Western Asia,Kuwait,414,68,61.6,63.5,67.2,68,72.9,74.6,72.8,male
+138,ASIA,Western Asia,Lebanon,422,13.3,13.4,14,14.5,15.9,27.3,29.3,25.5,male
+139,ASIA,Western Asia,Oman,512,42.9,33.1,30.8,31.7,38.2,55.9,50,55.7,male
+140,ASIA,Western Asia,Qatar,634,49.6,61.4,70.1,91.3,88.5,92.6,83.8,83.2,male
+141,ASIA,Western Asia,Saudi Arabia,682,51.4,46.9,39.5,38.1,41.5,53.5,52.5,51.7,male
+142,ASIA,Western Asia,State of Palestine,275,12.2,9.6,7.8,7,6.2,5.6,5,4.6,male
+143,ASIA,Western Asia,Syrian Arab Republic,760,5.7,5.7,5.1,4.8,8,4.4,4.1,3.6,male
+144,ASIA,Western Asia,Türkiye,792,2,1.9,1.9,1.8,1.8,5,7.9,8.1,male
+145,ASIA,Western Asia,United Arab Emirates,784,71.1,77,71.1,72.8,80.9,82.3,79.9,77.9,male
+146,ASIA,Western Asia,Yemen,887,1,0.9,0.8,0.9,1.2,1.3,1.2,1.1,male
+147,EUROPE,Western Asia,EUROPE,908,7.1,7.7,8.1,9,9.8,10.1,11.1,12.7,male
+148,EUROPE,Eastern Europe,Eastern Europe,923,7,6.9,6.9,6.8,6.6,6,5.5,6.4,male
+149,EUROPE,Eastern Europe,Belarus,112,12,11.4,11,11.2,11.3,11.2,11.2,11.4,male
+150,EUROPE,Eastern Europe,Bulgaria,100,0.2,0.3,0.5,0.7,0.9,1.7,2.7,4.3,male
+151,EUROPE,Eastern Europe,Czechia,203,3.9,4.9,6.2,6.6,6.9,6.8,6.7,9.4,male
+152,EUROPE,Eastern Europe,Hungary,348,3.1,3,2.8,3.6,4.4,5,6.5,7.7,male
+153,EUROPE,Eastern Europe,Poland,616,2.5,2.1,1.8,1.6,1.4,1.6,1.8,3.8,male
+154,EUROPE,Eastern Europe,Republic of Moldova*,498,11.2,7.4,5.1,3.7,3.1,2.7,2.2,5.6,male
+155,EUROPE,Eastern Europe,Romania,642,0.5,0.6,0.6,0.7,0.8,1.1,1.9,3.6,male
+156,EUROPE,Eastern Europe,Russian Federation,643,8.1,8.5,8.7,8.7,8.3,6.6,5.3,5.6,male
+157,EUROPE,Eastern Europe,Slovakia,703,0.7,1.2,2,2.2,2.6,3.4,3.8,4.6,male
+158,EUROPE,Eastern Europe,Ukraine*,804,12.2,11,10.3,9.8,9.6,9.9,10.3,12.4,male
+159,EUROPE,Northern Europe,Northern Europe,924,7.1,7.6,8.2,9.8,11.8,13.5,15.5,17.4,male
+160,EUROPE,Northern Europe,Channel Islands*,830,42,40.6,42.2,45,47.3,48.7,48.9,49.2,male
+161,EUROPE,Northern Europe,Denmark*,208,4.5,5.6,6.8,7.6,9,10.7,12.2,14,male
+162,EUROPE,Northern Europe,Estonia,233,23.4,20.1,15.5,15,14.1,13,13.8,13.7,male
+163,EUROPE,Northern Europe,Faroe Islands*,234,9.9,7,8.1,9.8,10.9,11,13,14.7,male
+164,EUROPE,Northern Europe,Finland*,246,1.3,2,2.7,3.8,4.4,5.9,7.3,9.4,male
+165,EUROPE,Northern Europe,Iceland,352,3.3,4.3,5.1,8.3,11,11.5,19,26.8,male
+166,EUROPE,Northern Europe,Ireland,372,6.3,6.6,9.8,15.5,16.6,17,18.9,22.5,male
+167,EUROPE,Northern Europe,Isle of Man*,833,49.3,50.6,50.6,51.6,51.3,49.7,50.4,51.1,male
+168,EUROPE,Northern Europe,Latvia,428,23.5,20.4,16.3,15.1,13,11.5,11,10.3,male
+169,EUROPE,Northern Europe,Lithuania,440,9.4,7.5,6.1,6.1,4.9,4.3,5.6,6.9,male
+170,EUROPE,Northern Europe,Norway*,578,4.7,5.4,6.5,7.7,10.9,14.9,16.2,18,male
+171,EUROPE,Northern Europe,Sweden,752,9,10.5,11.3,12.2,14.3,16.2,19,20.4,male
+172,EUROPE,Northern Europe,United Kingdom*,826,6.4,7.1,7.8,9.7,12.1,14,16.1,17.9,male
+173,EUROPE,Southern Europe,Southern Europe,925,3.7,4.9,5.8,8,9.8,9.8,11.3,13,male
+174,EUROPE,Southern Europe,Albania,8,1.9,2.1,2.3,2.2,1.9,1.8,1.8,1.7,male
+175,EUROPE,Southern Europe,Andorra,20,75.6,69.9,64.5,65.6,65.6,58.9,59.2,59.2,male
+176,EUROPE,Southern Europe,Bosnia and Herzegovina,70,1.2,1.9,2,1.1,1,1.1,1.1,1.1,male
+177,EUROPE,Southern Europe,Croatia,191,9.6,14.2,13.2,13.1,13,12.9,12.9,12.8,male
+178,EUROPE,Southern Europe,Gibraltar*,292,32.5,30.3,27.9,31,33.1,33.7,31.4,29.2,male
+179,EUROPE,Southern Europe,Greece,300,6.5,8.6,10.5,10.9,11.8,10.9,12.4,14,male
+180,EUROPE,Southern Europe,Holy See*,336,100,100,100,100,100,100,100,100,male
+181,EUROPE,Southern Europe,Italy,380,2.4,2.9,3.5,5.4,7.3,8.5,9.9,10.5,male
+182,EUROPE,Southern Europe,Malta,470,3.9,4.4,5.2,5.8,8.1,12.7,24.6,41,male
+183,EUROPE,Southern Europe,Montenegro,499,9.8,9.7,9.7,9.7,10.4,9.3,9.6,13.7,male
+184,EUROPE,Southern Europe,North Macedonia,807,4,4.7,5.2,5.2,5.4,5.6,6,7.2,male
+185,EUROPE,Southern Europe,Portugal,620,4.4,5.4,6.5,7.5,7.3,8.1,9.7,10.9,male
+186,EUROPE,Southern Europe,San Marino,674,15,15.9,16.8,16.7,18.7,17.4,17.7,19.1,male
+187,EUROPE,Southern Europe,Serbia*,688,13.2,19.2,17.7,13.5,11.4,10.3,9.8,9.8,male
+188,EUROPE,Southern Europe,Slovenia,705,9.2,9.4,11.8,11.9,14.3,13.2,15.4,17.3,male
+189,EUROPE,Southern Europe,Spain*,724,2.1,3.2,5.1,10.5,13.9,12.6,14.8,18.2,male
+190,EUROPE,Western Europe,Western Europe,926,10,11.5,12.1,13,13.6,14.8,16.6,18.4,male
+191,EUROPE,Western Europe,Austria,40,8,9.3,11.4,14.1,15,17.7,19.8,24.5,male
+192,EUROPE,Western Europe,Belgium,56,9.5,9.9,10.4,11.7,14.2,16,17.7,19.9,male
+193,EUROPE,Western Europe,France*,250,10.8,10.5,10.5,11.2,11.6,12.3,13,13.6,male
+194,EUROPE,Western Europe,Germany,276,9,12.1,12.8,13.6,14.2,15.3,18,20.1,male
+195,EUROPE,Western Europe,Liechtenstein,438,41.4,45.9,48.8,55.2,61,62.5,65.6,68.1,male
+196,EUROPE,Western Europe,Luxembourg,442,30,31.1,32.2,32.6,32.3,44.2,47.8,51.7,male
+197,EUROPE,Western Europe,Monaco,492,65.5,65.5,66.4,65.9,63.8,70,69.2,69.5,male
+198,EUROPE,Western Europe,Netherlands*,528,7.9,8.9,9.8,10.4,10.7,11.4,13.4,15.9,male
+199,EUROPE,Western Europe,Switzerland,756,19.5,20.9,22.7,24.7,26,28.5,29.9,31.1,male
+200,LATIN AMERICA AND THE CARIBBEAN,Western Europe,LATIN AMERICA AND THE CARIBBEAN,904,1.7,1.4,1.3,1.3,1.4,1.5,2.3,2.7,male
+201,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Caribbean,915,3.3,3.4,3.5,3.4,3.3,3.8,4,4.3,male
+202,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Anguilla*,660,30.2,32.9,34.7,36.7,36.9,37.2,37.3,39.5,male
+203,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Antigua and Barbuda,28,18.8,24.6,29.2,29.4,29.2,29.5,30,30.5,male
+204,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Aruba*,533,20.3,27,31.7,32.3,32.1,32.6,48,65.3,male
+205,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Bahamas,44,10,11.1,12.1,14,15.6,16.1,16.9,17.8,male
+206,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Barbados,52,8.1,8.9,9.8,10.5,11.2,11.6,11.6,11.7,male
+207,LATIN AMERICA AND THE CARIBBEAN,Caribbean,"Bonaire, Sint Eustatius and Saba*",535,100,100,100,100,100,100,100,100,male
+208,LATIN AMERICA AND THE CARIBBEAN,Caribbean,British Virgin Islands*,92,51.3,55.1,61.6,62.6,61.1,57.4,61.2,63.2,male
+209,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cayman Islands*,136,35.9,39.5,49.8,45.7,46.1,43.6,43.5,43.9,male
+210,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cuba,192,0.3,0.2,0.1,0.1,0.1,0,0,0,male
+211,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Curaçao*,531,24.5,25.2,26.8,26.1,19.9,20.3,28.4,39.5,male
+212,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominica,212,3.8,4.7,5.8,7.3,12.2,12,12.7,13.3,male
+213,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominican Republic,214,5.1,5,5,4.9,4.9,6.8,7,7.8,male
+214,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Grenada,308,4.2,5.3,6.2,6.1,6.1,6,5.6,5.7,male
+215,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Guadeloupe*,312,17.2,18.2,20,21.5,22.5,20.8,20.4,22.2,male
+216,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Haiti,332,0.3,0.3,0.2,0.2,0.2,0.2,0.2,0.2,male
+217,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Jamaica,388,0.9,0.9,1,0.9,0.9,0.8,0.9,0.9,male
+218,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Martinique*,474,10.6,11.5,12.6,13.7,14.3,16.6,17.9,18.6,male
+219,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Montserrat*,500,19.3,19.6,23.2,26.5,26.6,29,31.4,33.1,male
+220,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Puerto Rico*,630,8.9,9,9.2,9.2,8,7.8,7.4,6.8,male
+221,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Barthélemy*,652,,,,,,,,,male
+222,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Kitts and Nevis,659,8.3,10.5,13.6,15.2,16.5,17.1,18,18.7,male
+223,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Lucia,662,3.9,4.9,6.3,5.9,5.1,4.8,4.5,4.4,male
+224,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Martin (French part)*,663,,,,,,,,,male
+225,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Vincent and the Grenadines,670,3.4,3.5,3.6,3.8,4.1,4.3,4.6,4.9,male
+226,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Sint Maarten (Dutch part)*,534,82.5,73.2,76.3,40.7,78.3,72.7,69.3,68.5,male
+227,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Trinidad and Tobago,780,3.8,3.3,2.9,3.1,3.4,3.5,5.4,7.6,male
+228,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Turks and Caicos Islands*,796,42.9,46.7,48.3,55.3,59,63.8,59.9,63.2,male
+229,LATIN AMERICA AND THE CARIBBEAN,Caribbean,United States Virgin Islands*,850,50.2,50.1,51.6,52,52.6,55.6,63,66.2,male
+230,LATIN AMERICA AND THE CARIBBEAN,Central America,Central America,916,1.7,1.1,0.8,1,1.1,1.2,1.5,1.8,male
+231,LATIN AMERICA AND THE CARIBBEAN,Central America,Belize,84,17.7,17,15.3,15,14.6,15.3,15.9,16.4,male
+232,LATIN AMERICA AND THE CARIBBEAN,Central America,Costa Rica,188,13.5,10.5,8,8.3,8.7,8.3,10.6,12.6,male
+233,LATIN AMERICA AND THE CARIBBEAN,Central America,El Salvador,222,0.8,0.7,0.5,0.6,0.7,0.7,0.7,0.7,male
+234,LATIN AMERICA AND THE CARIBBEAN,Central America,Guatemala,320,2.5,1.3,0.4,0.4,0.4,0.5,0.5,0.5,male
+235,LATIN AMERICA AND THE CARIBBEAN,Central America,Honduras,340,5.5,2.6,0.4,0.4,0.3,0.4,0.4,0.4,male
+236,LATIN AMERICA AND THE CARIBBEAN,Central America,Mexico,484,0.9,0.5,0.6,0.7,0.9,0.9,1.1,1.4,male
+237,LATIN AMERICA AND THE CARIBBEAN,Central America,Nicaragua,558,1,0.6,0.6,0.7,0.7,0.7,0.7,0.7,male
+238,LATIN AMERICA AND THE CARIBBEAN,Central America,Panama,591,2.7,2.7,2.8,3.3,4.5,4.8,7.8,11.3,male
+239,LATIN AMERICA AND THE CARIBBEAN,South America,South America,931,1.5,1.3,1.2,1.2,1.3,1.4,2.4,2.9,male
+240,LATIN AMERICA AND THE CARIBBEAN,South America,Argentina,32,4.9,4.3,3.8,3.9,4.1,4,3.9,3.9,male
+241,LATIN AMERICA AND THE CARIBBEAN,South America,Bolivia (Plurinational State of),68,1.1,1.1,1.1,1.2,1.3,1.4,1.4,1.5,male
+242,LATIN AMERICA AND THE CARIBBEAN,South America,Brazil,76,0.6,0.5,0.4,0.4,0.3,0.4,0.6,0.8,male
+243,LATIN AMERICA AND THE CARIBBEAN,South America,Chile,152,0.7,0.9,1,1.4,2,3.3,7.8,8,male
+244,LATIN AMERICA AND THE CARIBBEAN,South America,Colombia,170,0.3,0.3,0.3,0.3,0.3,0.3,3.8,5.8,male
+245,LATIN AMERICA AND THE CARIBBEAN,South America,Ecuador,218,1.3,1.3,1.2,1,2.4,2,4,4,male
+246,LATIN AMERICA AND THE CARIBBEAN,South America,Falkland Islands (Malvinas)*,238,41.7,35.1,39,40.9,50.5,51.5,62.9,75.8,male
+247,LATIN AMERICA AND THE CARIBBEAN,South America,French Guiana*,254,59.1,53.4,48.1,42.6,40,38.3,40.6,41.9,male
+248,LATIN AMERICA AND THE CARIBBEAN,South America,Guyana,328,0.6,0.9,1.2,1.5,1.2,1.3,3.7,6.2,male
+249,LATIN AMERICA AND THE CARIBBEAN,South America,Paraguay,600,5,4.2,3.6,3.2,2.9,2.6,2.7,2.7,male
+250,LATIN AMERICA AND THE CARIBBEAN,South America,Peru,604,0.2,0.2,0.2,0.3,0.4,0.5,3.3,5,male
+251,LATIN AMERICA AND THE CARIBBEAN,South America,Suriname,740,4.7,5.6,6.2,7,7.8,8,8.6,9,male
+252,LATIN AMERICA AND THE CARIBBEAN,South America,Uruguay,858,3,2.8,2.6,2.4,2.1,2.2,3.1,4.6,male
+253,LATIN AMERICA AND THE CARIBBEAN,South America,Venezuela (Bolivarian Republic of),862,5.2,4.6,4.1,4,4.7,4.6,4.6,4.4,male
+254,NORTHERN AMERICA,NORTHERN AMERICA,NORTHERN AMERICA,905,9.8,11.1,12.8,13.9,14.5,15,15,15.4,male
+255,NORTHERN AMERICA,NORTHERN AMERICA,Bermuda*,60,26.2,27,27.8,28.2,28.5,29.9,30.7,31.4,male
+256,NORTHERN AMERICA,NORTHERN AMERICA,Canada,124,15.1,16.1,17.4,18.2,19.9,21.6,20.9,21.1,male
+257,NORTHERN AMERICA,NORTHERN AMERICA,Greenland*,304,21.5,16.4,15.3,14.7,13.7,13.3,12.9,12.8,male
+258,NORTHERN AMERICA,NORTHERN AMERICA,Saint Pierre and Miquelon*,666,17.4,21,24,19.5,17.6,17.5,18.1,19,male
+259,NORTHERN AMERICA,NORTHERN AMERICA,United States of America*,840,9.1,10.6,12.3,13.4,13.9,14.3,14.3,14.8,male
+260,,,OCEANIA,909,18.1,17.6,17.1,17.6,18.9,19.7,20.5,20.9,male
+261,OCEANIA,Australia/New Zealand,Australia/New Zealand,927,22.5,22.3,22.2,23.4,25.7,27.2,28.6,29.4,male
+262,OCEANIA,Australia/New Zealand,Australia*,36,23.8,23.6,23.1,24,26.5,27.8,29,29.8,male
+263,OCEANIA,Australia/New Zealand,New Zealand*,554,15.7,16.1,17.6,20.5,21.8,24.3,26.2,27.8,male
+264,OCEANIA,Melanesia,Melanesia,928,1.8,1.7,1.4,1.3,1.2,1.2,1.1,1.1,male
+265,OCEANIA,Melanesia,Fiji,242,1.8,1.7,1.6,1.5,1.6,1.6,1.7,1.7,male
+266,OCEANIA,Melanesia,New Caledonia*,540,23.3,23.5,23.9,24.4,25,25.6,27.3,27.8,male
+267,OCEANIA,Melanesia,Papua New Guinea,598,0.9,0.8,0.6,0.5,0.5,0.4,0.4,0.3,male
+268,OCEANIA,Melanesia,Solomon Islands,90,1.4,1.2,1,0.7,0.6,0.4,0.4,0.3,male
+269,OCEANIA,Melanesia,Vanuatu,548,1.6,1.5,1.4,1.3,1.2,1.2,1.1,1,male
+270,OCEANIA,Micronesia,Micronesia,954,27.6,26.6,25.5,24.5,22.1,21.9,23,23.6,male
+271,OCEANIA,Micronesia,Guam*,316,53.3,49.7,46.8,45.9,45.6,46.6,50.3,51.1,male
+272,OCEANIA,Micronesia,Kiribati,296,3,2.9,2.7,2.7,2.9,2.7,2.7,2.7,male
+273,OCEANIA,Micronesia,Marshall Islands,584,3.2,3.7,4.5,5.6,7.1,8,9.2,10.5,male
+274,OCEANIA,Micronesia,Micronesia (Fed. States of),583,4.1,3.8,3.1,2.8,2.8,2.7,2.7,2.8,male
+275,OCEANIA,Micronesia,Nauru,520,30.4,26.6,24.4,23.4,9.5,18.5,21.8,24.7,male
+276,OCEANIA,Micronesia,Northern Mariana Islands*,580,62.6,64.3,54.7,52.5,36.7,33.9,36.7,39.6,male
+277,OCEANIA,Micronesia,Palau,585,21.9,30.5,37.3,34,32.9,31.5,30,31,male
+278,OCEANIA,Polynesia*,Polynesia*,957,11.3,11.8,12.2,12,11.5,10.9,10.9,11,male
+279,OCEANIA,Polynesia*,American Samoa*,16,46.1,44.6,44.2,43.3,43.1,44.7,47.9,51.2,male
+280,OCEANIA,Polynesia*,Cook Islands*,184,16.3,16.3,19,22.2,22.3,24.4,29.7,36.7,male
+281,OCEANIA,Polynesia*,French Polynesia*,258,14.7,14.6,14.4,14,13.2,12.3,12.1,12,male
+282,OCEANIA,Polynesia*,Niue*,570,19.3,21.9,25.8,31.1,36.5,37.1,37,36.4,male
+283,OCEANIA,Polynesia*,Samoa,882,2,2.7,3.3,3.1,2.6,2.1,1.9,1.8,male
+284,OCEANIA,Polynesia*,Tokelau*,772,23,31.1,40.3,61.1,67.4,65.7,55.8,49.5,male
+285,OCEANIA,Polynesia*,Tonga,776,3,3.4,3.8,4.4,4.7,4.1,4,4,male
+286,OCEANIA,Polynesia*,Tuvalu,798,4.3,3.3,2.6,2.3,2.2,2.2,2.5,2.8,male
+287,OCEANIA,Polynesia*,Wallis and Futuna Islands*,876,10.8,12.4,13.8,15.2,16.5,17.6,18.4,19.1,male
+1,Region,Subregion,World,900,2.9,2.8,2.8,2.9,3.1,3.2,3.4,3.6,female
+2,,,Sub-Saharan Africa,1834,2.5,2.4,1.9,1.8,1.7,1.9,1.8,1.9,female
+3,,,Northern Africa and Western Asia,1833,4.9,4.7,4.5,4.4,5.4,6.3,6.6,6.8,female
+4,,,Central and Southern Asia,1831,2.1,1.5,1.3,1.1,1,1,0.9,1,female
+5,,,Eastern and South-Eastern Asia,1832,0.4,0.4,0.5,0.6,0.7,0.8,0.9,0.9,female
+6,,,Latin America and the Caribbean,1830,1.6,1.4,1.3,1.3,1.4,1.4,2.2,2.6,female
+7,,,Oceania (excluding Australia and New Zealand),1835,3.8,3.7,3.5,3.1,2.7,2.4,2.3,2.2,female
+8,,,Australia/New Zealand,1836,21.6,21.9,22,23.5,25.9,27.8,29.5,30.6,female
+9,,,Europe and Northern America,1829,7.9,8.8,9.6,10.4,11.4,12,12.7,13.8,female
+10,,,More developed regions,901,7.4,8.2,8.9,9.8,10.8,11.4,12.1,13.2,female
+11,,,Less developed regions,902,1.6,1.4,1.3,1.3,1.4,1.5,1.6,1.8,female
+12,,,Least developed countries,941,2.2,2,1.5,1.3,1.2,1.4,1.5,1.7,female
+13,,,"Less developed regions, excluding least developed countries",934,1.5,1.3,1.2,1.3,1.4,1.5,1.6,1.8,female
+14,,,"Less developed regions, excluding China",948,2.1,1.8,1.6,1.6,1.7,1.8,1.9,2.1,female
+15,,,Land-locked Developing Countries (LLDC),1636,5.5,4.2,3.4,3,2.4,2.6,2.5,2.7,female
+16,,,Small Island Developing States (SIDS),1637,4.5,5,5.6,5.7,6.5,7,7,7.5,female
+17,,,High-and-upper-middle-income countries,5503,3.3,3.5,3.8,4.1,4.6,4.9,5.3,5.7,female
+18,,,Low-and-Lower-middle-income countries,5504,2.2,1.8,1.5,1.3,1.3,1.3,1.3,1.4,female
+19,,,High-income countries,1503,7.2,8.2,9.3,10.4,11.8,13,13.9,15,female
+20,,,Low-and-middle-income countries,1859,1.8,1.5,1.4,1.3,1.3,1.3,1.4,1.5,female
+21,,,Middle-income countries,1517,1.7,1.5,1.3,1.3,1.3,1.3,1.3,1.4,female
+22,,,Upper-middle-income countries,1502,1.4,1.3,1.2,1.2,1.3,1.3,1.4,1.6,female
+23,,,Lower-middle-income countries,1501,2,1.7,1.5,1.3,1.3,1.3,1.2,1.3,female
+24,,,Low-income countries,1500,2.9,2.4,1.7,1.6,1.5,1.6,1.7,1.9,female
+25,,,No income group available,1518,5.2,4.6,4.2,4.1,4.7,4.6,4.7,4.5,female
+26,AFRICA,,AFRICA,903,2.3,2.1,1.7,1.6,1.5,1.7,1.7,1.8,female
+27,AFRICA,Eastern Africa,Eastern Africa,910,3.1,2.3,2,1.6,1.3,1.6,1.7,1.7,female
+28,AFRICA,Eastern Africa,Burundi,108,6,4.2,2,2.6,2.7,2.7,2.7,2.8,female
+29,AFRICA,Eastern Africa,Comoros,174,3.3,2.9,2.7,2.3,2,1.8,1.6,1.5,female
+30,AFRICA,Eastern Africa,Djibouti,262,19.9,14.8,12.7,9.7,10.4,10.4,10.2,10.2,female
+31,AFRICA,Eastern Africa,Eritrea,232,0.5,0.6,0.5,0.5,0.5,0.5,0.4,0.3,female
+32,AFRICA,Eastern Africa,Ethiopia,231,1.8,0.8,0.5,0.2,0.2,0.8,0.7,0.9,female
+33,AFRICA,Eastern Africa,Kenya,404,1.2,2.2,2.3,2.1,2.3,2.4,2,1.7,female
+34,AFRICA,Eastern Africa,Madagascar,450,0.2,0.1,0.1,0.1,0.1,0.1,0.1,0.1,female
+35,AFRICA,Eastern Africa,Malawi,454,11.8,2.4,2.1,1.7,1.5,1.2,1,0.9,female
+36,AFRICA,Eastern Africa,Mauritius,480,0.3,0.7,1.6,1.7,1.8,2,2,2,female
+37,AFRICA,Eastern Africa,Mayotte,175,14.3,18.9,28,34.8,35.2,33.7,40.3,45.2,female
+38,AFRICA,Eastern Africa,Mozambique,508,0.8,0.9,1,1.3,1.3,1.2,1.1,1,female
+39,AFRICA,Eastern Africa,Réunion,638,8,10.1,12.5,13.5,13.7,13.8,14.3,14.5,female
+40,AFRICA,Eastern Africa,Rwanda,646,2.1,3.6,4,4.4,4,4.3,3.8,3.5,female
+41,AFRICA,Eastern Africa,Seychelles,690,4.2,5.6,6.7,7.4,8,7.7,7.2,6.8,female
+42,AFRICA,Eastern Africa,Somalia,706,6.6,0.3,0.2,0.2,0.4,0.3,0.3,0.4,female
+43,AFRICA,Eastern Africa,South Sudan,728,13.2,11.9,10.4,8.3,2.3,7.4,8.1,7.5,female
+44,AFRICA,Eastern Africa,Uganda,800,3,3.1,2.6,2.3,1.6,2.2,4.1,4.5,female
+45,AFRICA,Eastern Africa,United Republic of Tanzania,834,2.2,3.7,2.7,1.4,0.7,0.7,0.7,0.7,female
+46,AFRICA,Eastern Africa,Zambia,894,3.4,2.6,3.3,2.1,1,0.8,0.9,1.1,female
+47,AFRICA,Eastern Africa,Zimbabwe,716,5.3,3.2,2.8,2.6,2.4,2.3,2.2,2.1,female
+48,AFRICA,Eastern Africa,Eastern Africa,911,2,3,1.7,1.6,1.7,2.1,1.9,2.2,female
+49,AFRICA,Eastern Africa,Angola,24,0.3,0.3,0.3,0.3,1.5,2.3,1.9,1.8,female
+50,AFRICA,Eastern Africa,Cameroon,120,2.1,1.7,1.4,1.4,1.3,2.3,2.2,2.2,female
+51,AFRICA,Eastern Africa,Central African Republic,140,2.2,2.8,3,2.1,1.9,1.6,1.6,1.6,female
+52,AFRICA,Eastern Africa,Chad,148,1.1,1.1,1.1,3.7,3.7,3.4,3.5,7,female
+53,AFRICA,Eastern Africa,Congo,178,5.4,6.9,9.6,7.9,8.7,6.9,6.1,5.5,female
+54,AFRICA,Eastern Africa,Democratic Republic of the Congo,180,2.1,4.1,1.5,1.1,0.9,1,1,1,female
+55,AFRICA,Eastern Africa,Equatorial Guinea,226,0.5,0.6,0.6,0.7,0.7,7,6.5,6.4,female
+56,AFRICA,Eastern Africa,Gabon,266,11,12.9,14.2,13.5,13.2,13.5,13,12.8,female
+57,AFRICA,Eastern Africa,Sao Tome and Principe,678,4.3,3.5,3,2.1,1.5,1.2,1,0.8,female
+58,AFRICA,Northern Africa,Northern Africa,912,1.6,1.2,1,0.8,0.8,0.8,1.1,1.6,female
+59,AFRICA,Northern Africa,Algeria,12,1,0.9,0.8,0.6,0.6,0.6,0.5,0.5,female
+60,AFRICA,Northern Africa,Egypt,818,0.2,0.2,0.2,0.3,0.3,0.5,0.5,0.9,female
+61,AFRICA,Northern Africa,Libya,434,10.6,9.2,8,6.3,6.2,7,6.7,7,female
+62,AFRICA,Northern Africa,Morocco,504,0.2,0.2,0.2,0.2,0.2,0.3,0.3,0.3,female
+63,AFRICA,Northern Africa,Sudan,729,6.5,4.3,2.9,1.7,1.7,1.5,2.9,4.7,female
+64,AFRICA,Northern Africa,Tunisia,788,0.5,0.4,0.4,0.3,0.4,0.5,0.5,0.5,female
+65,AFRICA,Northern Africa,Western Sahara,732,1.3,1.3,1.1,1.1,1,1,0.9,0.9,female
+66,AFRICA,Southern Africa,Southern Africa,913,2.5,1.8,1.8,2.4,3.1,3.8,3.3,3.3,female
+67,AFRICA,Southern Africa,Botswana,72,1.6,2.2,3.6,3.8,4,4,4,4,female
+68,AFRICA,Southern Africa,Eswatini,748,7.8,3.3,3,2.8,2.7,2.7,2.6,2.6,female
+69,AFRICA,Southern Africa,Lesotho,426,0.4,0.3,0.3,0.3,0.3,0.4,0.5,0.6,female
+70,AFRICA,Southern Africa,Namibia,516,8,6.5,6.6,4.9,4.4,3.8,3.6,3.4,female
+71,AFRICA,Southern Africa,South Africa,710,2.3,1.7,1.6,2.3,3.2,3.9,3.4,3.4,female
+72,AFRICA,Western Africa,Western Africa,914,2.2,2.3,2,1.9,1.8,1.8,1.7,1.7,female
+73,AFRICA,Western Africa,Benin,204,1.3,1.6,1.7,3,3.4,3.4,3.2,3.1,female
+74,AFRICA,Western Africa,Burkina Faso,854,3.9,4.6,4.5,4.4,4.3,3.9,3.5,3.3,female
+75,AFRICA,Western Africa,Cabo Verde,132,2.3,2.3,2.3,2.5,2.8,2.9,3.1,3.2,female
+76,AFRICA,Western Africa,Côte d'Ivoire,384,12.3,11,9.9,9.3,8.9,8.5,7.8,7.3,female
+77,AFRICA,Western Africa,Gambia,270,9.7,10.8,11.6,10.2,9,8.1,8.1,8.1,female
+78,AFRICA,Western Africa,Ghana,288,1.1,1.4,1,1.3,1.2,1.3,1.4,1.4,female
+79,AFRICA,Western Africa,Guinea,324,6.2,10.2,6.6,2.5,1.6,0.9,0.7,0.6,female
+80,AFRICA,Western Africa,Guinea-Bissau,624,1.5,2.5,1.6,1.5,1.4,1.3,0.9,0.7,female
+81,AFRICA,Western Africa,Liberia,430,3.7,8.9,4.7,2.2,2.1,2.1,1.4,1.1,female
+82,AFRICA,Western Africa,Mali,466,1.7,1.7,1.6,1.9,2.1,2.3,2.2,2.2,female
+83,AFRICA,Western Africa,Mauritania,478,5.5,3.7,2,1.7,2.1,3.6,3.4,3.2,female
+84,AFRICA,Western Africa,Niger,562,1.5,1.6,1.1,1,0.8,1.4,1.6,1.8,female
+85,AFRICA,Western Africa,Nigeria,566,0.4,0.4,0.3,0.6,0.5,0.6,0.6,0.6,female
+86,AFRICA,Western Africa,Saint Helena,654,2,1.5,1.6,2.9,4.4,4.9,4.9,5.6,female
+87,AFRICA,Western Africa,Senegal,686,3.4,3.2,2.2,2,1.9,1.7,1.6,1.5,female
+88,AFRICA,Western Africa,Sierra Leone,694,4.7,2,2,2.5,1.1,0.7,0.6,0.5,female
+89,AFRICA,Western Africa,Togo,768,2.1,2.3,2.7,3.5,3.8,3.6,3.2,2.9,female
+90,ASIA,,ASIA,935,1.4,1.2,1.2,1.2,1.4,1.5,1.5,1.6,female
+91,ASIA,Central Asia,Central Asia,5500,13.3,9.9,7.9,7.4,6.6,6,5.6,5.4,female
+92,ASIA,Central Asia,Kazakhstan,398,20,14.3,11.8,12.4,12.1,11.8,11.7,11.7,female
+93,ASIA,Central Asia,Kyrgyzstan,417,15.5,12.2,8.6,6.7,4.9,4,3.5,3.2,female
+94,ASIA,Central Asia,Tajikistan,762,8.7,6.4,5.1,4.4,4,3.5,3.2,2.9,female
+95,ASIA,Central Asia,Turkmenistan,795,9,6.7,5,4.4,3.8,3.3,2.9,2.7,female
+96,ASIA,Central Asia,Uzbekistan,860,9.1,7.5,6.5,5.6,4.7,4.1,3.7,3.4,female
+97,ASIA,Eastern Asia,Eastern Asia,906,0.3,0.3,0.4,0.5,0.5,0.6,0.7,0.8,female
+98,ASIA,Eastern Asia,China,156,0,0,0,0.1,0.1,0.1,0.1,0.1,female
+99,ASIA,Eastern Asia,"China, Hong Kong SAR",344,39.9,40.9,42,42.4,43,43,45.1,47.1,female
+100,ASIA,Eastern Asia,"China, Macao SAR",446,60.1,58.6,57.6,57.4,58.4,61.2,59.1,58.9,female
+101,ASIA,Eastern Asia,"China, Taiwan Province of China",158,0.5,1,2.4,3.4,3.7,4.8,5.6,5.9,female
+102,ASIA,Eastern Asia,Dem. People's Republic of Korea,408,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,female
+103,ASIA,Eastern Asia,Japan,392,0.8,1.1,1.3,1.6,1.8,2.1,2.6,2.7,female
+104,ASIA,Eastern Asia,Mongolia,496,0.3,0.3,0.3,0.3,0.3,0.4,0.4,0.4,female
+105,ASIA,Eastern Asia,Republic of Korea,410,0,0.1,0.3,0.3,1,2.2,2.9,3.3,female
+106,ASIA,Southern Asia,Southern Asia,5501,1.6,1.1,1,0.8,0.8,0.8,0.7,0.8,female
+107,ASIA,Southern Asia,Afghanistan,4,0.4,0.4,0.3,0.3,0.3,1,0.4,0.2,female
+108,ASIA,Southern Asia,Bangladesh,50,0.7,0.7,0.7,0.7,0.8,0.8,1.2,1.6,female
+109,ASIA,Southern Asia,Bhutan,64,1.6,2,2.1,2.5,2.8,2.3,2.3,2.3,female
+110,ASIA,Southern Asia,India,356,0.8,0.7,0.6,0.5,0.5,0.4,0.4,0.4,female
+111,ASIA,Southern Asia,Iran (Islamic Republic of),364,6.7,4.3,3.4,3.3,3.3,3.1,3,4.4,female
+112,ASIA,Southern Asia,Maldives,462,3.7,7.6,9.1,12.3,8.1,4.5,4.5,4.6,female
+113,ASIA,Southern Asia,Nepal,524,3.2,4.3,3.9,3.4,2.8,2.5,2.3,2.1,female
+114,ASIA,Southern Asia,Pakistan,586,5.3,2.6,2.6,1.7,1.9,1.6,1.3,1.6,female
+115,ASIA,Southern Asia,Sri Lanka,144,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,female
+116,ASIA,South-Eastern Asia,South-Eastern Asia,920,0.5,0.6,0.9,1,1.3,1.4,1.3,1.3,female
+117,ASIA,South-Eastern Asia,Brunei Darussalam,96,27.1,27.7,28.3,26,23.8,22.4,23.2,24,female
+118,ASIA,South-Eastern Asia,Cambodia,116,0.5,0.9,1.2,0.8,0.5,0.4,0.4,0.4,female
+119,ASIA,South-Eastern Asia,Indonesia,360,0,0.1,0.1,0,0,0.1,0.1,0.1,female
+120,ASIA,South-Eastern Asia,Lao People's Democratic Republic,418,0.5,0.5,0.4,0.3,0.4,0.5,0.5,0.5,female
+121,ASIA,South-Eastern Asia,Malaysia,458,4.9,5.8,6.5,7.9,8.7,9.7,7.1,5.1,female
+122,ASIA,South-Eastern Asia,Myanmar,104,0.3,0.2,0.2,0.2,0.1,0.1,0.1,0.1,female
+123,ASIA,South-Eastern Asia,Philippines,608,0.2,0.2,0.2,0.2,0.2,0.1,0,0,female
+124,ASIA,South-Eastern Asia,Singapore,702,25.8,31,37.3,39.6,49.8,54.4,54.4,57.6,female
+125,ASIA,South-Eastern Asia,Thailand,764,0.4,0.3,1.2,2.3,3.4,3.5,3.6,3.8,female
+126,ASIA,South-Eastern Asia,Timor-Leste,626,1.2,1.2,1.5,1.2,1.1,0.6,0.5,0.5,female
+127,ASIA,South-Eastern Asia,Viet Nam,704,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.3,female
+128,ASIA,Western Asia,Western Asia,922,8.1,7.9,7.9,7.9,9.8,11.3,11.8,11.6,female
+129,ASIA,Western Asia,Armenia,51,13.8,20.6,20.1,16.9,7.9,7.1,7.7,9.8,female
+130,ASIA,Western Asia,Azerbaijan,31,5.7,7.5,6.2,3.5,2.8,2.4,2,2.2,female
+131,ASIA,Western Asia,Bahrain,48,25.4,26,27,30.5,38.6,39.3,37.8,36.7,female
+132,ASIA,Western Asia,Cyprus,196,6,8.1,9.7,13.6,19,16.5,16.2,16.5,female
+133,ASIA,Western Asia,Georgia,268,5.9,3.2,1.8,1.8,2,2.1,2.2,2.2,female
+134,ASIA,Western Asia,Iraq,368,0.3,0.8,0.7,0.4,0.3,0.8,0.8,0.7,female
+135,ASIA,Western Asia,Israel,376,37.8,35.3,32,29.9,28.3,26.7,25.2,24.1,female
+136,ASIA,Western Asia,Jordan,400,27.2,29.6,32,34.8,47.6,42.2,41.6,41.8,female
+137,ASIA,Western Asia,Kuwait,414,55.8,47.5,48.1,50.9,57.8,61.2,60,58.8,female
+138,ASIA,Western Asia,Lebanon,422,10.3,10.2,9.8,9.3,9,27.2,26.4,23.5,female
+139,ASIA,Western Asia,Oman,512,12.3,14.1,14.9,15.1,16.5,21.2,21.1,22.6,female
+140,ASIA,Western Asia,Qatar,634,47.5,56.5,63.9,49,63.9,66.3,62.4,60.5,female
+141,ASIA,Western Asia,Saudi Arabia,682,31.3,24.3,23.6,23.7,26.6,28.5,26.1,22.7,female
+142,ASIA,Western Asia,State of Palestine,275,14.8,11.8,9.7,8.4,7.4,6.5,5.8,5.3,female
+143,ASIA,Western Asia,Syrian Arab Republic,760,5.6,5.6,4.9,4.6,7.8,4.2,4.1,3.7,female
+144,ASIA,Western Asia,Türkiye,792,2.1,2.1,2,2,2.1,4.4,7.4,8.1,female
+145,ASIA,Western Asia,United Arab Emirates,784,63.3,66.5,61,60.7,73.6,73,69.1,67,female
+146,ASIA,Western Asia,Yemen,887,0.7,0.7,0.7,0.6,1,1.2,0.9,0.8,female
+147,EUROPE,Western Asia,EUROPE,908,7.1,7.7,8.1,8.9,9.8,10.2,11,12.6,female
+148,EUROPE,Eastern Europe,Eastern Europe,923,7.3,7.1,6.8,6.7,6.5,6,5.5,6.6,female
+149,EUROPE,Eastern Europe,Belarus,112,12.5,11.9,11.5,11.6,11.6,11.6,11.6,11.8,female
+150,EUROPE,Eastern Europe,Bulgaria,100,0.3,0.4,0.6,0.9,1.1,1.7,2.6,4.5,female
+151,EUROPE,Eastern Europe,Czechia,203,4.6,5.4,6.3,6.4,6.3,6.2,6.2,9.6,female
+152,EUROPE,Eastern Europe,Hungary,348,3.5,3.2,3,3.6,4.3,4.7,5.5,6.6,female
+153,EUROPE,Eastern Europe,Poland,616,3.4,2.9,2.5,2.2,1.9,2,2.1,5.2,female
+154,EUROPE,Eastern Europe,Republic of Moldova*,498,12.6,9,6.6,4.9,4.1,3.5,2.8,6.7,female
+155,EUROPE,Eastern Europe,Romania,642,0.7,0.6,0.6,0.6,0.7,1,1.6,3.3,female
+156,EUROPE,Eastern Europe,Russian Federation,643,7.4,7.6,7.6,7.6,7.3,5.9,4.7,5,female
+157,EUROPE,Eastern Europe,Slovakia,703,0.9,1.4,2.4,2.6,2.9,3.2,3.5,7.1,female
+158,EUROPE,Eastern Europe,Ukraine*,804,14.1,12.8,11.9,11.3,11,11.5,11.9,14.2,female
+159,EUROPE,Northern Europe,Northern Europe,924,7.3,7.9,8.7,10.2,12.1,13.6,15.1,16.7,female
+160,EUROPE,Northern Europe,Channel Islands*,830,44.2,42.6,44.6,47.6,50.4,52,52.2,52.5,female
+161,EUROPE,Northern Europe,Denmark*,208,4.6,5.8,7.1,8,9.4,11,12.4,14.4,female
+162,EUROPE,Northern Europe,Estonia,233,25.2,23.1,19.9,19.2,18.3,16.4,16.1,16.1,female
+163,EUROPE,Northern Europe,Faroe Islands*,234,8.1,6.3,7.6,9.2,10.3,11.4,12.9,14.5,female
+164,EUROPE,Northern Europe,Finland*,246,1.2,1.9,2.6,3.6,4.2,5.6,6.7,8.9,female
+165,EUROPE,Northern Europe,Iceland,352,4.2,5.3,6.2,8.9,11,12.1,16.6,23.4,female
+166,EUROPE,Northern Europe,Ireland,372,6.6,7.1,10,14.4,16.4,17.2,19.3,23.8,female
+167,EUROPE,Northern Europe,Isle of Man*,833,51.5,52.5,52.4,52.7,52.3,51.3,52,52.7,female
+168,EUROPE,Northern Europe,Latvia,428,25,22.7,19.8,18.3,16.6,15.1,13.9,13.1,female
+169,EUROPE,Northern Europe,Lithuania,440,9.5,7.6,6.1,6,5.5,5,4.8,5.5,female
+170,EUROPE,Northern Europe,Norway*,578,4.3,5.3,6.5,7.9,10.5,13.8,15.5,18.3,female
+171,EUROPE,Northern Europe,Sweden,752,9.3,10.9,11.7,12.7,15,17.2,20.3,22.5,female
+172,EUROPE,Northern Europe,United Kingdom*,826,6.4,7.3,8.3,10.1,12.4,13.8,15.2,16.4,female
+173,EUROPE,Southern Europe,Southern Europe,925,3.9,5.1,6,7.9,9.9,10.4,11.9,13.6,female
+174,EUROPE,Southern Europe,Albania,8,2.2,2.3,2.5,2,1.7,1.7,1.6,1.6,female
+175,EUROPE,Southern Europe,Andorra,20,72.1,68.4,63.7,64.3,63.3,58.3,58.5,59,female
+176,EUROPE,Southern Europe,Bosnia and Herzegovina,70,1.3,1.9,2,1.2,1,1.1,1.1,1.1,female
+177,EUROPE,Southern Europe,Croatia,191,10.1,14.9,13.8,13.7,13.7,13.9,13.8,14.4,female
+178,EUROPE,Southern Europe,Gibraltar*,292,31.5,31,30.2,32.1,33.2,33,30.5,28.3,female
+179,EUROPE,Southern Europe,Greece,300,5.5,7.7,10.1,10.8,12,12,12.7,14.3,female
+180,EUROPE,Southern Europe,Holy See*,336,100,100,100,100,100,100,100,100,female
+181,EUROPE,Southern Europe,Italy,380,2.9,3.4,3.9,5.8,8.3,9.7,10.9,11.6,female
+182,EUROPE,Southern Europe,Malta,470,4.3,4.8,5.6,6.1,7.5,11,19.5,32.6,female
+183,EUROPE,Southern Europe,Montenegro,499,13.9,13.6,13.4,13.4,14.3,13.4,13.6,15.2,female
+184,EUROPE,Southern Europe,North Macedonia,807,5.2,6.2,7,7,7.2,7.6,8,9.3,female
+185,EUROPE,Southern Europe,Portugal,620,4.4,5.3,6.2,7.2,7.1,8.6,9.6,10.8,female
+186,EUROPE,Southern Europe,San Marino,674,13.2,13.3,13.5,12.9,13.3,13.3,14.3,15.7,female
+187,EUROPE,Southern Europe,Serbia*,688,13.8,20.2,19.1,15,12.9,11.8,11.3,11.2,female
+188,EUROPE,Southern Europe,Slovenia,705,8.6,8.2,9.8,9.9,10.5,9.9,11,12.4,female
+189,EUROPE,Southern Europe,Spain*,724,2.1,3.1,4.8,9.4,12.9,12.7,15.2,18.8,female
+190,EUROPE,Western Europe,Western Europe,926,9.3,10.9,11.7,12.9,13.9,14.9,16.7,18.4,female
+191,EUROPE,Western Europe,Austria,40,8.5,9.9,11.6,14.4,15.7,18,20.1,26.5,female
+192,EUROPE,Western Europe,Belgium,56,9.5,9.9,10.6,12.1,14.5,16.2,17.8,20.1,female
+193,EUROPE,Western Europe,France*,250,9.9,9.9,10.1,11,11.5,12.3,13.1,14,female
+194,EUROPE,Western Europe,Germany,276,8.4,11.4,12.6,13.7,14.6,15.5,17.9,19.6,female
+195,EUROPE,Western Europe,Liechtenstein,438,34.2,40,44.7,53.8,63.2,64.8,67.9,70.7,female
+196,EUROPE,Western Europe,Luxembourg,442,29.6,30.7,31.9,32.2,32,43.2,46.7,50.6,female
+197,EUROPE,Western Europe,Monaco,492,68.5,67.7,67.9,66.4,63.6,71.4,70.5,70.8,female
+198,EUROPE,Western Europe,Netherlands*,528,8,9,9.9,10.7,11.3,12.2,14.1,16.5,female
+199,EUROPE,Western Europe,Switzerland,756,17.9,17.9,18.8,22.1,26.4,29.1,30.5,31.1,female
+200,LATIN AMERICA AND THE CARIBBEAN,Western Europe,LATIN AMERICA AND THE CARIBBEAN,904,1.6,1.4,1.3,1.3,1.4,1.4,2.2,2.6,female
+201,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Caribbean,915,3.1,3.2,3.3,3.2,3.1,3.3,3.4,3.8,female
+202,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Anguilla*,660,31,35.4,37.9,39.6,39.6,39.7,39.7,41.5,female
+203,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Antigua and Barbuda,28,19.3,26.8,32.2,32.5,32.6,33.1,33.8,34.3,female
+204,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Aruba*,533,24.4,31.5,36,36.6,36.3,36.5,51.6,70.4,female
+205,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Bahamas,44,9.4,9.9,10.4,12.5,14.2,14.7,15.3,15.9,female
+206,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Barbados,52,10.5,11.1,11.8,12.2,12.6,13.1,13.1,13.2,female
+207,LATIN AMERICA AND THE CARIBBEAN,Caribbean,"Bonaire, Sint Eustatius and Saba*",535,100,100,100,100,100,100,100,100,female
+208,LATIN AMERICA AND THE CARIBBEAN,Caribbean,British Virgin Islands*,92,51.1,57.6,66.5,64.3,62.3,55.9,58.4,61.1,female
+209,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cayman Islands*,136,35.8,37.9,47,42.7,42.9,41.4,41.6,41.9,female
+210,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cuba,192,0.3,0.3,0.2,0.1,0.1,0,0,0,female
+211,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Curaçao*,531,30.6,31,32.1,30.6,23.9,24.5,33.2,46.4,female
+212,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominica,212,3.4,4.3,5.1,6.5,11.4,11,11.8,12.2,female
+213,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominican Republic,214,3.1,3.2,3.3,3.2,3.2,3.7,4,5.1,female
+214,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Grenada,308,4.3,5.4,6.5,6.4,6.4,6.3,6.8,6.8,female
+215,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Guadeloupe*,312,16.7,18.1,19.7,22.1,23.9,24,23.6,25.3,female
+216,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Haiti,332,0.2,0.2,0.2,0.2,0.2,0.2,0.1,0.1,female
+217,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Jamaica,388,0.9,0.9,0.9,0.9,0.8,0.8,0.8,0.8,female
+218,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Martinique*,474,10.2,11.6,13.2,14.6,15.6,19.3,20.4,20.9,female
+219,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Montserrat*,500,18.4,19.5,25.1,28.4,27.3,28.8,29.8,30.8,female
+220,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Puerto Rico*,630,9.2,9.3,9.4,9.4,8.4,8.1,7.7,7,female
+221,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Barthélemy*,652,,,,,,,,,female
+222,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Kitts and Nevis,659,7.6,9.6,12.3,13.6,14.4,14.6,15.1,15.4,female
+223,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Lucia,662,3.8,4.8,6.1,6,5.5,5.1,4.8,4.6,female
+224,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Martin (French part)*,663,,,,,,,,,female
+225,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Vincent and the Grenadines,670,3.7,3.8,4,4.1,4.3,4.4,4.5,4.7,female
+226,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Sint Maarten (Dutch part)*,534,87.5,77,78.7,41.1,76.8,72.9,71.4,70.6,female
+227,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Trinidad and Tobago,780,4.3,3.8,3.4,3.5,3.6,3.5,5.3,7.5,female
+228,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Turks and Caicos Islands*,796,43.8,46.8,47.9,54,56.7,60.4,56.2,59.1,female
+229,LATIN AMERICA AND THE CARIBBEAN,Caribbean,United States Virgin Islands*,850,51.3,51.3,52.6,53.3,54,57.5,66.4,67.5,female
+230,LATIN AMERICA AND THE CARIBBEAN,Central America,Central America,916,1.6,1,0.8,0.9,1.1,1.1,1.3,1.6,female
+231,LATIN AMERICA AND THE CARIBBEAN,Central America,Belize,84,15.5,15.8,15,14.7,14.3,15.3,15.9,16.5,female
+232,LATIN AMERICA AND THE CARIBBEAN,Central America,Costa Rica,188,13.2,10.2,7.8,8.5,9.1,8.8,10.1,12,female
+233,LATIN AMERICA AND THE CARIBBEAN,Central America,El Salvador,222,0.9,0.7,0.5,0.6,0.7,0.7,0.7,0.7,female
+234,LATIN AMERICA AND THE CARIBBEAN,Central America,Guatemala,320,3.4,1.7,0.5,0.5,0.5,0.5,0.5,0.5,female
+235,LATIN AMERICA AND THE CARIBBEAN,Central America,Honduras,340,5.4,2.6,0.4,0.4,0.3,0.4,0.4,0.4,female
+236,LATIN AMERICA AND THE CARIBBEAN,Central America,Mexico,484,0.8,0.5,0.5,0.6,0.8,0.9,1,1.2,female
+237,LATIN AMERICA AND THE CARIBBEAN,Central America,Nicaragua,558,1,0.6,0.6,0.6,0.6,0.6,0.6,0.6,female
+238,LATIN AMERICA AND THE CARIBBEAN,Central America,Panama,591,2.4,2.5,2.7,3.3,4.2,4.5,6.8,9.9,female
+239,LATIN AMERICA AND THE CARIBBEAN,South America,South America,931,1.5,1.3,1.2,1.2,1.3,1.4,2.4,2.9,female
+240,LATIN AMERICA AND THE CARIBBEAN,South America,Argentina,32,5.2,4.8,4.4,4.5,4.6,4.6,4.6,4.7,female
+241,LATIN AMERICA AND THE CARIBBEAN,South America,Bolivia (Plurinational State of),68,1,1,1.1,1.1,1.2,1.2,1.3,1.4,female
+242,LATIN AMERICA AND THE CARIBBEAN,South America,Brazil,76,0.5,0.4,0.4,0.3,0.3,0.3,0.4,0.5,female
+243,LATIN AMERICA AND THE CARIBBEAN,South America,Chile,152,0.7,0.9,1.1,1.5,2.2,3.3,7.4,7.6,female
+244,LATIN AMERICA AND THE CARIBBEAN,South America,Colombia,170,0.3,0.3,0.3,0.3,0.3,0.3,3.8,5.8,female
+245,LATIN AMERICA AND THE CARIBBEAN,South America,Ecuador,218,1.3,1.2,1.2,1,2.4,2.1,4.2,4.2,female
+246,LATIN AMERICA AND THE CARIBBEAN,South America,Falkland Islands (Malvinas)*,238,31.2,27.2,29.4,31.3,39.3,40.8,48.9,58.9,female
+247,LATIN AMERICA AND THE CARIBBEAN,South America,French Guiana*,254,53.6,50.7,47.4,42.9,42.1,41.4,41.9,42.9,female
+248,LATIN AMERICA AND THE CARIBBEAN,South America,Guyana,328,0.5,0.8,1,1.3,1,1,4,6.8,female
+249,LATIN AMERICA AND THE CARIBBEAN,South America,Paraguay,600,4.7,3.9,3.3,3,2.7,2.5,2.5,2.5,female
+250,LATIN AMERICA AND THE CARIBBEAN,South America,Peru,604,0.2,0.2,0.3,0.3,0.4,0.5,3.9,5.7,female
+251,LATIN AMERICA AND THE CARIBBEAN,South America,Suriname,740,4,4.8,5.3,6,6.6,6.8,7,7.4,female
+252,LATIN AMERICA AND THE CARIBBEAN,South America,Uruguay,858,3.3,3.1,2.8,2.6,2.4,2.5,3.3,4.8,female
+253,LATIN AMERICA AND THE CARIBBEAN,South America,Venezuela (Bolivarian Republic of),862,5.1,4.6,4.1,4,4.6,4.6,4.7,4.5,female
+254,NORTHERN AMERICA,NORTHERN AMERICA,NORTHERN AMERICA,905,9.8,11.3,13,13.9,15,15.9,16.1,16.4,female
+255,NORTHERN AMERICA,NORTHERN AMERICA,Bermuda*,60,28.3,29,29.6,29.6,29.7,30.6,30.6,31,female
+256,NORTHERN AMERICA,NORTHERN AMERICA,Canada,124,15.5,16.8,18.3,19.4,21.3,23.1,22.7,23.2,female
+257,NORTHERN AMERICA,NORTHERN AMERICA,Greenland*,304,11,8.6,7.6,7.9,7.4,7.8,7.8,7.7,female
+258,NORTHERN AMERICA,NORTHERN AMERICA,Saint Pierre and Miquelon*,666,17.2,20,22.4,18.1,16.2,15.7,16.2,16.8,female
+259,NORTHERN AMERICA,NORTHERN AMERICA,United States of America*,840,9.2,10.7,12.4,13.3,14.3,15.1,15.4,15.6,female
+260,,,OCEANIA,909,17.5,17.5,17.2,18,19.4,20.5,21.5,22,female
+261,OCEANIA,Australia/New Zealand,Australia/New Zealand,927,21.6,21.9,22,23.5,25.9,27.8,29.5,30.6,female
+262,OCEANIA,Australia/New Zealand,Australia*,36,22.8,23,22.8,24.1,26.6,28.4,30,31,female
+263,OCEANIA,Australia/New Zealand,New Zealand*,554,15.3,16.3,18,20.9,22.2,24.8,26.8,28.5,female
+264,OCEANIA,Melanesia,Melanesia,928,1.6,1.4,1.2,1.1,1.1,1,1,0.9,female
+265,OCEANIA,Melanesia,Fiji,242,1.7,1.6,1.5,1.3,1.4,1.4,1.4,1.4,female
+266,OCEANIA,Melanesia,New Caledonia*,540,19.3,20,20.5,20.9,21.7,23.1,24.2,24.7,female
+267,OCEANIA,Melanesia,Papua New Guinea,598,0.8,0.6,0.4,0.4,0.3,0.3,0.3,0.2,female
+268,OCEANIA,Melanesia,Solomon Islands,90,1.2,1,0.8,0.6,0.5,0.4,0.3,0.3,female
+269,OCEANIA,Melanesia,Vanuatu,548,1.5,1.5,1.5,1.4,1.3,1.2,1.1,1,female
+270,OCEANIA,Micronesia,Micronesia,954,23.3,24.4,25.6,25.1,22.3,21.7,22.8,23.3,female
+271,OCEANIA,Micronesia,Guam*,316,46.9,46,45.7,45.1,44.9,45.7,48.9,49.2,female
+272,OCEANIA,Micronesia,Kiribati,296,2.8,2.6,2.4,2.3,2.4,2.3,2.3,2.3,female
+273,OCEANIA,Micronesia,Marshall Islands,584,2,2.4,2.9,3.7,4.7,5.4,6.1,7,female
+274,OCEANIA,Micronesia,Micronesia (Fed. States of),583,3.2,2.2,2.5,2.4,2.4,2.4,2.4,2.4,female
+275,OCEANIA,Micronesia,Nauru,520,28,24.6,22.7,21.4,8.5,14.9,15.9,17.9,female
+276,OCEANIA,Micronesia,Northern Mariana Islands*,580,60,70.2,62.1,67.6,53.1,50.9,56.2,61,female
+277,OCEANIA,Micronesia,Palau,585,14.2,24.3,27.6,26.4,26.4,23.5,26.9,27.6,female
+278,OCEANIA,Polynesia*,Polynesia*,957,9.5,10.1,10.5,10.6,10.1,9.6,9.5,9.4,female
+279,OCEANIA,Polynesia*,American Samoa*,16,45.1,43.7,43.4,42.3,42.2,44.3,47,50.1,female
+280,OCEANIA,Polynesia*,Cook Islands*,184,13.9,13.8,16.1,21,22.1,23.4,28.8,35.2,female
+281,OCEANIA,Polynesia*,French Polynesia*,258,10.5,10.8,10.8,10.9,10.2,9.4,9.4,9.3,female
+282,OCEANIA,Polynesia*,Niue*,570,17.8,19.7,22.8,26.1,30.2,29.2,28.7,28.6,female
+283,OCEANIA,Polynesia*,Samoa,882,2,2.7,3.3,3.1,2.7,2.1,1.9,1.8,female
+284,OCEANIA,Polynesia*,Tokelau*,772,17.9,26.2,36.9,61.9,75.1,74,60.5,52.7,female
+285,OCEANIA,Polynesia*,Tonga,776,2.9,3.1,3.4,3.8,3.9,3.3,3.1,3,female
+286,OCEANIA,Polynesia*,Tuvalu,798,3,2.4,2,1.9,1.9,1.9,2.1,2.3,female
+287,OCEANIA,Polynesia*,Wallis and Futuna Islands*,876,10,11.6,13.4,14.8,15.6,16.2,16.8,17,female
