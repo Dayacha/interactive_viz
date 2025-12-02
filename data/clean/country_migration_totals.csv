@@ -1,0 +1,2297 @@
+country,iso3,region,subregion,year,emigrants,immigrants,net_migration
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,MAF,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+,BLM,Americas,Latin America and the Caribbean,,0,0,0
+AFRICA,,,,1990,19677870,16176915,-3500955
+AFRICA,,,,1995,21240099,16653698,-4586401
+AFRICA,,,,2000,21162547,15413140,-5749407
+AFRICA,,,,2005,24080357,16602802,-7477555
+AFRICA,,,,2010,27829220,17752216,-10077004
+AFRICA,,,,2015,34659532,22683929,-11975603
+AFRICA,,,,2020,40006733,25267356,-14739377
+AFRICA,,,,2024,45750673,29180440,-16570233
+ASIA,,,,1990,54241367,46701075,-7540292
+ASIA,,,,1995,56353308,44841283,-11512025
+ASIA,,,,2000,62981200,47648238,-15332962
+ASIA,,,,2005,69883491,51580428,-18303063
+ASIA,,,,2010,85297992,64340258,-20957734
+ASIA,,,,2015,101186906,78349845,-22837061
+ASIA,,,,2020,111143556,84664604,-26478952
+ASIA,,,,2024,120797915,92170302,-28627613
+Afghanistan,AFG,Asia,Southern Asia,1990,7477104,57686,-7419418
+Afghanistan,AFG,Asia,Southern Asia,1995,4107724,71522,-4036202
+Afghanistan,AFG,Asia,Southern Asia,2000,4544516,75917,-4468599
+Afghanistan,AFG,Asia,Southern Asia,2005,3902699,87314,-3815385
+Afghanistan,AFG,Asia,Southern Asia,2010,5074825,102276,-4972549
+Afghanistan,AFG,Asia,Southern Asia,2015,5181002,339432,-4841570
+Afghanistan,AFG,Asia,Southern Asia,2020,5729887,144098,-5585789
+Afghanistan,AFG,Asia,Southern Asia,2024,7528994,98110,-7430884
+Albania,ALB,Europe,Southern Europe,1990,178747,66013,-112734
+Albania,ALB,Europe,Southern Europe,1995,394084,71354,-322730
+Albania,ALB,Europe,Southern Europe,2000,629192,76695,-552497
+Albania,ALB,Europe,Southern Europe,2005,784369,64739,-719630
+Albania,ALB,Europe,Southern Europe,2010,962514,52784,-909730
+Albania,ALB,Europe,Southern Europe,2015,985561,52031,-933530
+Albania,ALB,Europe,Southern Europe,2020,1103849,48810,-1055039
+Albania,ALB,Europe,Southern Europe,2024,1216628,46377,-1170251
+Algeria,DZA,Africa,Northern Africa,1990,1458505,273954,-1184551
+Algeria,DZA,Africa,Northern Africa,1995,1424971,262032,-1162939
+Algeria,DZA,Africa,Northern Africa,2000,1427791,250110,-1177681
+Algeria,DZA,Africa,Northern Africa,2005,1554741,197728,-1357013
+Algeria,DZA,Africa,Northern Africa,2010,1604582,217268,-1387314
+Algeria,DZA,Africa,Northern Africa,2015,1662433,239473,-1422960
+Algeria,DZA,Africa,Northern Africa,2020,1732822,250378,-1482444
+Algeria,DZA,Africa,Northern Africa,2024,1780399,259458,-1520941
+American Samoa,ASM,Oceania,Polynesia,1990,1085,21283,20198
+American Samoa,ASM,Oceania,Polynesia,1995,1625,23098,21473
+American Samoa,ASM,Oceania,Polynesia,2000,2183,24912,22729
+American Samoa,ASM,Oceania,Polynesia,2005,2148,24233,22085
+American Samoa,ASM,Oceania,Polynesia,2010,2341,23555,21214
+American Samoa,ASM,Oceania,Polynesia,2015,2452,23513,21061
+American Samoa,ASM,Oceania,Polynesia,2020,2952,23608,20656
+American Samoa,ASM,Oceania,Polynesia,2024,3362,23684,20322
+Andorra,AND,Europe,Southern Europe,1990,143,38891,38748
+Andorra,AND,Europe,Southern Europe,1995,283,44206,43923
+Andorra,AND,Europe,Southern Europe,2000,436,42147,41711
+Andorra,AND,Europe,Southern Europe,2005,448,50298,49850
+Andorra,AND,Europe,Southern Europe,2010,1213,52053,50840
+Andorra,AND,Europe,Southern Europe,2015,1467,42264,40797
+Andorra,AND,Europe,Southern Europe,2020,1751,45574,43823
+Andorra,AND,Europe,Southern Europe,2024,1982,48408,46426
+Angola,AGO,Africa,Sub-Saharan Africa,1990,799084,33517,-765567
+Angola,AGO,Africa,Sub-Saharan Africa,1995,656106,39813,-616293
+Angola,AGO,Africa,Sub-Saharan Africa,2000,873474,46108,-827366
+Angola,AGO,Africa,Sub-Saharan Africa,2005,663380,62331,-601049
+Angola,AGO,Africa,Sub-Saharan Africa,2010,579968,336367,-243601
+Angola,AGO,Africa,Sub-Saharan Africa,2015,518695,632178,113483
+Angola,AGO,Africa,Sub-Saharan Africa,2020,549257,656434,107177
+Angola,AGO,Africa,Sub-Saharan Africa,2024,616967,676507,59540
+Anguilla,AIA,Americas,Latin America and the Caribbean,1990,2262,2570,308
+Anguilla,AIA,Americas,Latin America and the Caribbean,1995,2205,3317,1112
+Anguilla,AIA,Americas,Latin America and the Caribbean,2000,2158,4063,1905
+Anguilla,AIA,Americas,Latin America and the Caribbean,2005,1776,4684,2908
+Anguilla,AIA,Americas,Latin America and the Caribbean,2010,1719,5103,3384
+Anguilla,AIA,Americas,Latin America and the Caribbean,2015,1572,5471,3899
+Anguilla,AIA,Americas,Latin America and the Caribbean,2020,1561,5715,4154
+Anguilla,AIA,Americas,Latin America and the Caribbean,2024,1614,5918,4304
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,1990,7368,12029,4661
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,1995,7792,17550,9758
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2000,8297,23071,14774
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2005,7978,24741,16763
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2010,8143,26412,18269
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2015,12860,28082,15222
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2020,12999,29386,16387
+Antigua and Barbuda,ATG,Americas,Latin America and the Caribbean,2024,13111,30473,17362
+Argentina,ARG,Americas,Latin America and the Caribbean,1990,406466,1647935,1241469
+Argentina,ARG,Americas,Latin America and the Caribbean,1995,445110,1589660,1144550
+Argentina,ARG,Americas,Latin America and the Caribbean,2000,571985,1543851,971866
+Argentina,ARG,Americas,Latin America and the Caribbean,2005,824076,1641560,817484
+Argentina,ARG,Americas,Latin America and the Caribbean,2010,877341,1799680,922339
+Argentina,ARG,Americas,Latin America and the Caribbean,2015,895980,1856613,960633
+Argentina,ARG,Americas,Latin America and the Caribbean,2020,1014400,1912294,897894
+Argentina,ARG,Americas,Latin America and the Caribbean,2024,1183381,1958039,774658
+Armenia,ARM,Asia,Western Asia,1990,813557,433541,-380016
+Armenia,ARM,Asia,Western Asia,1995,990938,622042,-368896
+Armenia,ARM,Asia,Western Asia,2000,950779,588242,-362537
+Armenia,ARM,Asia,Western Asia,2005,787489,476812,-310677
+Armenia,ARM,Asia,Western Asia,2010,799328,210873,-588455
+Armenia,ARM,Asia,Western Asia,2015,741708,190896,-550812
+Armenia,ARM,Asia,Western Asia,2020,685545,207139,-478406
+Armenia,ARM,Asia,Western Asia,2024,637604,274645,-362959
+Aruba,ABW,Americas,Latin America and the Caribbean,1990,4564,14444,9880
+Aruba,ABW,Americas,Latin America and the Caribbean,1995,4844,22274,17430
+Aruba,ABW,Americas,Latin America and the Caribbean,2000,5433,30104,24671
+Aruba,ABW,Americas,Latin America and the Caribbean,2005,5447,32540,27093
+Aruba,ABW,Americas,Latin America and the Caribbean,2010,7117,34328,27211
+Aruba,ABW,Americas,Latin America and the Caribbean,2015,9011,36114,27103
+Aruba,ABW,Americas,Latin America and the Caribbean,2020,16628,53593,36965
+Aruba,ABW,Americas,Latin America and the Caribbean,2024,29305,73494,44189
+Australia,AUS,Oceania,Australia and New Zealand,1990,250909,3991501,3740592
+Australia,AUS,Oceania,Australia and New Zealand,1995,280785,4215646,3934861
+Australia,AUS,Oceania,Australia and New Zealand,2000,311529,4389847,4078318
+Australia,AUS,Oceania,Australia and New Zealand,2005,337326,4880921,4543595
+Australia,AUS,Oceania,Australia and New Zealand,2010,362178,5879802,5517624
+Australia,AUS,Oceania,Australia and New Zealand,2015,403333,6733056,6329723
+Australia,AUS,Oceania,Australia and New Zealand,2020,420672,7604850,7184178
+Australia,AUS,Oceania,Australia and New Zealand,2024,430718,8111404,7680686
+Australia/New Zealand,,,,1990,1160086,9035740,7875654
+Australia/New Zealand,,,,1995,1323682,9621114,8297432
+Australia/New Zealand,,,,2000,1531738,10151626,8619888
+Australia/New Zealand,,,,2005,1711130,11471876,9760746
+Australia/New Zealand,,,,2010,1965966,13673568,11707602
+Australia/New Zealand,,,,2015,2157548,15730514,13572966
+Australia/New Zealand,,,,2020,2200302,17897500,15697198
+Australia/New Zealand,,,,2024,2220980,19158786,16937806
+Austria,AUT,Europe,Western Europe,1990,433951,633753,199802
+Austria,AUT,Europe,Western Europe,1995,418616,764758,346142
+Austria,AUT,Europe,Western Europe,2000,414141,920045,505904
+Austria,AUT,Europe,Western Europe,2005,408939,1174101,765162
+Austria,AUT,Europe,Western Europe,2010,409023,1285706,876683
+Austria,AUT,Europe,Western Europe,2015,411144,1540486,1129342
+Austria,AUT,Europe,Western Europe,2020,424072,1781046,1356974
+Austria,AUT,Europe,Western Europe,2024,430560,2327064,1896504
+Azerbaijan,AZE,Asia,Western Asia,1990,1334492,402177,-932315
+Azerbaijan,AZE,Asia,Western Asia,1995,1517896,588812,-929084
+Azerbaijan,AZE,Asia,Western Asia,2000,1466589,523518,-943071
+Azerbaijan,AZE,Asia,Western Asia,2005,1350981,301922,-1049059
+Azerbaijan,AZE,Asia,Western Asia,2010,1050055,251417,-798638
+Azerbaijan,AZE,Asia,Western Asia,2015,860748,224337,-636411
+Azerbaijan,AZE,Asia,Western Asia,2020,790122,198894,-591228
+Azerbaijan,AZE,Asia,Western Asia,2024,810116,218460,-591656
+Bahamas,BHS,Americas,Latin America and the Caribbean,1990,2074,26855,24781
+Bahamas,BHS,Americas,Latin America and the Caribbean,1995,2064,31654,29590
+Bahamas,BHS,Americas,Latin America and the Caribbean,2000,2139,36454,34315
+Bahamas,BHS,Americas,Latin America and the Caribbean,2005,1985,45531,43546
+Bahamas,BHS,Americas,Latin America and the Caribbean,2010,1867,54745,52878
+Bahamas,BHS,Americas,Latin America and the Caribbean,2015,1955,59241,57286
+Bahamas,BHS,Americas,Latin America and the Caribbean,2020,2042,63583,61541
+Bahamas,BHS,Americas,Latin America and the Caribbean,2024,2174,67285,65111
+Bahrain,BHR,Asia,Western Asia,1990,11251,176972,165721
+Bahrain,BHR,Asia,Western Asia,1995,21614,213818,192204
+Bahrain,BHR,Asia,Western Asia,2000,32137,238924,206787
+Bahrain,BHR,Asia,Western Asia,2005,36803,387591,350788
+Bahrain,BHR,Asia,Western Asia,2010,42283,643007,600724
+Bahrain,BHR,Asia,Western Asia,2015,45263,721540,676277
+Bahrain,BHR,Asia,Western Asia,2020,45356,785983,740627
+Bahrain,BHR,Asia,Western Asia,2024,57160,840202,783042
+Bangladesh,BGD,Asia,Southern Asia,1990,5076540,881617,-4194923
+Bangladesh,BGD,Asia,Southern Asia,1995,5266258,934735,-4331523
+Bangladesh,BGD,Asia,Southern Asia,2000,5287858,987853,-4300005
+Bangladesh,BGD,Asia,Southern Asia,2005,5198991,1062270,-4136721
+Bangladesh,BGD,Asia,Southern Asia,2010,6221642,1345546,-4876096
+Bangladesh,BGD,Asia,Southern Asia,2015,7883873,1422179,-6461694
+Bangladesh,BGD,Asia,Southern Asia,2020,8085347,2115408,-5969939
+Bangladesh,BGD,Asia,Southern Asia,2024,8706947,2906338,-5800609
+Barbados,BRB,Americas,Latin America and the Caribbean,1990,20659,24024,3365
+Barbados,BRB,Americas,Latin America and the Caribbean,1995,20592,26224,5632
+Barbados,BRB,Americas,Latin America and the Caribbean,2000,20249,28424,8175
+Barbados,BRB,Americas,Latin America and the Caribbean,2005,20961,30624,9663
+Barbados,BRB,Americas,Latin America and the Caribbean,2010,20844,32825,11981
+Barbados,BRB,Americas,Latin America and the Caribbean,2015,20504,34475,13971
+Barbados,BRB,Americas,Latin America and the Caribbean,2020,19564,34869,15305
+Barbados,BRB,Americas,Latin America and the Caribbean,2024,19558,35187,15629
+Belarus,BLR,Europe,Eastern Europe,1990,1768067,1248977,-519090
+Belarus,BLR,Europe,Eastern Europe,1995,1680350,1186282,-494068
+Belarus,BLR,Europe,Eastern Europe,2000,1599048,1123586,-475462
+Belarus,BLR,Europe,Eastern Europe,2005,1462091,1106982,-355109
+Belarus,BLR,Europe,Eastern Europe,2010,1310899,1090378,-220521
+Belarus,BLR,Europe,Eastern Europe,2015,1079713,1082905,3192
+Belarus,BLR,Europe,Eastern Europe,2020,919469,1067090,147621
+Belarus,BLR,Europe,Eastern Europe,2024,790232,1054604,264372
+Belgium,BEL,Europe,Western Europe,1990,312709,944340,631631
+Belgium,BEL,Europe,Western Europe,1995,305533,1003834,698301
+Belgium,BEL,Europe,Western Europe,2000,313188,1076676,763488
+Belgium,BEL,Europe,Western Europe,2005,374297,1243352,869055
+Belgium,BEL,Europe,Western Europe,2010,405732,1567639,1161907
+Belgium,BEL,Europe,Western Europe,2015,438560,1814949,1376389
+Belgium,BEL,Europe,Western Europe,2020,482561,2046975,1564414
+Belgium,BEL,Europe,Western Europe,2024,521884,2349032,1827148
+Belize,BLZ,Americas,Latin America and the Caribbean,1990,3528,30404,26876
+Belize,BLZ,Americas,Latin America and the Caribbean,1995,3627,33446,29819
+Belize,BLZ,Americas,Latin America and the Caribbean,2000,3849,36488,32639
+Belize,BLZ,Americas,Latin America and the Caribbean,2005,4380,41438,37058
+Belize,BLZ,Americas,Latin America and the Caribbean,2010,5247,46390,41143
+Belize,BLZ,Americas,Latin America and the Caribbean,2015,5970,54615,48645
+Belize,BLZ,Americas,Latin America and the Caribbean,2020,6694,62043,55349
+Belize,BLZ,Americas,Latin America and the Caribbean,2024,7383,68706,61323
+Benin,BEN,Africa,Sub-Saharan Africa,1990,226170,76751,-149419
+Benin,BEN,Africa,Sub-Saharan Africa,1995,265968,105703,-160265
+Benin,BEN,Africa,Sub-Saharan Africa,2000,321244,134655,-186589
+Benin,BEN,Africa,Sub-Saharan Africa,2005,496572,248320,-248252
+Benin,BEN,Africa,Sub-Saharan Africa,2010,533981,309225,-224756
+Benin,BEN,Africa,Sub-Saharan Africa,2015,628871,366284,-262587
+Benin,BEN,Africa,Sub-Saharan Africa,2020,678375,394276,-284099
+Benin,BEN,Africa,Sub-Saharan Africa,2024,726530,418202,-308328
+Bermuda,BMU,Americas,Northern America,1990,433,15683,15250
+Bermuda,BMU,Americas,Northern America,1995,473,16676,16203
+Bermuda,BMU,Americas,Northern America,2000,537,17684,17147
+Bermuda,BMU,Americas,Northern America,2005,638,18108,17470
+Bermuda,BMU,Americas,Northern America,2010,748,18547,17799
+Bermuda,BMU,Americas,Northern America,2015,871,19212,18341
+Bermuda,BMU,Americas,Northern America,2020,1051,19739,18688
+Bermuda,BMU,Americas,Northern America,2024,1100,20171,19071
+Bhutan,BTN,Asia,Southern Asia,1990,27169,23807,-3362
+Bhutan,BTN,Asia,Southern Asia,1995,117210,27972,-89238
+Bhutan,BTN,Asia,Southern Asia,2000,119788,32137,-87651
+Bhutan,BTN,Asia,Southern Asia,2005,117140,40279,-76861
+Bhutan,BTN,Asia,Southern Asia,2010,88335,48420,-39915
+Bhutan,BTN,Asia,Southern Asia,2015,47807,51106,3299
+Bhutan,BTN,Asia,Southern Asia,2020,52339,53612,1273
+Bhutan,BTN,Asia,Southern Asia,2024,66145,55705,-10440
+Bolivia,BOL,Americas,Latin America and the Caribbean,1990,199843,73758,-126085
+Bolivia,BOL,Americas,Latin America and the Caribbean,1995,236253,83598,-152655
+Bolivia,BOL,Americas,Latin America and the Caribbean,2000,281557,92658,-188899
+Bolivia,BOL,Americas,Latin America and the Caribbean,2005,456266,107745,-348521
+Bolivia,BOL,Americas,Latin America and the Caribbean,2010,648912,122846,-526066
+Bolivia,BOL,Americas,Latin America and the Caribbean,2015,646591,143008,-503583
+Bolivia,BOL,Americas,Latin America and the Caribbean,2020,744014,164121,-579893
+Bolivia,BOL,Americas,Latin America and the Caribbean,2024,783473,183234,-600239
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,1990,2852,12930,10078
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,1995,2947,13508,10561
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2000,3052,14233,11181
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2005,3016,16980,13964
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2010,2883,20559,17676
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2015,3100,24610,21510
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2020,3524,26454,22930
+"Bonaire, Sint Eustatius and Saba",BES,Americas,Latin America and the Caribbean,2024,4744,30676,25932
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,1990,1108999,56000,-1052999
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,1995,1705561,69476,-1636085
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2000,1624537,82952,-1541585
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2005,1494812,47287,-1447525
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2010,1481062,38945,-1442117
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2015,1477261,38597,-1438664
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2020,1542552,36042,-1506510
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2024,1608324,34120,-1574204
+Botswana,BWA,Africa,Sub-Saharan Africa,1990,23982,27510,3528
+Botswana,BWA,Africa,Sub-Saharan Africa,1995,17487,40168,22681
+Botswana,BWA,Africa,Sub-Saharan Africa,2000,22155,74934,52779
+Botswana,BWA,Africa,Sub-Saharan Africa,2005,22158,84661,62503
+Botswana,BWA,Africa,Sub-Saharan Africa,2010,19869,94863,74994
+Botswana,BWA,Africa,Sub-Saharan Africa,2015,18161,103053,84892
+Botswana,BWA,Africa,Sub-Saharan Africa,2020,17397,110268,92871
+Botswana,BWA,Africa,Sub-Saharan Africa,2024,16731,116402,99671
+Brazil,BRA,Americas,Latin America and the Caribbean,1990,446721,803218,356497
+Brazil,BRA,Americas,Latin America and the Caribbean,1995,626103,732622,106519
+Brazil,BRA,Americas,Latin America and the Caribbean,2000,902341,687362,-214979
+Brazil,BRA,Americas,Latin America and the Caribbean,2005,1215342,641029,-574313
+Brazil,BRA,Americas,Latin America and the Caribbean,2010,1365997,596859,-769138
+Brazil,BRA,Americas,Latin America and the Caribbean,2015,1402267,646540,-755727
+Brazil,BRA,Americas,Latin America and the Caribbean,2020,1854912,1048866,-806046
+Brazil,BRA,Americas,Latin America and the Caribbean,2024,2194325,1406299,-788026
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,1990,3832,8035,4203
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,1995,3930,10046,6116
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2000,4053,12958,8905
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2005,3678,15016,11338
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2010,4534,17076,12542
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2015,4874,19535,14661
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2020,5543,22164,16621
+British Virgin Islands,VGB,Americas,Latin America and the Caribbean,2024,6185,24520,18335
+Brunei Darussalam,BRN,Asia,South-eastern Asia,1990,31408,73200,41792
+Brunei Darussalam,BRN,Asia,South-eastern Asia,1995,44425,84748,40323
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2000,45229,96296,51067
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2005,45524,98441,52917
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2010,45555,100587,55032
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2015,45924,102733,56809
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2020,46349,111959,65610
+Brunei Darussalam,BRN,Asia,South-eastern Asia,2024,46552,119933,73381
+Bulgaria,BGR,Europe,Eastern Europe,1990,597707,21510,-576197
+Bulgaria,BGR,Europe,Eastern Europe,1995,661065,32435,-628630
+Bulgaria,BGR,Europe,Eastern Europe,2000,707846,43360,-664486
+Bulgaria,BGR,Europe,Eastern Europe,2005,808373,61074,-747299
+Bulgaria,BGR,Europe,Eastern Europe,2010,926056,76287,-849769
+Bulgaria,BGR,Europe,Eastern Europe,2015,1030383,123803,-906580
+Bulgaria,BGR,Europe,Eastern Europe,2020,1178732,184363,-994369
+Bulgaria,BGR,Europe,Eastern Europe,2024,1252234,299100,-953134
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,1990,1015890,349652,-666238
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,1995,1152082,464104,-687978
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2000,1297567,520363,-777204
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2005,1443306,597658,-845648
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2010,1601296,674438,-926858
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2015,1759971,704676,-1055295
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2020,1919400,723989,-1195411
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2024,2050050,739820,-1310230
+Burundi,BDI,Africa,Sub-Saharan Africa,1990,342568,333110,-9458
+Burundi,BDI,Africa,Sub-Saharan Africa,1995,549487,254853,-294634
+Burundi,BDI,Africa,Sub-Saharan Africa,2000,802113,125628,-676485
+Burundi,BDI,Africa,Sub-Saharan Africa,2005,651030,192774,-458256
+Burundi,BDI,Africa,Sub-Saharan Africa,2010,290788,247321,-43467
+Burundi,BDI,Africa,Sub-Saharan Africa,2015,444013,298299,-145714
+Burundi,BDI,Africa,Sub-Saharan Africa,2020,552134,344767,-207367
+Burundi,BDI,Africa,Sub-Saharan Africa,2024,576530,387101,-189429
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,1990,51800,8931,-42869
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,1995,63673,9979,-53694
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2000,76121,11027,-65094
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2005,92475,12700,-79775
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2010,99281,14373,-84908
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2015,116450,14924,-101526
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2020,133491,15788,-117703
+Cabo Verde,CPV,Africa,Sub-Saharan Africa,2024,146396,16515,-129881
+Cambodia,KHM,Asia,South-eastern Asia,1990,261096,38375,-222721
+Cambodia,KHM,Asia,South-eastern Asia,1995,282803,92230,-190573
+Cambodia,KHM,Asia,South-eastern Asia,2000,316497,146085,-170412
+Cambodia,KHM,Asia,South-eastern Asia,2005,455076,114096,-340980
+Cambodia,KHM,Asia,South-eastern Asia,2010,613439,82028,-531411
+Cambodia,KHM,Asia,South-eastern Asia,2015,674059,73962,-600097
+Cambodia,KHM,Asia,South-eastern Asia,2020,726096,79341,-646755
+Cambodia,KHM,Asia,South-eastern Asia,2024,778793,83925,-694868
+Cameroon,CMR,Africa,Sub-Saharan Africa,1990,92391,265967,173576
+Cameroon,CMR,Africa,Sub-Saharan Africa,1995,108473,244791,136318
+Cameroon,CMR,Africa,Sub-Saharan Africa,2000,131985,227242,95257
+Cameroon,CMR,Africa,Sub-Saharan Africa,2005,167265,265503,98238
+Cameroon,CMR,Africa,Sub-Saharan Africa,2010,214405,291474,77069
+Cameroon,CMR,Africa,Sub-Saharan Africa,2015,275824,508346,232522
+Cameroon,CMR,Africa,Sub-Saharan Africa,2020,357087,579209,222122
+Cameroon,CMR,Africa,Sub-Saharan Africa,2024,409677,642948,233271
+Canada,CAN,Americas,Northern America,1990,1114493,4251056,3136563
+Canada,CAN,Americas,Northern America,1995,1273577,4853738,3580161
+Canada,CAN,Americas,Northern America,2000,1248046,5525404,4277358
+Canada,CAN,Americas,Northern America,2005,1255998,6086976,4830978
+Canada,CAN,Americas,Northern America,2010,1255259,7035001,5779742
+Canada,CAN,Americas,Northern America,2015,1307957,8049874,6741917
+Canada,CAN,Americas,Northern America,2020,1310121,8332892,7022771
+Canada,CAN,Americas,Northern America,2024,1347381,8805839,7458458
+Caribbean,,,,1990,3701573,1098014,-2603559
+Caribbean,,,,1995,4478041,1186981,-3291060
+Caribbean,,,,2000,5176801,1283729,-3893072
+Caribbean,,,,2005,5740662,1321462,-4419200
+Caribbean,,,,2010,6767416,1338511,-5428905
+Caribbean,,,,2015,7756792,1501120,-6255672
+Caribbean,,,,2020,8763992,1605381,-7158611
+Caribbean,,,,2024,9578534,1811926,-7766608
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,1990,125,9315,9190
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,1995,130,12666,12536
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2000,146,19176,19030
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2005,179,20679,20500
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2010,248,24062,23814
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2015,381,26193,25812
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2020,549,29242,28693
+Cayman Islands,CYM,Americas,Latin America and the Caribbean,2024,609,31935,31326
+Central African Republic,CAF,Africa,Sub-Saharan Africa,1990,37143,67234,30091
+Central African Republic,CAF,Africa,Sub-Saharan Africa,1995,39510,99712,60202
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2000,44980,123529,78549
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2005,115287,96409,-18878
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2010,228473,94685,-133788
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2015,666056,81568,-584488
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2020,794362,88546,-705816
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2024,905808,94556,-811252
+Central America,,,,1990,6641926,1835750,-4806176
+Central America,,,,1995,9481989,1298418,-8183571
+Central America,,,,2000,11826660,1095698,-10730962
+Central America,,,,2005,14379127,1367196,-13011931
+Central America,,,,2010,15814764,1738911,-14075853
+Central America,,,,2015,16402048,1935255,-14466793
+Central America,,,,2020,16455194,2439531,-14015663
+Central America,,,,2024,17447447,3120680,-14326767
+Central Asia,,,,1990,6080895,6300541,219646
+Central Asia,,,,1995,6395294,4912782,-1482512
+Central Asia,,,,2000,6674793,4048262,-2626531
+Central Asia,,,,2005,7167297,3978487,-3188810
+Central Asia,,,,2010,7438419,3786871,-3651548
+Central Asia,,,,2015,6905656,3766652,-3139004
+Central Asia,,,,2020,6609180,3822237,-2786943
+Central Asia,,,,2024,6331890,3910116,-2421774
+Central and Southern Asia,,,,1990,30342957,25456471,-4886486
+Central and Southern Asia,,,,1995,27930630,20140424,-7790206
+Central and Southern Asia,,,,2000,30008559,18979217,-11029342
+Central and Southern Asia,,,,2005,32445580,17615413,-14830167
+Central and Southern Asia,,,,2010,39400759,18225935,-21174824
+Central and Southern Asia,,,,2015,46011893,17681574,-28330319
+Central and Southern Asia,,,,2020,48594959,17736883,-30858076
+Central and Southern Asia,,,,2024,53948417,20369652,-33578765
+Chad,TCD,Africa,Sub-Saharan Africa,1990,329970,74342,-255628
+Chad,TCD,Africa,Sub-Saharan Africa,1995,217609,89584,-128025
+Chad,TCD,Africa,Sub-Saharan Africa,2000,202762,104825,-97937
+Chad,TCD,Africa,Sub-Saharan Africa,2005,201982,352130,150148
+Chad,TCD,Africa,Sub-Saharan Africa,2010,191459,417034,225575
+Chad,TCD,Africa,Sub-Saharan Africa,2015,179293,466968,287675
+Chad,TCD,Africa,Sub-Saharan Africa,2020,208110,547494,339384
+Chad,TCD,Africa,Sub-Saharan Africa,2024,292298,1269673,977375
+Channel Islands,,,,1990,285,61660,61375
+Channel Islands,,,,1995,279,60519,60240
+Channel Islands,,,,2000,312,64301,63989
+Channel Islands,,,,2005,306,70941,70635
+Channel Islands,,,,2010,381,77581,77200
+Channel Islands,,,,2015,297,82307,82010
+Channel Islands,,,,2020,320,84087,83767
+Channel Islands,,,,2024,351,85539,85188
+Chile,CHL,Americas,Latin America and the Caribbean,1990,390979,100133,-290846
+Chile,CHL,Americas,Latin America and the Caribbean,1995,391356,125754,-265602
+Chile,CHL,Americas,Latin America and the Caribbean,2000,393879,166608,-227271
+Chile,CHL,Americas,Latin America and the Caribbean,2005,419855,241522,-178333
+Chile,CHL,Americas,Latin America and the Caribbean,2010,435797,361531,-74266
+Chile,CHL,Americas,Latin America and the Caribbean,2015,419035,598039,179004
+Chile,CHL,Americas,Latin America and the Caribbean,2020,423400,1476240,1052840
+Chile,CHL,Americas,Latin America and the Caribbean,2024,444451,1538324,1093873
+China,CHN,Asia,Eastern Asia,1990,3990935,518395,-3472540
+China,CHN,Asia,Eastern Asia,1995,4676354,610608,-4065746
+China,CHN,Asia,Eastern Asia,2000,5668480,720915,-4947565
+China,CHN,Asia,Eastern Asia,2005,6892920,853360,-6039560
+China,CHN,Asia,Eastern Asia,2010,8773150,1010008,-7763142
+China,CHN,Asia,Eastern Asia,2015,10357962,1196007,-9161955
+China,CHN,Asia,Eastern Asia,2020,11169868,1415116,-9754752
+China,CHN,Asia,Eastern Asia,2024,11701619,1638718,-10062901
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,1990,569282,2218473,1649191
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,1995,682700,2443798,1761098
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2000,818107,2669122,1851015
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2005,849440,2721235,1871795
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2010,903793,2779950,1876157
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2015,1031087,2841113,1810026
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2020,1146271,2962492,1816221
+"China, Hong Kong SAR",HKG,Asia,Eastern Asia,2024,1240250,3063318,1823068
+"China, Macao SAR",MAC,Asia,Eastern Asia,1990,73961,205047,131086
+"China, Macao SAR",MAC,Asia,Eastern Asia,1995,79787,224929,145142
+"China, Macao SAR",MAC,Asia,Eastern Asia,2000,86316,240791,154475
+"China, Macao SAR",MAC,Asia,Eastern Asia,2005,93169,279308,186139
+"China, Macao SAR",MAC,Asia,Eastern Asia,2010,101050,318506,217456
+"China, Macao SAR",MAC,Asia,Eastern Asia,2015,116399,376066,259667
+"China, Macao SAR",MAC,Asia,Eastern Asia,2020,139129,403490,264361
+"China, Macao SAR",MAC,Asia,Eastern Asia,2024,149247,426862,277615
+"China, Taiwan Province of China",,,,1990,388755,66378,-322377
+"China, Taiwan Province of China",,,,1995,429257,246682,-182575
+"China, Taiwan Province of China",,,,2000,593675,450366,-143309
+"China, Taiwan Province of China",,,,2005,645094,548367,-96727
+"China, Taiwan Province of China",,,,2010,723110,587646,-135464
+"China, Taiwan Province of China",,,,2015,801098,866324,65226
+"China, Taiwan Province of China",,,,2020,810609,1055191,244582
+"China, Taiwan Province of China",,,,2024,832507,1136425,303918
+Colombia,COL,Americas,Latin America and the Caribbean,1990,1000769,100672,-900097
+Colombia,COL,Americas,Latin America and the Caribbean,1995,1181011,109550,-1071461
+Colombia,COL,Americas,Latin America and the Caribbean,2000,1469973,109863,-1360110
+Colombia,COL,Americas,Latin America and the Caribbean,2005,1823207,110495,-1712712
+Colombia,COL,Americas,Latin America and the Caribbean,2010,2558298,126424,-2431874
+Colombia,COL,Americas,Latin America and the Caribbean,2015,2720321,145504,-2574817
+Colombia,COL,Americas,Latin America and the Caribbean,2020,3165293,1932807,-1232486
+Colombia,COL,Americas,Latin America and the Caribbean,2024,3652238,3063518,-588720
+Comoros,COM,Africa,Sub-Saharan Africa,1990,32522,14079,-18443
+Comoros,COM,Africa,Sub-Saharan Africa,1995,48072,13939,-34133
+Comoros,COM,Africa,Sub-Saharan Africa,2000,73404,13799,-59605
+Comoros,COM,Africa,Sub-Saharan Africa,2005,97008,13209,-83799
+Comoros,COM,Africa,Sub-Saharan Africa,2010,111510,12618,-98892
+Comoros,COM,Africa,Sub-Saharan Africa,2015,188715,12555,-176160
+Comoros,COM,Africa,Sub-Saharan Africa,2020,260848,12496,-248352
+Comoros,COM,Africa,Sub-Saharan Africa,2024,367574,12449,-355125
+Congo,COG,Africa,Sub-Saharan Africa,1990,64367,129391,65024
+Congo,COG,Africa,Sub-Saharan Africa,1995,88142,191635,103493
+Congo,COG,Africa,Sub-Saharan Africa,2000,118262,305880,187618
+Congo,COG,Africa,Sub-Saharan Africa,2005,160242,318724,158482
+Congo,COG,Africa,Sub-Saharan Africa,2010,169150,425173,256023
+Congo,COG,Africa,Sub-Saharan Africa,2015,201319,390142,188823
+Congo,COG,Africa,Sub-Saharan Africa,2020,220301,387606,167305
+Congo,COG,Africa,Sub-Saharan Africa,2024,231080,385589,154509
+Cook Islands,COK,Oceania,Polynesia,1990,17630,2587,-15043
+Cook Islands,COK,Oceania,Polynesia,1995,16916,2686,-14230
+Cook Islands,COK,Oceania,Polynesia,2000,19708,2785,-16923
+Cook Islands,COK,Oceania,Polynesia,2005,20294,3277,-17017
+Cook Islands,COK,Oceania,Polynesia,2010,20294,3769,-16525
+Cook Islands,COK,Oceania,Polynesia,2015,20558,4168,-16390
+Cook Islands,COK,Oceania,Polynesia,2020,20134,4579,-15555
+Cook Islands,COK,Oceania,Polynesia,2024,20288,4937,-15351
+Costa Rica,CRI,Americas,Latin America and the Caribbean,1990,22922,417628,394706
+Costa Rica,CRI,Americas,Latin America and the Caribbean,1995,22763,364287,341524
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2000,26493,310946,284453
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2005,30258,358398,328140
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2010,34241,405779,371538
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2015,39023,411697,372674
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2020,43504,520729,477225
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2024,50982,628404,577422
+Croatia,HRV,Europe,Southern Europe,1990,840829,475438,-365391
+Croatia,HRV,Europe,Southern Europe,1995,1056934,674085,-382849
+Croatia,HRV,Europe,Southern Europe,2000,1196319,585298,-611021
+Croatia,HRV,Europe,Southern Europe,2005,990980,579273,-411707
+Croatia,HRV,Europe,Southern Europe,2010,847561,573248,-274313
+Croatia,HRV,Europe,Southern Europe,2015,802347,561093,-241254
+Croatia,HRV,Europe,Southern Europe,2020,825039,528056,-296983
+Croatia,HRV,Europe,Southern Europe,2024,826166,527831,-298335
+Cuba,CUB,Americas,Latin America and the Caribbean,1990,839585,34555,-805030
+Cuba,CUB,Americas,Latin America and the Caribbean,1995,917722,26187,-891535
+Cuba,CUB,Americas,Latin America and the Caribbean,2000,1032762,18545,-1014217
+Cuba,CUB,Americas,Latin America and the Caribbean,2005,1093555,11693,-1081862
+Cuba,CUB,Americas,Latin America and the Caribbean,2010,1337631,7373,-1330258
+Cuba,CUB,Americas,Latin America and the Caribbean,2015,1519397,4649,-1514748
+Cuba,CUB,Americas,Latin America and the Caribbean,2020,1721822,3024,-1718798
+Cuba,CUB,Americas,Latin America and the Caribbean,2024,1879613,2144,-1877469
+Curaçao,CUW,Americas,Latin America and the Caribbean,1990,3029,43150,40121
+Curaçao,CUW,Americas,Latin America and the Caribbean,1995,3779,43150,39371
+Curaçao,CUW,Americas,Latin America and the Caribbean,2000,4701,43150,38449
+Curaçao,CUW,Americas,Latin America and the Caribbean,2005,4329,43150,38821
+Curaçao,CUW,Americas,Latin America and the Caribbean,2010,5354,34630,29276
+Curaçao,CUW,Americas,Latin America and the Caribbean,2015,5861,37611,31750
+Curaçao,CUW,Americas,Latin America and the Caribbean,2020,7666,57210,49544
+Curaçao,CUW,Americas,Latin America and the Caribbean,2024,10103,80020,69917
+Cyprus,CYP,Asia,Western Asia,1990,87065,43805,-43260
+Cyprus,CYP,Asia,Western Asia,1995,74433,61941,-12492
+Cyprus,CYP,Asia,Western Asia,2000,63149,80076,16927
+Cyprus,CYP,Asia,Western Asia,2005,65886,122849,56963
+Cyprus,CYP,Asia,Western Asia,2010,68736,188472,119736
+Cyprus,CYP,Asia,Western Asia,2015,70451,176693,106242
+Cyprus,CYP,Asia,Western Asia,2020,75728,190366,114638
+Cyprus,CYP,Asia,Western Asia,2024,80760,202062,121302
+Czechia,CZE,Europe,Eastern Europe,1990,532885,442428,-90457
+Czechia,CZE,Europe,Eastern Europe,1995,585124,531039,-54085
+Czechia,CZE,Europe,Eastern Europe,2000,615436,639018,23582
+Czechia,CZE,Europe,Eastern Europe,2005,650527,670689,20162
+Czechia,CZE,Europe,Eastern Europe,2010,660378,692197,31819
+Czechia,CZE,Europe,Eastern Europe,2015,624517,688047,63530
+Czechia,CZE,Europe,Eastern Europe,2020,584341,680221,95880
+Czechia,CZE,Europe,Eastern Europe,2024,583214,1025199,441985
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,1990,353717,1822374,1468657
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,1995,433736,1992981,1559245
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2000,525165,2157339,1632174
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2005,698103,2308068,1609965
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2010,902169,2458796,1556627
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2015,1025536,2609525,1583989
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2020,1129849,2760255,1630406
+Côte d'Ivoire,CIV,Africa,Sub-Saharan Africa,2024,1211422,2880839,1669417
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,1990,31450,34103,2653
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,1995,33120,35143,2023
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2000,34814,36183,1369
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2005,39887,40097,210
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2010,49563,44010,-5553
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2015,56701,48458,-8243
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2020,50879,49549,-1330
+Dem. People's Republic of Korea,PRK,Asia,Eastern Asia,2024,46379,50439,4060
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,1990,393133,754194,361061
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,1995,505090,1816963,1311873
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2000,794799,744387,-50412
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2005,1097069,623009,-474060
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2010,1242847,589882,-652965
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2015,1512153,810018,-702135
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2020,1916852,952871,-963981
+Democratic Republic of the Congo,COD,Africa,Sub-Saharan Africa,2024,2097387,1085090,-1012297
+Denmark,DNK,Europe,Northern Europe,1990,124563,235918,111355
+Denmark,DNK,Europe,Northern Europe,1995,117007,298278,181271
+Denmark,DNK,Europe,Northern Europe,2000,113952,372128,258176
+Denmark,DNK,Europe,Northern Europe,2005,120534,423167,302633
+Denmark,DNK,Europe,Northern Europe,2010,124567,509751,385184
+Denmark,DNK,Europe,Northern Europe,2015,123297,616741,493444
+Denmark,DNK,Europe,Northern Europe,2020,120852,718856,598004
+Denmark,DNK,Europe,Northern Europe,2024,124665,847475,722810
+Djibouti,DJI,Africa,Sub-Saharan Africa,1990,1963,122221,120258
+Djibouti,DJI,Africa,Sub-Saharan Africa,1995,20005,99774,79769
+Djibouti,DJI,Africa,Sub-Saharan Africa,2000,3751,100507,96756
+Djibouti,DJI,Africa,Sub-Saharan Africa,2005,2421,92110,89689
+Djibouti,DJI,Africa,Sub-Saharan Africa,2010,2577,102307,99730
+Djibouti,DJI,Africa,Sub-Saharan Africa,2015,2537,112351,109814
+Djibouti,DJI,Africa,Sub-Saharan Africa,2020,2866,119738,116872
+Djibouti,DJI,Africa,Sub-Saharan Africa,2024,3576,125996,122420
+Dominica,DMA,Americas,Latin America and the Caribbean,1990,18686,2519,-16167
+Dominica,DMA,Americas,Latin America and the Caribbean,1995,20457,3121,-17336
+Dominica,DMA,Americas,Latin America and the Caribbean,2000,22406,3723,-18683
+Dominica,DMA,Americas,Latin America and the Caribbean,2005,21077,4744,-16333
+Dominica,DMA,Americas,Latin America and the Caribbean,2010,20788,8110,-12678
+Dominica,DMA,Americas,Latin America and the Caribbean,2015,21079,8093,-12986
+Dominica,DMA,Americas,Latin America and the Caribbean,2020,20838,8284,-12554
+Dominica,DMA,Americas,Latin America and the Caribbean,2024,21384,8440,-12944
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,1990,462285,291151,-171134
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,1995,657381,323381,-334000
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2000,845469,355611,-489858
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2005,962450,375417,-587033
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2010,1212240,395479,-816761
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2015,1454378,549289,-905089
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2020,1691232,603794,-1087438
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2024,1917153,738667,-1178486
+EUROPE,,,,1990,48816635,51464935,2648300
+EUROPE,,,,1995,49011046,56456601,7445555
+EUROPE,,,,2000,47036377,59184839,12148462
+EUROPE,,,,2005,47859866,65793082,17933216
+EUROPE,,,,2010,50482631,72509226,22026595
+EUROPE,,,,2015,51758410,75711153,23952743
+EUROPE,,,,2020,53490838,82971932,29481094
+EUROPE,,,,2024,60981166,94051503,33070337
+Eastern Africa,,,,1990,7092040,6347780,-744260
+Eastern Africa,,,,1995,7113173,5361041,-1752132
+Eastern Africa,,,,2000,5613465,5239557,-373908
+Eastern Africa,,,,2005,5591977,5141624,-450353
+Eastern Africa,,,,2010,6697584,4424112,-2273472
+Eastern Africa,,,,2015,9034394,6304660,-2729734
+Eastern Africa,,,,2020,11321072,7528179,-3792893
+Eastern Africa,,,,2024,13218873,8302733,-4916140
+Eastern Asia,,,,1990,7580664,4118088,-3462576
+Eastern Asia,,,,1995,8705066,4952397,-3752669
+Eastern Asia,,,,2000,10033956,5921878,-4112078
+Eastern Asia,,,,2005,11485152,6662116,-4823036
+Eastern Asia,,,,2010,13738877,7484060,-6254817
+Eastern Asia,,,,2015,15593781,9237513,-6356268
+Eastern Asia,,,,2020,16436131,10919614,-5516517
+Eastern Asia,,,,2024,17184244,11559387,-5624857
+Eastern Europe,,,,1990,25443190,22316123,-3127067
+Eastern Europe,,,,1995,23709242,21705675,-2003567
+Eastern Europe,,,,2000,22290370,20853646,-1436724
+Eastern Europe,,,,2005,23114441,20092493,-3021948
+Eastern Europe,,,,2010,24770817,19389898,-5380919
+Eastern Europe,,,,2015,25213204,17559211,-7653993
+Eastern Europe,,,,2020,26055890,16162524,-9893366
+Eastern Europe,,,,2024,32478382,18646093,-13832289
+Eastern and South-Eastern Asia,,,,1990,14465509,6755128,-7710381
+Eastern and South-Eastern Asia,,,,1995,17262816,8203094,-9059722
+Eastern and South-Eastern Asia,,,,2000,20822011,10530525,-10291486
+Eastern and South-Eastern Asia,,,,2005,24315849,12702261,-11613588
+Eastern and South-Eastern Asia,,,,2010,30053666,16051107,-14002559
+Eastern and South-Eastern Asia,,,,2015,34562856,18869062,-15693794
+Eastern and South-Eastern Asia,,,,2020,38223520,21161853,-17061667
+Eastern and South-Eastern Asia,,,,2024,41409235,22588980,-18820255
+Ecuador,ECU,Americas,Latin America and the Caribbean,1990,209258,139204,-70054
+Ecuador,ECU,Americas,Latin America and the Caribbean,1995,316260,145626,-170634
+Ecuador,ECU,Americas,Latin America and the Caribbean,2000,510456,150585,-359871
+Ecuador,ECU,Americas,Latin America and the Caribbean,2005,935700,144415,-791285
+Ecuador,ECU,Americas,Latin America and the Caribbean,2010,1122949,358874,-764075
+Ecuador,ECU,Americas,Latin America and the Caribbean,2015,1066457,332142,-734315
+Ecuador,ECU,Americas,Latin America and the Caribbean,2020,1118570,721560,-397010
+Ecuador,ECU,Americas,Latin America and the Caribbean,2024,1243065,747749,-495316
+Egypt,EGY,Africa,Northern Africa,1990,1630728,144713,-1486015
+Egypt,EGY,Africa,Northern Africa,1995,1750423,160802,-1589621
+Egypt,EGY,Africa,Northern Africa,2000,1921183,179364,-1741819
+Egypt,EGY,Africa,Northern Africa,2005,2371080,288944,-2082136
+Egypt,EGY,Africa,Northern Africa,2010,3213308,323177,-2890131
+Egypt,EGY,Africa,Northern Africa,2015,4193177,499292,-3693885
+Egypt,EGY,Africa,Northern Africa,2020,4454277,602472,-3851805
+Egypt,EGY,Africa,Northern Africa,2024,4820002,1139820,-3680182
+El Salvador,SLV,Americas,Latin America and the Caribbean,1990,955569,47360,-908209
+El Salvador,SLV,Americas,Latin America and the Caribbean,1995,1005420,39537,-965883
+El Salvador,SLV,Americas,Latin America and the Caribbean,2000,906731,31713,-875018
+El Salvador,SLV,Americas,Latin America and the Caribbean,2005,1108043,36029,-1072014
+El Salvador,SLV,Americas,Latin America and the Caribbean,2010,1359464,40342,-1319122
+El Salvador,SLV,Americas,Latin America and the Caribbean,2015,1541873,42059,-1499814
+El Salvador,SLV,Americas,Latin America and the Caribbean,2020,1679667,42767,-1636900
+El Salvador,SLV,Americas,Latin America and the Caribbean,2024,1834670,43342,-1791328
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,1990,27829,2740,-25089
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,1995,40029,3629,-36400
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2000,57049,4517,-52532
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2005,71228,6588,-64640
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2010,83286,8658,-74628
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2015,116053,209611,93558
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2020,127021,230618,103597
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2024,136825,248930,112105
+Eritrea,ERI,Africa,Sub-Saharan Africa,1990,156294,11848,-144446
+Eritrea,ERI,Africa,Sub-Saharan Africa,1995,370422,12400,-358022
+Eritrea,ERI,Africa,Sub-Saharan Africa,2000,505394,12952,-492442
+Eritrea,ERI,Africa,Sub-Saharan Africa,2005,267114,15905,-251209
+Eritrea,ERI,Africa,Sub-Saharan Africa,2010,283312,15813,-267499
+Eritrea,ERI,Africa,Sub-Saharan Africa,2015,478597,15941,-462656
+Eritrea,ERI,Africa,Sub-Saharan Africa,2020,663275,13934,-649341
+Eritrea,ERI,Africa,Sub-Saharan Africa,2024,912792,12512,-900280
+Estonia,EST,Europe,Northern Europe,1990,106726,381997,275271
+Estonia,EST,Europe,Northern Europe,1995,108115,315755,207640
+Estonia,EST,Europe,Northern Europe,2000,111603,249512,137909
+Estonia,EST,Europe,Northern Europe,2005,115845,233701,117856
+Estonia,EST,Europe,Northern Europe,2010,116903,217890,100987
+Estonia,EST,Europe,Northern Europe,2015,128194,194664,66470
+Estonia,EST,Europe,Northern Europe,2020,123628,199277,75649
+Estonia,EST,Europe,Northern Europe,2024,124216,203046,78830
+Eswatini,SWZ,Africa,Sub-Saharan Africa,1990,31331,74991,43660
+Eswatini,SWZ,Africa,Sub-Saharan Africa,1995,28204,35157,6953
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2000,29821,34084,4263
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2005,33323,33392,69
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2010,37292,32637,-4655
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2015,28381,32352,3971
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2020,19033,32858,13825
+Eswatini,SWZ,Africa,Sub-Saharan Africa,2024,11561,33268,21707
+Ethiopia,ETH,Africa,Sub-Saharan Africa,1990,1630810,875325,-755485
+Ethiopia,ETH,Africa,Sub-Saharan Africa,1995,727374,478712,-248662
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2000,418923,311441,-107482
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2005,493987,170773,-323214
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2010,666181,227078,-439103
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2015,896584,797374,-99210
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2020,1075343,875170,-200173
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2024,1240645,1168455,-72190
+Europe and Northern America,,,,1990,51666993,79008202,27341209
+Europe and Northern America,,,,1995,52157238,89861179,37703941
+Europe and Northern America,,,,2000,50315576,99542834,49227258
+Europe and Northern America,,,,2005,51450712,111451697,60000985
+Europe and Northern America,,,,2010,54529079,123517093,68988014
+Europe and Northern America,,,,2015,56052727,131730220,75677493
+Europe and Northern America,,,,2020,57902217,141802488,83900271
+Europe and Northern America,,,,2024,65535293,155259380,89724087
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,1990,1082,855,-227
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,1995,1839,868,-971
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2000,1525,1067,-458
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2005,1100,1166,66
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2010,414,1436,1022
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2015,193,1571,1378
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2020,106,1957,1851
+Falkland Islands (Malvinas),FLK,Americas,Latin America and the Caribbean,2024,93,2333,2240
+Faroe Islands,FRO,Europe,Northern Europe,1990,7941,4285,-3656
+Faroe Islands,FRO,Europe,Northern Europe,1995,12021,2900,-9121
+Faroe Islands,FRO,Europe,Northern Europe,2000,11640,3593,-8047
+Faroe Islands,FRO,Europe,Northern Europe,2005,11018,4583,-6435
+Faroe Islands,FRO,Europe,Northern Europe,2010,12146,5096,-7050
+Faroe Islands,FRO,Europe,Northern Europe,2015,13041,5485,-7556
+Faroe Islands,FRO,Europe,Northern Europe,2020,12048,6812,-5236
+Faroe Islands,FRO,Europe,Northern Europe,2024,12282,8101,-4181
+Fiji,FJI,Oceania,Melanesia,1990,65039,13283,-51756
+Fiji,FJI,Oceania,Melanesia,1995,78323,13001,-65322
+Fiji,FJI,Oceania,Melanesia,2000,95570,12719,-82851
+Fiji,FJI,Oceania,Melanesia,2005,117629,12434,-105195
+Fiji,FJI,Oceania,Melanesia,2010,138607,13357,-125250
+Fiji,FJI,Oceania,Melanesia,2015,158026,13751,-144275
+Fiji,FJI,Oceania,Melanesia,2020,169411,14087,-155324
+Fiji,FJI,Oceania,Melanesia,2024,181025,14362,-166663
+Finland,FIN,Europe,Northern Europe,1990,266717,63255,-203462
+Finland,FIN,Europe,Northern Europe,1995,255507,99729,-155778
+Finland,FIN,Europe,Northern Europe,2000,247766,136203,-111563
+Finland,FIN,Europe,Northern Europe,2005,236417,192169,-44248
+Finland,FIN,Europe,Northern Europe,2010,221943,228481,6538
+Finland,FIN,Europe,Northern Europe,2015,209216,314856,105640
+Finland,FIN,Europe,Northern Europe,2020,195782,386052,190270
+Finland,FIN,Europe,Northern Europe,2024,181834,514432,332598
+France,FRA,Europe,Western Europe,1990,1413608,5890023,4476415
+France,FRA,Europe,Western Europe,1995,1629553,5936326,4306773
+France,FRA,Europe,Western Europe,2000,1721390,6141350,4419960
+France,FRA,Europe,Western Europe,2005,1855042,6839877,4984835
+France,FRA,Europe,Western Europe,2010,2042164,7322210,5280046
+France,FRA,Europe,Western Europe,2015,2249670,7978076,5728406
+France,FRA,Europe,Western Europe,2020,2400208,8610719,6210511
+France,FRA,Europe,Western Europe,2024,2547158,9186757,6639599
+French Guiana,GUF,Americas,Latin America and the Caribbean,1990,3047,63612,60565
+French Guiana,GUF,Americas,Latin America and the Caribbean,1995,3257,70131,66874
+French Guiana,GUF,Americas,Latin America and the Caribbean,2000,3554,76649,73095
+French Guiana,GUF,Americas,Latin America and the Caribbean,2005,3694,86468,82774
+French Guiana,GUF,Americas,Latin America and the Caribbean,2010,3815,96288,92473
+French Guiana,GUF,Americas,Latin America and the Caribbean,2015,4106,106108,102002
+French Guiana,GUF,Americas,Latin America and the Caribbean,2020,4128,119249,115121
+French Guiana,GUF,Americas,Latin America and the Caribbean,2024,4490,130924,126434
+French Polynesia,PYF,Oceania,Polynesia,1990,3056,25830,22774
+French Polynesia,PYF,Oceania,Polynesia,1995,3544,28360,24816
+French Polynesia,PYF,Oceania,Polynesia,2000,4080,30329,26249
+French Polynesia,PYF,Oceania,Polynesia,2005,2549,32286,29737
+French Polynesia,PYF,Oceania,Polynesia,2010,1312,31640,30328
+French Polynesia,PYF,Oceania,Polynesia,2015,1674,30058,28384
+French Polynesia,PYF,Oceania,Polynesia,2020,1915,30081,28166
+French Polynesia,PYF,Oceania,Polynesia,2024,2008,30099,28091
+Gabon,GAB,Africa,Sub-Saharan Africa,1990,14265,128188,113923
+Gabon,GAB,Africa,Sub-Saharan Africa,1995,16602,171427,154825
+Gabon,GAB,Africa,Sub-Saharan Africa,2000,19695,214431,194736
+Gabon,GAB,Africa,Sub-Saharan Africa,2005,39376,233824,194448
+Gabon,GAB,Africa,Sub-Saharan Africa,2010,36042,270829,234787
+Gabon,GAB,Africa,Sub-Saharan Africa,2015,43401,378686,335285
+Gabon,GAB,Africa,Sub-Saharan Africa,2020,54053,416651,362598
+Gabon,GAB,Africa,Sub-Saharan Africa,2024,61160,449746,388586
+Gambia,GMB,Africa,Sub-Saharan Africa,1990,14218,118123,103905
+Gambia,GMB,Africa,Sub-Saharan Africa,1995,16789,150890,134101
+Gambia,GMB,Africa,Sub-Saharan Africa,2000,19940,182514,162574
+Gambia,GMB,Africa,Sub-Saharan Africa,2005,27073,181839,154766
+Gambia,GMB,Africa,Sub-Saharan Africa,2010,34151,185837,151686
+Gambia,GMB,Africa,Sub-Saharan Africa,2015,38925,192540,153615
+Gambia,GMB,Africa,Sub-Saharan Africa,2020,61390,215659,154269
+Gambia,GMB,Africa,Sub-Saharan Africa,2024,72452,236137,163685
+Georgia,GEO,Asia,Western Asia,1990,1057640,304470,-753170
+Georgia,GEO,Asia,Western Asia,1995,1031233,152235,-878998
+Georgia,GEO,Asia,Western Asia,2000,979681,76117,-903564
+Georgia,GEO,Asia,Western Asia,2005,879847,71296,-808551
+Georgia,GEO,Asia,Western Asia,2010,780487,73078,-707409
+Georgia,GEO,Asia,Western Asia,2015,637894,76685,-561209
+Georgia,GEO,Asia,Western Asia,2020,545396,79368,-466028
+Georgia,GEO,Asia,Western Asia,2024,496486,81582,-414904
+Germany,DEU,Europe,Western Europe,1990,3870620,6960112,3089492
+Germany,DEU,Europe,Western Europe,1995,4825017,9637208,4812191
+Germany,DEU,Europe,Western Europe,2000,4107120,10397459,6290339
+Germany,DEU,Europe,Western Europe,2005,4078804,11210590,7131786
+Germany,DEU,Europe,Western Europe,2010,4260810,11665950,7405140
+Germany,DEU,Europe,Western Europe,2015,4207460,12646813,8439353
+Germany,DEU,Europe,Western Europe,2020,4204441,15021300,10816859
+Germany,DEU,Europe,Western Europe,2024,4297233,16750084,12452851
+Ghana,GHA,Africa,Sub-Saharan Africa,1990,344686,164851,-179835
+Ghana,GHA,Africa,Sub-Saharan Africa,1995,361700,252879,-108821
+Ghana,GHA,Africa,Sub-Saharan Africa,2000,445447,191601,-253846
+Ghana,GHA,Africa,Sub-Saharan Africa,2005,606700,309932,-296768
+Ghana,GHA,Africa,Sub-Saharan Africa,2010,718300,337766,-380534
+Ghana,GHA,Africa,Sub-Saharan Africa,2015,846131,414744,-431387
+Ghana,GHA,Africa,Sub-Saharan Africa,2020,963019,476412,-486607
+Ghana,GHA,Africa,Sub-Saharan Africa,2024,1055494,532286,-523208
+Gibraltar,GIB,Europe,Southern Europe,1990,477,8709,8232
+Gibraltar,GIB,Europe,Southern Europe,1995,486,8381,7895
+Gibraltar,GIB,Europe,Southern Europe,2000,502,8054,7552
+Gibraltar,GIB,Europe,Southern Europe,2005,510,9211,8701
+Gibraltar,GIB,Europe,Southern Europe,2010,511,10369,9858
+Gibraltar,GIB,Europe,Southern Europe,2015,517,11065,10548
+Gibraltar,GIB,Europe,Southern Europe,2020,494,11190,10696
+Gibraltar,GIB,Europe,Southern Europe,2024,474,11291,10817
+Greece,GRC,Europe,Southern Europe,1990,878261,618139,-260122
+Greece,GRC,Europe,Southern Europe,1995,854601,857850,3249
+Greece,GRC,Europe,Southern Europe,2000,857066,1111665,254599
+Greece,GRC,Europe,Southern Europe,2005,768388,1190707,422319
+Greece,GRC,Europe,Southern Europe,2010,703538,1321149,617611
+Greece,GRC,Europe,Southern Europe,2015,759916,1242924,483008
+Greece,GRC,Europe,Southern Europe,2020,775995,1340456,564461
+Greece,GRC,Europe,Southern Europe,2024,780112,1423964,643852
+Greenland,GRL,Americas,Northern America,1990,10313,9282,-1031
+Greenland,GRL,Americas,Northern America,1995,11442,7121,-4321
+Greenland,GRL,Americas,Northern America,2000,12905,6601,-6304
+Greenland,GRL,Americas,Northern America,2005,13706,6556,-7150
+Greenland,GRL,Americas,Northern America,2010,15437,6091,-9346
+Greenland,GRL,Americas,Northern America,2015,16944,6009,-10935
+Greenland,GRL,Americas,Northern America,2020,17726,5899,-11827
+Greenland,GRL,Americas,Northern America,2024,18491,5812,-12679
+Grenada,GRD,Americas,Latin America and the Caribbean,1990,23961,4263,-19698
+Grenada,GRD,Americas,Latin America and the Caribbean,1995,23988,5544,-18444
+Grenada,GRD,Americas,Latin America and the Caribbean,2000,22073,6825,-15248
+Grenada,GRD,Americas,Latin America and the Caribbean,2005,23589,6902,-16687
+Grenada,GRD,Americas,Latin America and the Caribbean,2010,21140,6980,-14160
+Grenada,GRD,Americas,Latin America and the Caribbean,2015,21750,7057,-14693
+Grenada,GRD,Americas,Latin America and the Caribbean,2020,22210,7213,-14997
+Grenada,GRD,Americas,Latin America and the Caribbean,2024,26300,7340,-18960
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,1990,7510,65944,58434
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,1995,8368,74566,66198
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2000,9237,83188,73951
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2005,8488,89065,80577
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2010,10282,94942,84660
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2015,11416,90956,79540
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2020,11909,90206,78297
+Guadeloupe,GLP,Americas,Latin America and the Caribbean,2024,12374,89610,77236
+Guam,GUM,Oceania,Micronesia,1990,1539,69755,68216
+Guam,GUM,Oceania,Micronesia,1995,1810,71912,70102
+Guam,GUM,Oceania,Micronesia,2000,2054,74070,72016
+Guam,GUM,Oceania,Micronesia,2005,1751,74743,72992
+Guam,GUM,Oceania,Micronesia,2010,1228,75416,74188
+Guam,GUM,Oceania,Micronesia,2015,1134,76089,74955
+Guam,GUM,Oceania,Micronesia,2020,1155,80472,79317
+Guam,GUM,Oceania,Micronesia,2024,1179,84159,82980
+Guatemala,GTM,Americas,Latin America and the Caribbean,1990,323376,264257,-59119
+Guatemala,GTM,Americas,Latin America and the Caribbean,1995,429957,156188,-273769
+Guatemala,GTM,Americas,Latin America and the Caribbean,2000,545695,48119,-497576
+Guatemala,GTM,Americas,Latin America and the Caribbean,2005,737245,57214,-680031
+Guatemala,GTM,Americas,Latin America and the Caribbean,2010,919782,66386,-853396
+Guatemala,GTM,Americas,Latin America and the Caribbean,2015,1067787,74852,-992935
+Guatemala,GTM,Americas,Latin America and the Caribbean,2020,1282668,84311,-1198357
+Guatemala,GTM,Americas,Latin America and the Caribbean,2024,1460232,92732,-1367500
+Guinea,GIN,Africa,Sub-Saharan Africa,1990,334951,403621,68670
+Guinea,GIN,Africa,Sub-Saharan Africa,1995,339388,774505,435117
+Guinea,GIN,Africa,Sub-Saharan Africa,2000,339435,560075,220640
+Guinea,GIN,Africa,Sub-Saharan Africa,2005,345573,233419,-112154
+Guinea,GIN,Africa,Sub-Saharan Africa,2010,382773,178762,-204011
+Guinea,GIN,Africa,Sub-Saharan Africa,2015,416953,126657,-290296
+Guinea,GIN,Africa,Sub-Saharan Africa,2020,473409,121437,-351972
+Guinea,GIN,Africa,Sub-Saharan Africa,2024,508203,117416,-390787
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,1990,45577,15368,-30209
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,1995,57547,27961,-29586
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2000,66613,20450,-46163
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2005,73544,20902,-52642
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2010,78973,21391,-57582
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2015,86283,22333,-63950
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2020,98064,17945,-80119
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2024,103999,15064,-88935
+Guyana,GUY,Americas,Latin America and the Caribbean,1990,217690,4095,-213595
+Guyana,GUY,Americas,Latin America and the Caribbean,1995,244138,6352,-237786
+Guyana,GUY,Americas,Latin America and the Caribbean,2000,341369,8610,-332759
+Guyana,GUY,Americas,Latin America and the Caribbean,2005,386766,10868,-375898
+Guyana,GUY,Americas,Latin America and the Caribbean,2010,404368,8182,-396186
+Guyana,GUY,Americas,Latin America and the Caribbean,2015,429943,8661,-421282
+Guyana,GUY,Americas,Latin America and the Caribbean,2020,429266,31169,-398097
+Guyana,GUY,Americas,Latin America and the Caribbean,2024,469649,54175,-415474
+Haiti,HTI,Americas,Latin America and the Caribbean,1990,521381,19084,-502297
+Haiti,HTI,Americas,Latin America and the Caribbean,1995,686087,18129,-667958
+Haiti,HTI,Americas,Latin America and the Caribbean,2000,821140,17222,-803918
+Haiti,HTI,Americas,Latin America and the Caribbean,2005,958254,16360,-941894
+Haiti,HTI,Americas,Latin America and the Caribbean,2010,1157011,17182,-1139829
+Haiti,HTI,Americas,Latin America and the Caribbean,2015,1467970,18047,-1449923
+Haiti,HTI,Americas,Latin America and the Caribbean,2020,1764699,18884,-1745815
+Haiti,HTI,Americas,Latin America and the Caribbean,2024,2017692,19581,-1998111
+High-and-upper-middle-income countries,,,,1990,81754405,106669906,24915501
+High-and-upper-middle-income countries,,,,1995,90077453,119813451,29735998
+High-and-upper-middle-income countries,,,,2000,95753859,133558378,37804519
+High-and-upper-middle-income countries,,,,2005,104656175,152602542,47946367
+High-and-upper-middle-income countries,,,,2010,116731625,177327524,60595899
+High-and-upper-middle-income countries,,,,2015,121435470,202226089,80790619
+High-and-upper-middle-income countries,,,,2020,127417359,224031424,96614065
+High-and-upper-middle-income countries,,,,2024,134002869,246110417,112107548
+High-income countries,,,,1990,35523301,76960458,41437157
+High-income countries,,,,1995,38139372,90343963,52204591
+High-income countries,,,,2000,38446678,103962143,65515465
+High-income countries,,,,2005,40433979,121605675,81171696
+High-income countries,,,,2010,44410942,143669847,99258905
+High-income countries,,,,2015,46996032,165526009,118529977
+High-income countries,,,,2020,48894061,181860213,132966152
+High-income countries,,,,2024,50882892,199081732,148198840
+Holy See,VAT,Europe,Southern Europe,1990,22,726,704
+Holy See,VAT,Europe,Southern Europe,1995,30,705,675
+Holy See,VAT,Europe,Southern Europe,2000,41,691,650
+Holy See,VAT,Europe,Southern Europe,2005,52,659,607
+Holy See,VAT,Europe,Southern Europe,2010,74,621,547
+Holy See,VAT,Europe,Southern Europe,2015,128,572,444
+Holy See,VAT,Europe,Southern Europe,2020,284,528,244
+Holy See,VAT,Europe,Southern Europe,2024,313,496,183
+Honduras,HND,Americas,Latin America and the Caribbean,1990,157813,270423,112610
+Honduras,HND,Americas,Latin America and the Caribbean,1995,235452,149442,-86010
+Honduras,HND,Americas,Latin America and the Caribbean,2000,316051,28461,-287590
+Honduras,HND,Americas,Latin America and the Caribbean,2005,456501,27934,-428567
+Honduras,HND,Americas,Latin America and the Caribbean,2010,604765,27288,-577477
+Honduras,HND,Americas,Latin America and the Caribbean,2015,751534,38330,-713204
+Honduras,HND,Americas,Latin America and the Caribbean,2020,1060598,39195,-1021403
+Honduras,HND,Americas,Latin America and the Caribbean,2024,1397584,39901,-1357683
+Hungary,HUN,Europe,Eastern Europe,1990,355019,347510,-7509
+Hungary,HUN,Europe,Eastern Europe,1995,363574,322234,-41340
+Hungary,HUN,Europe,Eastern Europe,2000,359746,296957,-62789
+Hungary,HUN,Europe,Eastern Europe,2005,357651,366787,9136
+Hungary,HUN,Europe,Eastern Europe,2010,378410,436616,58206
+Hungary,HUN,Europe,Eastern Europe,2015,469269,475508,6239
+Hungary,HUN,Europe,Eastern Europe,2020,508918,584567,75649
+Hungary,HUN,Europe,Eastern Europe,2024,538794,689565,150771
+Iceland,ISL,Europe,Northern Europe,1990,6586,9584,2998
+Iceland,ISL,Europe,Northern Europe,1995,8745,12738,3993
+Iceland,ISL,Europe,Northern Europe,2000,11709,15892,4183
+Iceland,ISL,Europe,Northern Europe,2005,13497,25492,11995
+Iceland,ISL,Europe,Northern Europe,2010,16404,35091,18687
+Iceland,ISL,Europe,Northern Europe,2015,19596,39072,19476
+Iceland,ISL,Europe,Northern Europe,2020,20887,65424,44537
+Iceland,ISL,Europe,Northern Europe,2024,23326,98818,75492
+India,IND,Asia,Southern Asia,1990,6575416,7212791,637375
+India,IND,Asia,Southern Asia,1995,6900228,6836861,-63367
+India,IND,Asia,Southern Asia,2000,7778792,6391543,-1387249
+India,IND,Asia,Southern Asia,2005,9500673,5954999,-3545674
+India,IND,Asia,Southern Asia,2010,12350515,5601237,-6749278
+India,IND,Asia,Southern Asia,2015,15277263,5252296,-10024967
+India,IND,Asia,Southern Asia,2020,16532761,4929816,-11602945
+India,IND,Asia,Southern Asia,2024,18533845,4796255,-13737590
+Indonesia,IDN,Asia,South-eastern Asia,1990,1309876,92058,-1217818
+Indonesia,IDN,Asia,South-eastern Asia,1995,1664243,114419,-1549824
+Indonesia,IDN,Asia,South-eastern Asia,2000,2128328,287645,-1840683
+Indonesia,IDN,Asia,South-eastern Asia,2005,2406449,87508,-2318941
+Indonesia,IDN,Asia,South-eastern Asia,2010,3031600,113288,-2918312
+Indonesia,IDN,Asia,South-eastern Asia,2015,3269321,192119,-3077202
+Indonesia,IDN,Asia,South-eastern Asia,2020,3446736,306702,-3140034
+Indonesia,IDN,Asia,South-eastern Asia,2024,3745148,445726,-3299422
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,1990,604892,4291601,3686709
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,1995,701961,2937668,2235707
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2000,835113,2476469,1641356
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2005,875530,2552206,1676676
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2010,1028854,2722397,1693543
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2015,1163612,2729939,1566327
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2020,1442650,2797235,1354585
+Iran (Islamic Republic of),IRN,Asia,Southern Asia,2024,1733468,3840654,2107186
+Iraq,IRQ,Asia,Western Asia,1990,598492,83638,-514854
+Iraq,IRQ,Asia,Western Asia,1995,647345,199460,-447885
+Iraq,IRQ,Asia,Western Asia,2000,825369,210525,-614844
+Iraq,IRQ,Asia,Western Asia,2005,1202149,134863,-1067286
+Iraq,IRQ,Asia,Western Asia,2010,2697913,120466,-2577447
+Iraq,IRQ,Asia,Western Asia,2015,1652951,359352,-1293599
+Iraq,IRQ,Asia,Western Asia,2020,2282773,365766,-1917007
+Iraq,IRQ,Asia,Western Asia,2024,2313028,370980,-1942048
+Ireland,IRL,Europe,Northern Europe,1990,927001,227783,-699218
+Ireland,IRL,Europe,Northern Europe,1995,905239,247379,-657860
+Ireland,IRL,Europe,Northern Europe,2000,809826,376321,-433505
+Ireland,IRL,Europe,Northern Europe,2005,764001,620579,-143422
+Ireland,IRL,Europe,Northern Europe,2010,765462,751381,-14081
+Ireland,IRL,Europe,Northern Europe,2015,762324,802470,40146
+Ireland,IRL,Europe,Northern Europe,2020,729636,951686,222050
+Ireland,IRL,Europe,Northern Europe,2024,714405,1216237,501832
+Isle of Man,IMN,Europe,Northern Europe,1990,699,34769,34070
+Isle of Man,IMN,Europe,Northern Europe,1995,724,36886,36162
+Isle of Man,IMN,Europe,Northern Europe,2000,720,39002,38282
+Isle of Man,IMN,Europe,Northern Europe,2005,769,41475,40706
+Isle of Man,IMN,Europe,Northern Europe,2010,889,43447,42558
+Isle of Man,IMN,Europe,Northern Europe,2015,838,42238,41400
+Isle of Man,IMN,Europe,Northern Europe,2020,920,43040,42120
+Isle of Man,IMN,Europe,Northern Europe,2024,908,43693,42785
+Israel,ISR,Asia,Western Asia,1990,263368,1622505,1359137
+Israel,ISR,Asia,Western Asia,1995,321435,1781111,1459676
+Israel,ISR,Asia,Western Asia,2000,290092,1838155,1548063
+Israel,ISR,Asia,Western Asia,2005,297140,1881017,1583877
+Israel,ISR,Asia,Western Asia,2010,300419,1953214,1652795
+Israel,ISR,Asia,Western Asia,2015,301155,2019891,1718736
+Israel,ISR,Asia,Western Asia,2020,312533,2068830,1756297
+Israel,ISR,Asia,Western Asia,2024,324804,2091569,1766765
+Italy,ITA,Europe,Southern Europe,1990,3354372,1529367,-1825005
+Italy,ITA,Europe,Southern Europe,1995,3154012,1810642,-1343370
+Italy,ITA,Europe,Southern Europe,2000,2998648,2143259,-855389
+Italy,ITA,Europe,Southern Europe,2005,2751018,3285903,534885
+Italy,ITA,Europe,Southern Europe,2010,2666862,4719233,2052371
+Italy,ITA,Europe,Southern Europe,2015,2756727,5506199,2749472
+Italy,ITA,Europe,Southern Europe,2020,2886481,6223851,3337370
+Italy,ITA,Europe,Southern Europe,2024,2941444,6553671,3612227
+Jamaica,JAM,Americas,Latin America and the Caribbean,1990,611422,20475,-590947
+Jamaica,JAM,Americas,Latin America and the Caribbean,1995,811937,22713,-789224
+Jamaica,JAM,Americas,Latin America and the Caribbean,2000,833377,24952,-808425
+Jamaica,JAM,Americas,Latin America and the Caribbean,2005,895828,24284,-871544
+Jamaica,JAM,Americas,Latin America and the Caribbean,2010,1005109,23677,-981432
+Jamaica,JAM,Americas,Latin America and the Caribbean,2015,1084528,23165,-1061363
+Jamaica,JAM,Americas,Latin America and the Caribbean,2020,1175941,23629,-1152312
+Jamaica,JAM,Americas,Latin America and the Caribbean,2024,1248512,24007,-1224505
+Japan,JPN,Asia,Eastern Asia,1990,710783,1050475,339692
+Japan,JPN,Asia,Eastern Asia,1995,911486,1331094,419608
+Japan,JPN,Asia,Eastern Asia,2000,846780,1651869,805089
+Japan,JPN,Asia,Eastern Asia,2005,864518,1976528,1112010
+Japan,JPN,Asia,Eastern Asia,2010,909212,2161780,1252568
+Japan,JPN,Asia,Eastern Asia,2015,943736,2577487,1633751
+Japan,JPN,Asia,Eastern Asia,2020,926826,3289042,2362216
+Japan,JPN,Asia,Eastern Asia,2024,1008173,3409529,2401356
+Jordan,JOR,Asia,Western Asia,1990,265920,1131529,865609
+Jordan,JOR,Asia,Western Asia,1995,292015,1511664,1219649
+Jordan,JOR,Asia,Western Asia,2000,324675,1834160,1509485
+Jordan,JOR,Asia,Western Asia,2005,384315,2229368,1845053
+Jordan,JOR,Asia,Western Asia,2010,486197,3723368,3237171
+Jordan,JOR,Asia,Western Asia,2015,582220,4386976,3804756
+Jordan,JOR,Asia,Western Asia,2020,609679,4940142,4330463
+Jordan,JOR,Asia,Western Asia,2024,659204,5280168,4620964
+Kazakhstan,KAZ,Asia,Central Asia,1990,3178221,3289058,110837
+Kazakhstan,KAZ,Asia,Central Asia,1995,3270367,2259955,-1010412
+Kazakhstan,KAZ,Asia,Central Asia,2000,3407178,1733374,-1673804
+Kazakhstan,KAZ,Asia,Central Asia,2005,3648310,1845637,-1802673
+Kazakhstan,KAZ,Asia,Central Asia,2010,3753542,1856870,-1896672
+Kazakhstan,KAZ,Asia,Central Asia,2015,3348874,1919920,-1428954
+Kazakhstan,KAZ,Asia,Central Asia,2020,3029566,1990268,-1039298
+Kazakhstan,KAZ,Asia,Central Asia,2024,2796572,2089797,-706775
+Kenya,KEN,Africa,Sub-Saharan Africa,1990,238008,298089,60081
+Kenya,KEN,Africa,Sub-Saharan Africa,1995,249228,618745,369517
+Kenya,KEN,Africa,Sub-Saharan Africa,2000,296430,707852,411422
+Kenya,KEN,Africa,Sub-Saharan Africa,2005,346666,773354,426688
+Kenya,KEN,Africa,Sub-Saharan Africa,2010,390142,954925,564783
+Kenya,KEN,Africa,Sub-Saharan Africa,2015,452369,1126886,674517
+Kenya,KEN,Africa,Sub-Saharan Africa,2020,483045,1050147,567102
+Kenya,KEN,Africa,Sub-Saharan Africa,2024,540466,992536,452070
+Kiribati,KIR,Oceania,Micronesia,1990,3919,2162,-1757
+Kiribati,KIR,Oceania,Micronesia,1995,3882,2223,-1659
+Kiribati,KIR,Oceania,Micronesia,2000,3819,2283,-1536
+Kiribati,KIR,Oceania,Micronesia,2005,3783,2487,-1296
+Kiribati,KIR,Oceania,Micronesia,2010,3344,2868,-476
+Kiribati,KIR,Oceania,Micronesia,2015,4086,2919,-1167
+Kiribati,KIR,Oceania,Micronesia,2020,5053,3126,-1927
+Kiribati,KIR,Oceania,Micronesia,2024,6306,3302,-3004
+Kuwait,KWT,Asia,Western Asia,1990,64245,1056143,991898
+Kuwait,KWT,Asia,Western Asia,1995,70228,935152,864924
+Kuwait,KWT,Asia,Western Asia,2000,79931,1116932,1037001
+Kuwait,KWT,Asia,Western Asia,2005,87761,1353949,1266188
+Kuwait,KWT,Asia,Western Asia,2010,117370,1871827,1754457
+Kuwait,KWT,Asia,Western Asia,2015,134398,2610785,2476387
+Kuwait,KWT,Asia,Western Asia,2020,149927,3030731,2880804
+Kuwait,KWT,Asia,Western Asia,2024,167850,3323191,3155341
+Kyrgyzstan,KGZ,Asia,Central Asia,1990,606963,623083,16120
+Kyrgyzstan,KGZ,Asia,Central Asia,1995,600786,518338,-82448
+Kyrgyzstan,KGZ,Asia,Central Asia,2000,590619,389824,-200795
+Kyrgyzstan,KGZ,Asia,Central Asia,2005,663215,309399,-353816
+Kyrgyzstan,KGZ,Asia,Central Asia,2010,713989,232065,-481924
+Kyrgyzstan,KGZ,Asia,Central Asia,2015,641517,204382,-437135
+Kyrgyzstan,KGZ,Asia,Central Asia,2020,584710,199011,-385699
+Kyrgyzstan,KGZ,Asia,Central Asia,2024,540573,194816,-345757
+LATIN AMERICA AND THE CARIBBEAN,,,,1990,14438417,7253323,-7185094
+LATIN AMERICA AND THE CARIBBEAN,,,,1995,18875340,6728705,-12146635
+LATIN AMERICA AND THE CARIBBEAN,,,,2000,23244130,6589509,-16654621
+LATIN AMERICA AND THE CARIBBEAN,,,,2005,28524869,7111817,-21413052
+LATIN AMERICA AND THE CARIBBEAN,,,,2010,32980368,8275866,-24704502
+LATIN AMERICA AND THE CARIBBEAN,,,,2015,34988655,9109959,-25878696
+LATIN AMERICA AND THE CARIBBEAN,,,,2020,42128506,14287765,-27840741
+LATIN AMERICA AND THE CARIBBEAN,,,,2024,48269815,17510527,-30759288
+Land-locked Developing Countries (LLDC),,,,1990,24230881,14076862,-10154019
+Land-locked Developing Countries (LLDC),,,,1995,22746786,11932094,-10814692
+Land-locked Developing Countries (LLDC),,,,2000,22106881,10884070,-11222811
+Land-locked Developing Countries (LLDC),,,,2005,23055686,10682465,-12373221
+Land-locked Developing Countries (LLDC),,,,2010,26019291,9776704,-16242587
+Land-locked Developing Countries (LLDC),,,,2015,28412805,11758049,-16654756
+Land-locked Developing Countries (LLDC),,,,2020,31499061,13062602,-18436459
+Land-locked Developing Countries (LLDC),,,,2024,35204570,14973951,-20230619
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,1990,311756,22866,-288890
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,1995,359736,23526,-336210
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2000,363370,21948,-341422
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2005,471052,20371,-450681
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2010,563709,32955,-530754
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2015,598860,45538,-553322
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2020,609093,48731,-560362
+Lao People's Democratic Republic,LAO,Asia,South-eastern Asia,2024,660258,51446,-608812
+Latin America and the Caribbean,,,,1990,14438417,7253323,-7185094
+Latin America and the Caribbean,,,,1995,18875340,6728705,-12146635
+Latin America and the Caribbean,,,,2000,23244130,6589509,-16654621
+Latin America and the Caribbean,,,,2005,28524869,7111817,-21413052
+Latin America and the Caribbean,,,,2010,32980368,8275866,-24704502
+Latin America and the Caribbean,,,,2015,34988655,9109959,-25878696
+Latin America and the Caribbean,,,,2020,42128506,14287765,-27840741
+Latin America and the Caribbean,,,,2024,48269815,17510527,-30759288
+Latvia,LVA,Europe,Northern Europe,1990,181952,646007,464055
+Latvia,LVA,Europe,Northern Europe,1995,186182,538093,351911
+Latvia,LVA,Europe,Northern Europe,2000,184708,430178,245470
+Latvia,LVA,Europe,Northern Europe,2005,183414,376725,193311
+Latvia,LVA,Europe,Northern Europe,2010,183282,313786,130504
+Latvia,LVA,Europe,Northern Europe,2015,175523,265418,89895
+Latvia,LVA,Europe,Northern Europe,2020,166868,239422,72554
+Latvia,LVA,Europe,Northern Europe,2024,161014,220471,59457
+Least developed countries,,,,1990,27435009,11422703,-16012306
+Least developed countries,,,,1995,25578668,12034741,-13543927
+Least developed countries,,,,2000,25543216,10421623,-15121593
+Least developed countries,,,,2005,26817274,10101907,-16715367
+Least developed countries,,,,2010,32392176,10060920,-22331256
+Least developed countries,,,,2015,40964230,12993561,-27970669
+Least developed countries,,,,2020,46998295,15973234,-31025061
+Least developed countries,,,,2024,55077813,19619461,-35458352
+Lebanon,LBN,Asia,Western Asia,1990,408352,424488,16136
+Lebanon,LBN,Asia,Western Asia,1995,415740,466437,50697
+Lebanon,LBN,Asia,Western Asia,2000,467495,514836,47341
+Lebanon,LBN,Asia,Western Asia,2005,493327,553850,60523
+Lebanon,LBN,Asia,Western Asia,2010,550096,625884,75788
+Lebanon,LBN,Asia,Western Asia,2015,594974,1763717,1168743
+Lebanon,LBN,Asia,Western Asia,2020,631071,1586346,955275
+Lebanon,LBN,Asia,Western Asia,2024,681720,1422583,740863
+Lesotho,LSO,Africa,Sub-Saharan Africa,1990,130251,8240,-122011
+Lesotho,LSO,Africa,Sub-Saharan Africa,1995,122192,7204,-114988
+Lesotho,LSO,Africa,Sub-Saharan Africa,2000,121214,6167,-115047
+Lesotho,LSO,Africa,Sub-Saharan Africa,2005,138931,6290,-132641
+Lesotho,LSO,Africa,Sub-Saharan Africa,2010,161987,6414,-155573
+Lesotho,LSO,Africa,Sub-Saharan Africa,2015,191588,9152,-182436
+Lesotho,LSO,Africa,Sub-Saharan Africa,2020,224803,12060,-212743
+Lesotho,LSO,Africa,Sub-Saharan Africa,2024,246938,15039,-231899
+Less developed regions,,,,1990,87886589,69339516,-18547073
+Less developed regions,,,,1995,95824708,67173172,-28651536
+Less developed regions,,,,2000,106846557,68295636,-38550921
+Less developed regions,,,,2005,121964408,73624558,-48339850
+Less developed regions,,,,2010,145569003,88504735,-57064268
+Less developed regions,,,,2015,170304638,107869056,-62435582
+Less developed regions,,,,2020,192800975,121243752,-71557223
+Less developed regions,,,,2024,214302243,135773511,-78528732
+"Less developed regions, excluding China",,,,1990,82863656,66331223,-16532433
+"Less developed regions, excluding China",,,,1995,89956610,63647155,-26309455
+"Less developed regions, excluding China",,,,2000,99679979,64214442,-35465537
+"Less developed regions, excluding China",,,,2005,113483785,69222288,-44261497
+"Less developed regions, excluding China",,,,2010,135067900,83808625,-51259275
+"Less developed regions, excluding China",,,,2015,157998092,102589546,-55408546
+"Less developed regions, excluding China",,,,2020,179535098,115407463,-64127635
+"Less developed regions, excluding China",,,,2024,200378620,129508188,-70870432
+"Less developed regions, excluding least developed countries",,,,1990,60451580,57916813,-2534767
+"Less developed regions, excluding least developed countries",,,,1995,70246040,55138431,-15107609
+"Less developed regions, excluding least developed countries",,,,2000,81303341,57874013,-23429328
+"Less developed regions, excluding least developed countries",,,,2005,95147134,63522651,-31624483
+"Less developed regions, excluding least developed countries",,,,2010,113176827,78443815,-34733012
+"Less developed regions, excluding least developed countries",,,,2015,129340408,94875495,-34464913
+"Less developed regions, excluding least developed countries",,,,2020,145802680,105270518,-40532162
+"Less developed regions, excluding least developed countries",,,,2024,159224430,116154050,-43070380
+Liberia,LBR,Africa,Sub-Saharan Africa,1990,539145,94964,-444181
+Liberia,LBR,Africa,Sub-Saharan Africa,1995,562699,208563,-354136
+Liberia,LBR,Africa,Sub-Saharan Africa,2000,270603,151868,-118735
+Liberia,LBR,Africa,Sub-Saharan Africa,2005,349718,87217,-262501
+Liberia,LBR,Africa,Sub-Saharan Africa,2010,186132,99165,-86967
+Liberia,LBR,Africa,Sub-Saharan Africa,2015,150490,112111,-38379
+Liberia,LBR,Africa,Sub-Saharan Africa,2020,147341,87947,-59394
+Liberia,LBR,Africa,Sub-Saharan Africa,2024,145919,72423,-73496
+Libya,LBY,Africa,Northern Africa,1990,78841,457075,378234
+Libya,LBY,Africa,Northern Africa,1995,81041,508041,427000
+Libya,LBY,Africa,Northern Africa,2000,80451,567436,486985
+Libya,LBY,Africa,Northern Africa,2005,81361,625412,544051
+Libya,LBY,Africa,Northern Africa,2010,99826,687192,587366
+Libya,LBY,Africa,Northern Africa,2015,119270,771146,651876
+Libya,LBY,Africa,Northern Africa,2020,145103,826537,681434
+Libya,LBY,Africa,Northern Africa,2024,156874,897751,740877
+Liechtenstein,LIE,Europe,Western Europe,1990,22,10906,10884
+Liechtenstein,LIE,Europe,Western Europe,1995,28,13311,13283
+Liechtenstein,LIE,Europe,Western Europe,2000,52,15483,15431
+Liechtenstein,LIE,Europe,Western Europe,2005,154,18898,18744
+Liechtenstein,LIE,Europe,Western Europe,2010,264,22342,22078
+Liechtenstein,LIE,Europe,Western Europe,2015,293,23799,23506
+Liechtenstein,LIE,Europe,Western Europe,2020,314,25877,25563
+Liechtenstein,LIE,Europe,Western Europe,2024,346,27669,27323
+Lithuania,LTU,Europe,Northern Europe,1990,343671,349258,5587
+Lithuania,LTU,Europe,Northern Europe,1995,313225,273587,-39638
+Lithuania,LTU,Europe,Northern Europe,2000,287335,214311,-73024
+Lithuania,LTU,Europe,Northern Europe,2005,278878,201209,-77669
+Lithuania,LTU,Europe,Northern Europe,2010,354264,160772,-193492
+Lithuania,LTU,Europe,Northern Europe,2015,409441,136021,-273420
+Lithuania,LTU,Europe,Northern Europe,2020,437638,145184,-292454
+Lithuania,LTU,Europe,Northern Europe,2024,459268,175194,-284074
+Low-and-Lower-middle-income countries,,,,1990,58659599,46128434,-12531165
+Low-and-Lower-middle-income countries,,,,1995,59014187,42239497,-16774690
+Low-and-Lower-middle-income countries,,,,2000,62464239,39880176,-22584063
+Low-and-Lower-middle-income countries,,,,2005,69844932,38984860,-30860072
+Low-and-Lower-middle-income countries,,,,2010,84484855,42209231,-42275624
+Low-and-Lower-middle-income countries,,,,2015,105941531,46273405,-59668126
+Low-and-Lower-middle-income countries,,,,2020,119582624,49787870,-69794754
+Low-and-Lower-middle-income countries,,,,2024,139360886,56502698,-82858188
+Low-and-middle-income countries,,,,1990,104890703,75837882,-29052821
+Low-and-middle-income countries,,,,1995,110952268,71708985,-39243283
+Low-and-middle-income countries,,,,2000,119771420,69476411,-50295009
+Low-and-middle-income countries,,,,2005,134067128,69981727,-64085401
+Low-and-middle-income countries,,,,2010,156805538,75866908,-80938630
+Low-and-middle-income countries,,,,2015,180380969,82973485,-97407484
+Low-and-middle-income countries,,,,2020,198105922,91959081,-106146841
+Low-and-middle-income countries,,,,2024,222480863,103531383,-118949480
+Low-income countries,,,,1990,18260226,8730266,-9529960
+Low-income countries,,,,1995,15940023,8238108,-7701915
+Low-income countries,,,,2000,15073902,6838373,-8235529
+Low-income countries,,,,2005,15356761,7050629,-8306132
+Low-income countries,,,,2010,18849423,7985909,-10863514
+Low-income countries,,,,2015,28710928,9509682,-19201246
+Low-income countries,,,,2020,35117582,11661069,-23456513
+Low-income countries,,,,2024,41112765,14383617,-26729148
+Lower-middle-income countries,,,,1990,40399373,37398168,-3001205
+Lower-middle-income countries,,,,1995,43074164,34001389,-9072775
+Lower-middle-income countries,,,,2000,47390337,33041803,-14348534
+Lower-middle-income countries,,,,2005,54488171,31934231,-22553940
+Lower-middle-income countries,,,,2010,65635432,34223322,-31412110
+Lower-middle-income countries,,,,2015,77230603,36763723,-40466880
+Lower-middle-income countries,,,,2020,84465042,38126801,-46338241
+Lower-middle-income countries,,,,2024,98248121,42119081,-56129040
+Luxembourg,LUX,Europe,Western Europe,1990,27725,113795,86070
+Luxembourg,LUX,Europe,Western Europe,1995,29087,126106,97019
+Luxembourg,LUX,Europe,Western Europe,2000,30943,139750,108807
+Luxembourg,LUX,Europe,Western Europe,2005,33941,150618,116677
+Luxembourg,LUX,Europe,Western Europe,2010,36675,163142,126467
+Luxembourg,LUX,Europe,Western Europe,2015,41099,248888,207789
+Luxembourg,LUX,Europe,Western Europe,2020,43235,298062,254827
+Luxembourg,LUX,Europe,Western Europe,2024,61859,344309,282450
+Madagascar,MDG,Africa,Sub-Saharan Africa,1990,82170,23917,-58253
+Madagascar,MDG,Africa,Sub-Saharan Africa,1995,98560,21177,-77383
+Madagascar,MDG,Africa,Sub-Saharan Africa,2000,119159,23541,-95618
+Madagascar,MDG,Africa,Sub-Saharan Africa,2005,143188,26058,-117130
+Madagascar,MDG,Africa,Sub-Saharan Africa,2010,156279,28905,-127374
+Madagascar,MDG,Africa,Sub-Saharan Africa,2015,175803,32075,-143728
+Madagascar,MDG,Africa,Sub-Saharan Africa,2020,196997,35563,-161434
+Madagascar,MDG,Africa,Sub-Saharan Africa,2024,212455,38625,-173830
+Malawi,MWI,Africa,Sub-Saharan Africa,1990,138206,1127724,989518
+Malawi,MWI,Africa,Sub-Saharan Africa,1995,134253,241624,107371
+Malawi,MWI,Africa,Sub-Saharan Africa,2000,167695,232620,64925
+Malawi,MWI,Africa,Sub-Saharan Africa,2005,216125,221661,5536
+Malawi,MWI,Africa,Sub-Saharan Africa,2010,259343,217722,-41621
+Malawi,MWI,Africa,Sub-Saharan Africa,2015,307175,197328,-109847
+Malawi,MWI,Africa,Sub-Saharan Africa,2020,372914,191362,-181552
+Malawi,MWI,Africa,Sub-Saharan Africa,2024,427573,186719,-240854
+Malaysia,MYS,Asia,South-eastern Asia,1990,663690,1027572,363882
+Malaysia,MYS,Asia,South-eastern Asia,1995,891900,1312828,420928
+Malaysia,MYS,Asia,South-eastern Asia,2000,1165408,1613819,448411
+Malaysia,MYS,Asia,South-eastern Asia,2005,1283218,2174308,891090
+Malaysia,MYS,Asia,South-eastern Asia,2010,1647051,3086876,1439825
+Malaysia,MYS,Asia,South-eastern Asia,2015,1916776,3513497,1596721
+Malaysia,MYS,Asia,South-eastern Asia,2020,2118942,3718696,1599754
+Malaysia,MYS,Asia,South-eastern Asia,2024,2433875,3806514,1372639
+Maldives,MDV,Asia,Southern Asia,1990,1685,8689,7004
+Maldives,MDV,Asia,Southern Asia,1995,1092,18510,17418
+Maldives,MDV,Asia,Southern Asia,2000,824,27092,26268
+Maldives,MDV,Asia,Southern Asia,2005,1432,45045,43613
+Maldives,MDV,Asia,Southern Asia,2010,2624,54659,52035
+Maldives,MDV,Asia,Southern Asia,2015,2694,64273,61579
+Maldives,MDV,Asia,Southern Asia,2020,2703,70079,67376
+Maldives,MDV,Asia,Southern Asia,2024,2773,75099,72326
+Mali,MLI,Africa,Sub-Saharan Africa,1990,587626,160736,-426890
+Mali,MLI,Africa,Sub-Saharan Africa,1995,743318,176187,-567131
+Mali,MLI,Africa,Sub-Saharan Africa,2000,706904,189475,-517429
+Mali,MLI,Africa,Sub-Saharan Africa,2005,822077,258630,-563447
+Mali,MLI,Africa,Sub-Saharan Africa,2010,897610,341078,-556532
+Mali,MLI,Africa,Sub-Saharan Africa,2015,1117148,420504,-696644
+Mali,MLI,Africa,Sub-Saharan Africa,2020,1200058,485829,-714229
+Mali,MLI,Africa,Sub-Saharan Africa,2024,1292519,545323,-747196
+Malta,MLT,Europe,Southern Europe,1990,66353,15077,-51276
+Malta,MLT,Europe,Southern Europe,1995,67484,17740,-49744
+Malta,MLT,Europe,Southern Europe,2000,64124,21521,-42603
+Malta,MLT,Europe,Southern Europe,2005,61981,24560,-37421
+Malta,MLT,Europe,Southern Europe,2010,58858,33008,-25850
+Malta,MLT,Europe,Southern Europe,2015,54505,52642,-1863
+Malta,MLT,Europe,Southern Europe,2020,49061,114760,65699
+Malta,MLT,Europe,Southern Europe,2024,43940,199466,155526
+Marshall Islands,MHL,Oceania,Micronesia,1990,314,1158,844
+Marshall Islands,MHL,Oceania,Micronesia,1995,385,1480,1095
+Marshall Islands,MHL,Oceania,Micronesia,2000,468,1891,1423
+Marshall Islands,MHL,Oceania,Micronesia,2005,435,2417,1982
+Marshall Islands,MHL,Oceania,Micronesia,2010,379,3089,2710
+Marshall Islands,MHL,Oceania,Micronesia,2015,379,3284,2905
+Marshall Islands,MHL,Oceania,Micronesia,2020,387,3298,2911
+Marshall Islands,MHL,Oceania,Micronesia,2024,400,3309,2909
+Martinique,MTQ,Americas,Latin America and the Caribbean,1990,10837,38705,27868
+Martinique,MTQ,Americas,Latin America and the Caribbean,1995,12302,46599,34297
+Martinique,MTQ,Americas,Latin America and the Caribbean,2000,13801,54492,40691
+Martinique,MTQ,Americas,Latin America and the Caribbean,2005,13941,57034,43093
+Martinique,MTQ,Americas,Latin America and the Caribbean,2010,14145,59575,45430
+Martinique,MTQ,Americas,Latin America and the Caribbean,2015,12097,69174,57077
+Martinique,MTQ,Americas,Latin America and the Caribbean,2020,12498,68624,56126
+Martinique,MTQ,Americas,Latin America and the Caribbean,2024,12893,68187,55294
+Mauritania,MRT,Africa,Sub-Saharan Africa,1990,111270,111650,380
+Mauritania,MRT,Africa,Sub-Saharan Africa,1995,127054,89562,-37492
+Mauritania,MRT,Africa,Sub-Saharan Africa,2000,81064,57366,-23698
+Mauritania,MRT,Africa,Sub-Saharan Africa,2005,69192,58211,-10981
+Mauritania,MRT,Africa,Sub-Saharan Africa,2010,73350,84920,11570
+Mauritania,MRT,Africa,Sub-Saharan Africa,2015,73527,166552,93025
+Mauritania,MRT,Africa,Sub-Saharan Africa,2020,86409,182286,95877
+Mauritania,MRT,Africa,Sub-Saharan Africa,2024,91705,195937,104232
+Mauritius,MUS,Africa,Sub-Saharan Africa,1990,64202,3613,-60589
+Mauritius,MUS,Africa,Sub-Saharan Africa,1995,72122,7493,-64629
+Mauritius,MUS,Africa,Sub-Saharan Africa,2000,77904,15543,-62361
+Mauritius,MUS,Africa,Sub-Saharan Africa,2005,88522,19647,-68875
+Mauritius,MUS,Africa,Sub-Saharan Africa,2010,102296,24836,-77460
+Mauritius,MUS,Africa,Sub-Saharan Africa,2015,109779,28585,-81194
+Mauritius,MUS,Africa,Sub-Saharan Africa,2020,112089,28893,-83196
+Mauritius,MUS,Africa,Sub-Saharan Africa,2024,114314,29142,-85172
+Mayotte,MYT,Africa,Sub-Saharan Africa,1990,1835,15229,13394
+Mayotte,MYT,Africa,Sub-Saharan Africa,1995,3937,26316,22379
+Mayotte,MYT,Africa,Sub-Saharan Africa,2000,6214,45474,39260
+Mayotte,MYT,Africa,Sub-Saharan Africa,2005,6468,63176,56708
+Mayotte,MYT,Africa,Sub-Saharan Africa,2010,6336,72757,66421
+Mayotte,MYT,Africa,Sub-Saharan Africa,2015,6545,81386,74841
+Mayotte,MYT,Africa,Sub-Saharan Africa,2020,6767,111540,104773
+Mayotte,MYT,Africa,Sub-Saharan Africa,2024,6960,143528,136568
+Melanesia,,,,1990,102238,91200,-11038
+Melanesia,,,,1995,118072,96828,-21244
+Melanesia,,,,2000,135638,95281,-40357
+Melanesia,,,,2005,159726,103881,-55845
+Melanesia,,,,2010,184414,110691,-73723
+Melanesia,,,,2015,206764,119343,-87421
+Melanesia,,,,2020,221491,124073,-97418
+Melanesia,,,,2024,244711,128055,-116656
+Mexico,MEX,Americas,Latin America and the Caribbean,1990,4588874,701513,-3887361
+Mexico,MEX,Americas,Latin America and the Caribbean,1995,7165639,458051,-6707588
+Mexico,MEX,Americas,Latin America and the Caribbean,2000,9367663,526172,-8841491
+Mexico,MEX,Americas,Latin America and the Caribbean,2005,11329536,701803,-10627733
+Mexico,MEX,Americas,Latin America and the Caribbean,2010,12108928,957593,-11151335
+Mexico,MEX,Americas,Latin America and the Caribbean,2015,12184226,1088731,-11095495
+Mexico,MEX,Americas,Latin America and the Caribbean,2020,11452717,1335154,-10117563
+Mexico,MEX,Americas,Latin America and the Caribbean,2024,11596529,1726089,-9870440
+Micronesia,,,,1990,17262,108969,91707
+Micronesia,,,,1995,19869,118687,98818
+Micronesia,,,,2000,22524,130186,107662
+Micronesia,,,,2005,24407,128390,103983
+Micronesia,,,,2010,24603,114743,90140
+Micronesia,,,,2015,25218,113466,88248
+Micronesia,,,,2020,27219,118860,91641
+Micronesia,,,,2024,29390,123424,94034
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,1990,4940,3685,-1255
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,1995,7116,3342,-3774
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2000,9334,3116,-6218
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2005,11237,2905,-8332
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2010,12464,2806,-9658
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2015,12401,2756,-9645
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2020,13033,2832,-10201
+Micronesia (Fed. States of),FSM,Oceania,Micronesia,2024,13568,2894,-10674
+Middle Africa,,,,1990,1771850,1461155,-310695
+Middle Africa,,,,1995,1690429,2662490,972061
+Middle Africa,,,,2000,2267420,1775284,-492136
+Middle Africa,,,,2005,2544029,1961951,-582078
+Middle Africa,,,,2010,2775253,2436802,-338451
+Middle Africa,,,,2015,3546465,3479911,-66554
+Middle Africa,,,,2020,4264915,3861568,-403347
+Middle Africa,,,,2024,4792635,4854994,62359
+Middle-income countries,,,,1990,86630477,67107616,-19522861
+Middle-income countries,,,,1995,95012245,63470877,-31541368
+Middle-income countries,,,,2000,104697518,62638038,-42059480
+Middle-income countries,,,,2005,118710367,62931098,-55779269
+Middle-income countries,,,,2010,137956115,67880999,-70075116
+Middle-income countries,,,,2015,151670041,73463803,-78206238
+Middle-income countries,,,,2020,162988340,80298012,-82690328
+Middle-income countries,,,,2024,181368098,89147766,-92220332
+Monaco,MCO,Europe,Western Europe,1990,15534,20359,4825
+Monaco,MCO,Europe,Western Europe,1995,15692,21060,5368
+Monaco,MCO,Europe,Western Europe,2000,16367,21787,5420
+Monaco,MCO,Europe,Western Europe,2005,19616,21312,1696
+Monaco,MCO,Europe,Western Europe,2010,26148,21132,-5016
+Monaco,MCO,Europe,Western Europe,2015,28636,25983,-2653
+Monaco,MCO,Europe,Western Europe,2020,33812,26601,-7211
+Monaco,MCO,Europe,Western Europe,2024,36682,27106,-9576
+Mongolia,MNG,Asia,Eastern Asia,1990,71033,6718,-64315
+Mongolia,MNG,Asia,Eastern Asia,1995,79613,7424,-72189
+Mongolia,MNG,Asia,Eastern Asia,2000,88244,8206,-80038
+Mongolia,MNG,Asia,Eastern Asia,2005,98174,11477,-86697
+Mongolia,MNG,Asia,Eastern Asia,2010,114217,16062,-98155
+Mongolia,MNG,Asia,Eastern Asia,2015,124542,19886,-104656
+Mongolia,MNG,Asia,Eastern Asia,2020,153554,21345,-132209
+Mongolia,MNG,Asia,Eastern Asia,2024,175596,22589,-153007
+Montenegro,MNE,Europe,Southern Europe,1990,108639,73743,-34896
+Montenegro,MNE,Europe,Southern Europe,1995,106877,73743,-33134
+Montenegro,MNE,Europe,Southern Europe,2000,102948,73743,-29205
+Montenegro,MNE,Europe,Southern Europe,2005,98615,73743,-24872
+Montenegro,MNE,Europe,Southern Europe,2010,100961,78512,-22449
+Montenegro,MNE,Europe,Southern Europe,2015,102965,71719,-31246
+Montenegro,MNE,Europe,Southern Europe,2020,94731,70999,-23732
+Montenegro,MNE,Europe,Southern Europe,2024,90678,92237,1559
+Montserrat,MSR,Americas,Latin America and the Caribbean,1990,2006,2013,7
+Montserrat,MSR,Americas,Latin America and the Caribbean,1995,2272,1612,-660
+Montserrat,MSR,Americas,Latin America and the Caribbean,2000,2575,1211,-1364
+Montserrat,MSR,Americas,Latin America and the Caribbean,2005,2791,1244,-1547
+Montserrat,MSR,Americas,Latin America and the Caribbean,2010,2993,1291,-1702
+Montserrat,MSR,Americas,Latin America and the Caribbean,2015,3134,1351,-1783
+Montserrat,MSR,Americas,Latin America and the Caribbean,2020,3239,1379,-1860
+Montserrat,MSR,Americas,Latin America and the Caribbean,2024,3341,1402,-1939
+More developed regions,,,,1990,52957819,84576547,31618728
+More developed regions,,,,1995,53730565,96002830,42272265
+More developed regions,,,,2000,51928225,106270516,54342291
+More developed regions,,,,2005,53170795,119164163,65993368
+More developed regions,,,,2010,56421274,132515657,76094383
+More developed regions,,,,2015,58075237,142172964,84097727
+More developed regions,,,,2020,59929194,154040280,94111086
+More developed regions,,,,2024,67653956,168248302,100594346
+Morocco,MAR,Africa,Northern Africa,1990,1297857,54895,-1242962
+Morocco,MAR,Africa,Northern Africa,1995,1506124,50360,-1455764
+Morocco,MAR,Africa,Northern Africa,2000,1756024,53034,-1702990
+Morocco,MAR,Africa,Northern Africa,2005,2291145,56222,-2234923
+Morocco,MAR,Africa,Northern Africa,2010,2733747,71189,-2662558
+Morocco,MAR,Africa,Northern Africa,2015,2907733,92424,-2815309
+Morocco,MAR,Africa,Northern Africa,2020,3293170,102358,-3190812
+Morocco,MAR,Africa,Northern Africa,2024,3627829,111069,-3516760
+Mozambique,MOZ,Africa,Sub-Saharan Africa,1990,1989048,122332,-1866716
+Mozambique,MOZ,Africa,Sub-Saharan Africa,1995,761443,168256,-593187
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2000,650229,195702,-454527
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2005,641039,268694,-372345
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2010,655516,306471,-349045
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2015,671672,321794,-349878
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2020,689058,338850,-350208
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2024,702796,353143,-349653
+Myanmar,MMR,Asia,South-eastern Asia,1990,529164,133545,-395619
+Myanmar,MMR,Asia,South-eastern Asia,1995,530678,113663,-417015
+Myanmar,MMR,Asia,South-eastern Asia,2000,671239,98011,-573228
+Myanmar,MMR,Asia,South-eastern Asia,2005,1254165,83025,-1171140
+Myanmar,MMR,Asia,South-eastern Asia,2010,2129897,76414,-2053483
+Myanmar,MMR,Asia,South-eastern Asia,2015,2517411,73309,-2444102
+Myanmar,MMR,Asia,South-eastern Asia,2020,3611603,76446,-3535157
+Myanmar,MMR,Asia,South-eastern Asia,2024,4320462,79052,-4241410
+NORTHERN AMERICA,,,,1990,2850358,27543267,24692909
+NORTHERN AMERICA,,,,1995,3146192,33404578,30258386
+NORTHERN AMERICA,,,,2000,3279199,40357995,37078796
+NORTHERN AMERICA,,,,2005,3590846,45658615,42067769
+NORTHERN AMERICA,,,,2010,4046448,51007867,46961419
+NORTHERN AMERICA,,,,2015,4294317,56019067,51724750
+NORTHERN AMERICA,,,,2020,4411379,58830556,54419177
+NORTHERN AMERICA,,,,2024,4554127,61207877,56653750
+Namibia,NAM,Africa,Sub-Saharan Africa,1990,45857,120641,74784
+Namibia,NAM,Africa,Sub-Saharan Africa,1995,36999,115372,78373
+Namibia,NAM,Africa,Sub-Saharan Africa,2000,44921,135547,90626
+Namibia,NAM,Africa,Sub-Saharan Africa,2005,47680,107347,59667
+Namibia,NAM,Africa,Sub-Saharan Africa,2010,45530,103826,58296
+Namibia,NAM,Africa,Sub-Saharan Africa,2015,43728,101618,57890
+Namibia,NAM,Africa,Sub-Saharan Africa,2020,42223,109391,67168
+Namibia,NAM,Africa,Sub-Saharan Africa,2024,40371,116035,75664
+Nauru,NRU,Oceania,Micronesia,1990,1370,2815,1445
+Nauru,NRU,Oceania,Micronesia,1995,1482,2605,1123
+Nauru,NRU,Oceania,Micronesia,2000,1565,2394,829
+Nauru,NRU,Oceania,Micronesia,2005,1836,2253,417
+Nauru,NRU,Oceania,Micronesia,2010,2092,906,-1186
+Nauru,NRU,Oceania,Micronesia,2015,2196,1833,-363
+Nauru,NRU,Oceania,Micronesia,2020,2345,2201,-144
+Nauru,NRU,Oceania,Micronesia,2024,2484,2548,64
+Nepal,NPL,Asia,Southern Asia,1990,523915,429974,-93941
+Nepal,NPL,Asia,Southern Asia,1995,602711,690225,87514
+Nepal,NPL,Asia,Southern Asia,2000,707896,717900,10004
+Nepal,NPL,Asia,Southern Asia,2005,1056250,680729,-375521
+Nepal,NPL,Asia,Southern Asia,2010,1402556,581889,-820667
+Nepal,NPL,Asia,Southern Asia,2015,2112726,509471,-1603255
+Nepal,NPL,Asia,Southern Asia,2020,2357848,487564,-1870284
+Nepal,NPL,Asia,Southern Asia,2024,2637195,470719,-2166476
+Netherlands,NLD,Europe,Western Europe,1990,482951,1194306,711355
+Netherlands,NLD,Europe,Western Europe,1995,500299,1397371,897072
+Netherlands,NLD,Europe,Western Europe,2000,515256,1584638,1069382
+Netherlands,NLD,Europe,Western Europe,2005,560613,1735632,1175019
+Netherlands,NLD,Europe,Western Europe,2010,597525,1850649,1253124
+Netherlands,NLD,Europe,Western Europe,2015,594329,2024059,1429730
+Netherlands,NLD,Europe,Western Europe,2020,599736,2425521,1825785
+Netherlands,NLD,Europe,Western Europe,2024,631391,2956518,2325127
+New Caledonia,NCL,Oceania,Melanesia,1990,3957,37673,33716
+New Caledonia,NCL,Oceania,Melanesia,1995,4324,43662,39338
+New Caledonia,NCL,Oceania,Melanesia,2000,4675,49651,44976
+New Caledonia,NCL,Oceania,Melanesia,2005,4971,55405,50434
+New Caledonia,NCL,Oceania,Melanesia,2010,5055,61158,56103
+New Caledonia,NCL,Oceania,Melanesia,2015,5112,68881,63769
+New Caledonia,NCL,Oceania,Melanesia,2020,5097,73141,68044
+New Caledonia,NCL,Oceania,Melanesia,2024,5082,76738,71656
+New Zealand,NZL,Oceania,Australia and New Zealand,1990,329134,526369,197235
+New Zealand,NZL,Oceania,Australia and New Zealand,1995,381056,594911,213855
+New Zealand,NZL,Oceania,Australia and New Zealand,2000,454340,685966,231626
+New Zealand,NZL,Oceania,Australia and New Zealand,2005,518239,855017,336778
+New Zealand,NZL,Oceania,Australia and New Zealand,2010,620805,956982,336177
+New Zealand,NZL,Oceania,Australia and New Zealand,2015,675441,1132201,456760
+New Zealand,NZL,Oceania,Australia and New Zealand,2020,679479,1343900,664421
+New Zealand,NZL,Oceania,Australia and New Zealand,2024,679772,1467989,788217
+Nicaragua,NIC,Americas,Latin America and the Caribbean,1990,445757,41421,-404336
+Nicaragua,NIC,Americas,Latin America and the Caribbean,1995,487148,26619,-460529
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2000,494067,30389,-463678
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2005,545324,34919,-510405
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2010,609093,37345,-571748
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2015,633892,40261,-593631
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2020,749552,42167,-707385
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2024,905251,43757,-861494
+Niger,NER,Africa,Sub-Saharan Africa,1990,162733,115464,-47269
+Niger,NER,Africa,Sub-Saharan Africa,1995,189413,145999,-43414
+Niger,NER,Africa,Sub-Saharan Africa,2000,219232,122260,-96972
+Niger,NER,Africa,Sub-Saharan Africa,2005,317174,124509,-192665
+Niger,NER,Africa,Sub-Saharan Africa,2010,350773,126482,-224291
+Niger,NER,Africa,Sub-Saharan Africa,2015,390945,252998,-137947
+Niger,NER,Africa,Sub-Saharan Africa,2020,416964,348056,-68908
+Niger,NER,Africa,Sub-Saharan Africa,2024,439378,449236,9858
+Nigeria,NGA,Africa,Sub-Saharan Africa,1990,394107,456621,62514
+Nigeria,NGA,Africa,Sub-Saharan Africa,1995,467021,462999,-4022
+Nigeria,NGA,Africa,Sub-Saharan Africa,2000,542140,487882,-54258
+Nigeria,NGA,Africa,Sub-Saharan Africa,2005,763991,969714,205723
+Nigeria,NGA,Africa,Sub-Saharan Africa,2010,978678,990494,11816
+Nigeria,NGA,Africa,Sub-Saharan Africa,2015,1359519,1199115,-160404
+Nigeria,NGA,Africa,Sub-Saharan Africa,2020,1768444,1308568,-459876
+Nigeria,NGA,Africa,Sub-Saharan Africa,2024,2094265,1403281,-690984
+Niue,NIU,Oceania,Polynesia,1990,5640,461,-5179
+Niue,NIU,Oceania,Polynesia,1995,5673,480,-5193
+Niue,NIU,Oceania,Polynesia,2000,5870,498,-5372
+Niue,NIU,Oceania,Polynesia,2005,5554,522,-5032
+Niue,NIU,Oceania,Polynesia,2010,5231,589,-4642
+Niue,NIU,Oceania,Polynesia,2015,5059,588,-4471
+Niue,NIU,Oceania,Polynesia,2020,4968,588,-4380
+Niue,NIU,Oceania,Polynesia,2024,4955,588,-4367
+No income group available,,,,1990,422894,1051779,628885
+No income group available,,,,1995,455265,1048488,593223
+No income group available,,,,2000,547447,1044410,496963
+No income group available,,,,2005,625608,1112254,486646
+No income group available,,,,2010,763515,1388695,625180
+No income group available,,,,2015,991458,1451570,460112
+No income group available,,,,2020,5718277,1374532,-4343745
+No income group available,,,,2024,8580070,1319088,-7260982
+North Macedonia,MKD,Europe,Southern Europe,1990,398374,95142,-303232
+North Macedonia,MKD,Europe,Southern Europe,1995,411470,109343,-302127
+North Macedonia,MKD,Europe,Southern Europe,2000,424184,125665,-298519
+North Macedonia,MKD,Europe,Southern Europe,2005,428969,127667,-301302
+North Macedonia,MKD,Europe,Southern Europe,2010,430535,129701,-300834
+North Macedonia,MKD,Europe,Southern Europe,2015,437223,130730,-306493
+North Macedonia,MKD,Europe,Southern Europe,2020,485263,131311,-353952
+North Macedonia,MKD,Europe,Southern Europe,2024,534616,150902,-383714
+Northern Africa,,,,1990,5553208,2374205,-3179003
+Northern Africa,,,,1995,6056357,2075487,-3980870
+Northern Africa,,,,2000,6577634,1895038,-4682596
+Northern Africa,,,,2005,8075940,1753656,-6322284
+Northern Africa,,,,2010,9585925,1965200,-7620725
+Northern Africa,,,,2015,11895930,2284569,-9611361
+Northern Africa,,,,2020,12871776,3226461,-9645315
+Northern Africa,,,,2024,15089063,4874040,-10215023
+Northern Africa and Western Asia,,,,1990,14986109,16863681,1877572
+Northern Africa and Western Asia,,,,1995,17216219,18573252,1357033
+Northern Africa and Western Asia,,,,2000,18728264,20033534,1305270
+Northern Africa and Western Asia,,,,2005,21198002,23016410,1818408
+Northern Africa and Western Asia,,,,2010,25429492,32028416,6598924
+Northern Africa and Western Asia,,,,2015,32508087,44083778,11575691
+Northern Africa and Western Asia,,,,2020,37196853,48992329,11795476
+Northern Africa and Western Asia,,,,2024,40529326,54085710,13556384
+Northern Europe,,,,1990,6038511,6656282,617771
+Northern Europe,,,,1995,6071127,7237021,1165894
+Northern Europe,,,,2000,5970733,7963939,1993206
+Northern Europe,,,,2005,6208956,9668148,3459192
+Northern Europe,,,,2010,6607639,11953254,5345615
+Northern Europe,,,,2015,6717848,13955273,7237425
+Northern Europe,,,,2020,6830070,16246850,9416780
+Northern Europe,,,,2024,6951612,18543047,11591435
+Northern Mariana Islands,MNP,Oceania,Micronesia,1990,2229,26593,24364
+Northern Mariana Islands,MNP,Oceania,Micronesia,1995,2359,32376,30017
+Northern Mariana Islands,MNP,Oceania,Micronesia,2000,2480,40122,37642
+Northern Mariana Islands,MNP,Oceania,Micronesia,2005,2549,37542,34993
+Northern Mariana Islands,MNP,Oceania,Micronesia,2010,2542,24168,21626
+Northern Mariana Islands,MNP,Oceania,Micronesia,2015,2532,21648,19116
+Northern Mariana Islands,MNP,Oceania,Micronesia,2020,2664,21843,19179
+Northern Mariana Islands,MNP,Oceania,Micronesia,2024,2779,22000,19221
+Norway,NOR,Europe,Northern Europe,1990,88450,192587,104137
+Norway,NOR,Europe,Northern Europe,1995,84525,233302,148777
+Norway,NOR,Europe,Northern Europe,2000,87049,292440,205391
+Norway,NOR,Europe,Northern Europe,2005,94553,361144,266591
+Norway,NOR,Europe,Northern Europe,2010,98853,524601,425748
+Norway,NOR,Europe,Northern Europe,2015,101769,746375,644606
+Norway,NOR,Europe,Northern Europe,2020,110143,852238,742095
+Norway,NOR,Europe,Northern Europe,2024,120891,1012404,891513
+OCEANIA,,,,1990,819761,4776548,3956787
+OCEANIA,,,,1995,929288,5091137,4161849
+OCEANIA,,,,2000,1071329,5372431,4301102
+OCEANIA,,,,2005,1195774,6041977,4846203
+OCEANIA,,,,2010,1353618,7134959,5781341
+OCEANIA,,,,2015,1492055,8168067,6676012
+OCEANIA,,,,2020,1549157,9261819,7712662
+OCEANIA,,,,2024,1602503,9901164,8298661
+Oceania (excluding Australia and New Zealand),,,,1990,239718,258678,18960
+Oceania (excluding Australia and New Zealand),,,,1995,267447,280580,13133
+Oceania (excluding Australia and New Zealand),,,,2000,305460,296618,-8842
+Oceania (excluding Australia and New Zealand),,,,2005,340209,306039,-34170
+Oceania (excluding Australia and New Zealand),,,,2010,370635,298175,-72460
+Oceania (excluding Australia and New Zealand),,,,2015,413281,302810,-110471
+Oceania (excluding Australia and New Zealand),,,,2020,449006,313069,-135937
+Oceania (excluding Australia and New Zealand),,,,2024,492013,321771,-170242
+Oman,OMN,Asia,Western Asia,1990,10920,526784,515864
+Oman,OMN,Asia,Western Asia,1995,10800,538639,527839
+Oman,OMN,Asia,Western Asia,2000,10898,550760,539862
+Oman,OMN,Asia,Western Asia,2005,13313,608416,595103
+Oman,OMN,Asia,Western Asia,2010,14009,803387,789378
+Oman,OMN,Asia,Western Asia,2015,15667,1827972,1812305
+Oman,OMN,Asia,Western Asia,2020,16877,1766142,1749265
+Oman,OMN,Asia,Western Asia,2024,17095,2283366,2266271
+Others,,,,1990,13071655,0,-13071655
+Others,,,,1995,13620729,0,-13620729
+Others,,,,2000,15791370,0,-15791370
+Others,,,,2005,17653518,0,-17653518
+Others,,,,2010,19030115,0,-19030115
+Others,,,,2015,21662145,0,-21662145
+Others,,,,2020,22553863,0,-22553863
+Others,,,,2024,22065614,0,-22065614
+Pakistan,PAK,Asia,Southern Asia,1990,3131865,6208204,3076339
+Pakistan,PAK,Asia,Southern Asia,1995,3116501,3669308,552807
+Pakistan,PAK,Asia,Southern Asia,2000,3272459,4181912,909453
+Pakistan,PAK,Asia,Southern Asia,2005,3715061,3174558,-540503
+Pakistan,PAK,Asia,Southern Asia,2010,4684523,3943681,-740842
+Pakistan,PAK,Asia,Southern Asia,2015,6190815,3506520,-2684295
+Pakistan,PAK,Asia,Southern Asia,2020,6372467,3276580,-3095887
+Pakistan,PAK,Asia,Southern Asia,2024,6915057,4175958,-2739099
+Palau,PLW,Oceania,Micronesia,1990,2951,2801,-150
+Palau,PLW,Oceania,Micronesia,1995,2835,4749,1914
+Palau,PLW,Oceania,Micronesia,2000,2804,6310,3506
+Palau,PLW,Oceania,Micronesia,2005,2816,6043,3227
+Palau,PLW,Oceania,Micronesia,2010,2554,5490,2936
+Palau,PLW,Oceania,Micronesia,2015,2490,4937,2447
+Palau,PLW,Oceania,Micronesia,2020,2582,5088,2506
+Palau,PLW,Oceania,Micronesia,2024,2674,5212,2538
+Panama,PAN,Americas,Latin America and the Caribbean,1990,144087,62744,-81343
+Panama,PAN,Americas,Latin America and the Caribbean,1995,131983,70848,-61135
+Panama,PAN,Americas,Latin America and the Caribbean,2000,166111,83410,-82701
+Panama,PAN,Americas,Latin America and the Caribbean,2005,167840,109461,-58379
+Panama,PAN,Americas,Latin America and the Caribbean,2010,173244,157788,-15456
+Panama,PAN,Americas,Latin America and the Caribbean,2015,177743,184710,6967
+Panama,PAN,Americas,Latin America and the Caribbean,2020,179794,313165,133371
+Panama,PAN,Americas,Latin America and the Caribbean,2024,194816,477749,282933
+Papua New Guinea,PNG,Oceania,Melanesia,1990,26144,33710,7566
+Papua New Guinea,PNG,Oceania,Melanesia,1995,27421,33526,6105
+Papua New Guinea,PNG,Oceania,Melanesia,2000,26811,26304,-507
+Papua New Guinea,PNG,Oceania,Melanesia,2005,27858,29971,2113
+Papua New Guinea,PNG,Oceania,Melanesia,2010,30830,30425,-405
+Papua New Guinea,PNG,Oceania,Melanesia,2015,34339,30940,-3399
+Papua New Guinea,PNG,Oceania,Melanesia,2020,34471,31068,-3403
+Papua New Guinea,PNG,Oceania,Melanesia,2024,35050,31171,-3879
+Paraguay,PRY,Americas,Latin America and the Caribbean,1990,321268,195884,-125384
+Paraguay,PRY,Americas,Latin America and the Caribbean,1995,341859,186570,-155289
+Paraguay,PRY,Americas,Latin America and the Caribbean,2000,364636,176608,-188028
+Paraguay,PRY,Americas,Latin America and the Caribbean,2005,476193,168243,-307950
+Paraguay,PRY,Americas,Latin America and the Caribbean,2010,681322,160299,-521023
+Paraguay,PRY,Americas,Latin America and the Caribbean,2015,674976,156462,-518514
+Paraguay,PRY,Americas,Latin America and the Caribbean,2020,708390,169567,-538823
+Paraguay,PRY,Americas,Latin America and the Caribbean,2024,746362,180837,-565525
+Peru,PER,Americas,Latin America and the Caribbean,1990,302008,48985,-253023
+Peru,PER,Americas,Latin America and the Caribbean,1995,478308,56831,-421477
+Peru,PER,Americas,Latin America and the Caribbean,2000,634278,66103,-568175
+Peru,PER,Americas,Latin America and the Caribbean,2005,914622,77195,-837427
+Peru,PER,Americas,Latin America and the Caribbean,2010,1231719,102662,-1129057
+Peru,PER,Americas,Latin America and the Caribbean,2015,1314688,152562,-1162126
+Peru,PER,Americas,Latin America and the Caribbean,2020,1460493,1184762,-275731
+Peru,PER,Americas,Latin America and the Caribbean,2024,1672482,1837219,164737
+Philippines,PHL,Asia,South-eastern Asia,1990,2167140,134600,-2032540
+Philippines,PHL,Asia,South-eastern Asia,1995,2736078,145980,-2590098
+Philippines,PHL,Asia,South-eastern Asia,2000,3310102,157361,-3152741
+Philippines,PHL,Asia,South-eastern Asia,2005,3925727,168741,-3756986
+Philippines,PHL,Asia,South-eastern Asia,2010,4941994,178147,-4763847
+Philippines,PHL,Asia,South-eastern Asia,2015,6000348,131897,-5868451
+Philippines,PHL,Asia,South-eastern Asia,2020,6461086,87212,-6373874
+Philippines,PHL,Asia,South-eastern Asia,2024,6988383,87212,-6901171
+Poland,POL,Europe,Eastern Europe,1990,2317607,1127393,-1190214
+Poland,POL,Europe,Eastern Europe,1995,2546193,963028,-1583165
+Poland,POL,Europe,Eastern Europe,2000,2502866,822627,-1680239
+Poland,POL,Europe,Eastern Europe,2005,2798776,724887,-2073889
+Poland,POL,Europe,Eastern Europe,2010,3673715,649114,-3024601
+Poland,POL,Europe,Eastern Europe,2015,4154666,683663,-3471003
+Poland,POL,Europe,Eastern Europe,2020,4365879,738099,-3627780
+Poland,POL,Europe,Eastern Europe,2024,4572613,1739901,-2832712
+Polynesia,,,,1990,120218,58509,-61709
+Polynesia,,,,1995,129506,65065,-64441
+Polynesia,,,,2000,147298,71151,-76147
+Polynesia,,,,2005,156076,73768,-82308
+Polynesia,,,,2010,161618,72741,-88877
+Polynesia,,,,2015,181299,70001,-111298
+Polynesia,,,,2020,200296,70136,-130160
+Polynesia,,,,2024,217912,70292,-147620
+Portugal,PRT,Europe,Southern Europe,1990,1589830,435782,-1154048
+Portugal,PRT,Europe,Southern Europe,1995,1540545,532822,-1007723
+Portugal,PRT,Europe,Southern Europe,2000,1554095,651472,-902623
+Portugal,PRT,Europe,Southern Europe,2005,1622764,771184,-851580
+Portugal,PRT,Europe,Southern Europe,2010,1727839,762825,-965014
+Portugal,PRT,Europe,Southern Europe,2015,1801647,864814,-936833
+Portugal,PRT,Europe,Southern Europe,2020,1729500,1001963,-727537
+Portugal,PRT,Europe,Southern Europe,2024,1799179,1127184,-671995
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,1990,922587,321909,-600678
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,1995,1043769,338067,-705702
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2000,1181295,355038,-826257
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2005,1357565,352144,-1005421
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2010,1554887,304969,-1249918
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2015,1708615,280494,-1428121
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2020,1886872,247132,-1639740
+Puerto Rico,PRI,Americas,Latin America and the Caribbean,2024,1948223,223323,-1724900
+Qatar,QAT,Asia,Western Asia,1990,11435,215508,204073
+Qatar,QAT,Asia,Western Asia,1995,11463,307661,296198
+Qatar,QAT,Asia,Western Asia,2000,11605,439215,427610
+Qatar,QAT,Asia,Western Asia,2005,13249,643000,629751
+Qatar,QAT,Asia,Western Asia,2010,15397,1409000,1393603
+Qatar,QAT,Asia,Western Asia,2015,16605,2090000,2073395
+Qatar,QAT,Asia,Western Asia,2020,18513,2182000,2163487
+Qatar,QAT,Asia,Western Asia,2024,19821,2337000,2317179
+Republic of Korea,KOR,Asia,Eastern Asia,1990,1744465,18499,-1725966
+Republic of Korea,KOR,Asia,Eastern Asia,1995,1812749,52719,-1760030
+Republic of Korea,KOR,Asia,Eastern Asia,2000,1897540,144426,-1753114
+Republic of Korea,KOR,Asia,Eastern Asia,2005,2001950,231744,-1770206
+Republic of Korea,KOR,Asia,Eastern Asia,2010,2164782,566098,-1598684
+Republic of Korea,KOR,Asia,Eastern Asia,2015,2162256,1312172,-850084
+Republic of Korea,KOR,Asia,Eastern Asia,2020,2038995,1723389,-315606
+Republic of Korea,KOR,Asia,Eastern Asia,2024,2030473,1811507,-218966
+Republic of Moldova,MDA,Europe,Eastern Europe,1990,634901,533397,-101504
+Republic of Moldova,MDA,Europe,Eastern Europe,1995,606003,365099,-240904
+Republic of Moldova,MDA,Europe,Eastern Europe,2000,563893,250134,-313759
+Republic of Moldova,MDA,Europe,Eastern Europe,2005,628876,174263,-454613
+Republic of Moldova,MDA,Europe,Eastern Europe,2010,717352,132386,-584966
+Republic of Moldova,MDA,Europe,Eastern Europe,2015,745934,101730,-644204
+Republic of Moldova,MDA,Europe,Eastern Europe,2020,812653,77291,-735362
+Republic of Moldova,MDA,Europe,Eastern Europe,2024,864257,188207,-676050
+Romania,ROU,Europe,Eastern Europe,1990,957791,135745,-822046
+Romania,ROU,Europe,Eastern Europe,1995,1142520,134970,-1007550
+Romania,ROU,Europe,Eastern Europe,2000,1226172,134204,-1091968
+Romania,ROU,Europe,Eastern Europe,2005,1960907,139430,-1821477
+Romania,ROU,Europe,Eastern Europe,2010,2979844,148107,-2831737
+Romania,ROU,Europe,Eastern Europe,2015,3535273,212560,-3322713
+Romania,ROU,Europe,Eastern Europe,2020,4191022,338734,-3852288
+Romania,ROU,Europe,Eastern Europe,2024,4583819,655579,-3928240
+Russian Federation,RUS,Europe,Eastern Europe,1990,12427364,11524948,-902416
+Russian Federation,RUS,Europe,Eastern Europe,1995,10281407,11928927,1647520
+Russian Federation,RUS,Europe,Eastern Europe,2000,8879470,11900297,3020827
+Russian Federation,RUS,Europe,Eastern Europe,2005,8675250,11667588,2992338
+Russian Federation,RUS,Europe,Eastern Europe,2010,8545806,11199727,2653921
+Russian Federation,RUS,Europe,Eastern Europe,2015,8528582,9098229,569647
+Russian Federation,RUS,Europe,Eastern Europe,2020,8747396,7297611,-1449785
+Russian Federation,RUS,Europe,Eastern Europe,2024,9134094,7605774,-1528320
+Rwanda,RWA,Africa,Sub-Saharan Africa,1990,584280,160024,-424256
+Rwanda,RWA,Africa,Sub-Saharan Africa,1995,2109879,215735,-1894144
+Rwanda,RWA,Africa,Sub-Saharan Africa,2000,346850,347076,226
+Rwanda,RWA,Africa,Sub-Saharan Africa,2005,293186,423187,130001
+Rwanda,RWA,Africa,Sub-Saharan Africa,2010,334656,426901,92245
+Rwanda,RWA,Africa,Sub-Saharan Africa,2015,496392,514647,18255
+Rwanda,RWA,Africa,Sub-Saharan Africa,2020,486754,513907,27153
+Rwanda,RWA,Africa,Sub-Saharan Africa,2024,539046,513316,-25730
+Réunion,REU,Africa,Sub-Saharan Africa,1990,3903,57210,53307
+Réunion,REU,Africa,Sub-Saharan Africa,1995,3639,77159,73520
+Réunion,REU,Africa,Sub-Saharan Africa,2000,3078,100678,97600
+Réunion,REU,Africa,Sub-Saharan Africa,2005,2624,115076,112452
+Réunion,REU,Africa,Sub-Saharan Africa,2010,2425,123029,120604
+Réunion,REU,Africa,Sub-Saharan Africa,2015,2364,127209,124845
+Réunion,REU,Africa,Sub-Saharan Africa,2020,2336,131769,129433
+Réunion,REU,Africa,Sub-Saharan Africa,2024,2357,135534,133177
+Saint Helena,SHN,Africa,Sub-Saharan Africa,1990,152,178,26
+Saint Helena,SHN,Africa,Sub-Saharan Africa,1995,157,117,-40
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2000,262,108,-154
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2005,267,163,-104
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2010,396,248,-148
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2015,428,377,-51
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2020,506,437,-69
+Saint Helena,SHN,Africa,Sub-Saharan Africa,2024,591,492,-99
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,1990,9854,3210,-6644
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,1995,10825,4248,-6577
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2000,11826,5871,-5955
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2005,12011,6682,-5329
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2010,11543,7245,-4298
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2015,12179,7443,-4736
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2020,13154,7725,-5429
+Saint Kitts and Nevis,KNA,Americas,Latin America and the Caribbean,2024,13872,7958,-5914
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,1990,14018,5305,-8713
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,1995,15676,7155,-8521
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2000,17419,9871,-7548
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2005,17110,9839,-7271
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2010,17985,9050,-8935
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2015,19620,8673,-10947
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2020,20127,8338,-11789
+Saint Lucia,LCA,Americas,Latin America and the Caribbean,2024,21706,8079,-13627
+Saint Pierre and Miquelon,SPM,Americas,Northern America,1990,61,1099,1038
+Saint Pierre and Miquelon,SPM,Americas,Northern America,1995,85,1320,1235
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2000,112,1458,1346
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2005,106,1147,1041
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2010,105,1017,912
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2015,111,986,875
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2020,122,998,876
+Saint Pierre and Miquelon,SPM,Americas,Northern America,2024,156,1008,852
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,1990,23344,3970,-19374
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,1995,24675,4135,-20540
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2000,25484,4307,-21177
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2005,26574,4436,-22138
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2010,26840,4569,-22271
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2015,29222,4637,-24585
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2020,30568,4738,-25830
+Saint Vincent and the Grenadines,VCT,Americas,Latin America and the Caribbean,2024,35264,4820,-30444
+Samoa,WSM,Oceania,Polynesia,1990,64643,3357,-61286
+Samoa,WSM,Oceania,Polynesia,1995,69079,4694,-64385
+Samoa,WSM,Oceania,Polynesia,2000,77905,5998,-71907
+Samoa,WSM,Oceania,Polynesia,2005,84416,5746,-78670
+Samoa,WSM,Oceania,Polynesia,2010,88359,5122,-83237
+Samoa,WSM,Oceania,Polynesia,2015,97923,4255,-93668
+Samoa,WSM,Oceania,Polynesia,2020,109124,4021,-105103
+Samoa,WSM,Oceania,Polynesia,2024,119313,3843,-115470
+San Marino,SMR,Europe,Southern Europe,1990,2457,3310,853
+San Marino,SMR,Europe,Southern Europe,1995,2382,3659,1277
+San Marino,SMR,Europe,Southern Europe,2000,2237,4045,1808
+San Marino,SMR,Europe,Southern Europe,2005,2080,4218,2138
+San Marino,SMR,Europe,Southern Europe,2010,1954,4880,2926
+San Marino,SMR,Europe,Southern Europe,2015,1866,5195,3329
+San Marino,SMR,Europe,Southern Europe,2020,2433,5543,3110
+San Marino,SMR,Europe,Southern Europe,2024,1991,5838,3847
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,1990,13668,5582,-8086
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,1995,18868,4936,-13932
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2000,24414,4365,-20049
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2005,28200,3433,-24767
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2010,29623,2700,-26923
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2015,33671,2394,-31277
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2020,37872,2139,-35733
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2024,41433,1955,-39478
+Saudi Arabia,SAU,Asia,Western Asia,1990,73557,4484868,4411311
+Saudi Arabia,SAU,Asia,Western Asia,1995,91112,4853489,4762377
+Saudi Arabia,SAU,Asia,Western Asia,2000,113266,5219382,5106116
+Saudi Arabia,SAU,Asia,Western Asia,2005,110937,6605114,6494177
+Saudi Arabia,SAU,Asia,Western Asia,2010,143733,8976961,8833228
+Saudi Arabia,SAU,Asia,Western Asia,2015,159958,13251622,13091664
+Saudi Arabia,SAU,Asia,Western Asia,2020,215551,13071258,12855707
+Saudi Arabia,SAU,Asia,Western Asia,2024,236699,13683841,13447142
+Senegal,SEN,Africa,Sub-Saharan Africa,1990,325275,270410,-54865
+Senegal,SEN,Africa,Sub-Saharan Africa,1995,318928,287654,-31274
+Senegal,SEN,Africa,Sub-Saharan Africa,2000,366397,231901,-134496
+Senegal,SEN,Africa,Sub-Saharan Africa,2005,425788,238298,-187490
+Senegal,SEN,Africa,Sub-Saharan Africa,2010,498417,256092,-242325
+Senegal,SEN,Africa,Sub-Saharan Africa,2015,558252,266496,-291756
+Senegal,SEN,Africa,Sub-Saharan Africa,2020,665735,274929,-390806
+Senegal,SEN,Africa,Sub-Saharan Africa,2024,741357,281867,-459490
+Serbia,SRB,Europe,Southern Europe,1990,366262,1064614,698352
+Serbia,SRB,Europe,Southern Europe,1995,428537,1543744,1115207
+Serbia,SRB,Europe,Southern Europe,2000,476586,1419951,943365
+Serbia,SRB,Europe,Southern Europe,2005,510878,1078633,567755
+Serbia,SRB,Europe,Southern Europe,2010,620292,901044,280752
+Serbia,SRB,Europe,Southern Europe,2015,775447,797595,22148
+Serbia,SRB,Europe,Southern Europe,2020,859370,733091,-126279
+Serbia,SRB,Europe,Southern Europe,2024,963307,712550,-250757
+Seychelles,SYC,Africa,Sub-Saharan Africa,1990,10497,3721,-6776
+Seychelles,SYC,Africa,Sub-Saharan Africa,1995,13042,5148,-7894
+Seychelles,SYC,Africa,Sub-Saharan Africa,2000,14346,6574,-7772
+Seychelles,SYC,Africa,Sub-Saharan Africa,2005,18364,8997,-9367
+Seychelles,SYC,Africa,Sub-Saharan Africa,2010,20399,11420,-8979
+Seychelles,SYC,Africa,Sub-Saharan Africa,2015,21141,12791,-8350
+Seychelles,SYC,Africa,Sub-Saharan Africa,2020,21722,13050,-8672
+Seychelles,SYC,Africa,Sub-Saharan Africa,2024,22191,13261,-8930
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,1990,42497,222148,179651
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,1995,423611,98516,-325095
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2000,459995,97974,-362021
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2005,89467,146227,56760
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2010,57946,79265,21319
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2015,59400,58830,-570
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2020,64980,53746,-11234
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2024,63631,49997,-13634
+Singapore,SGP,Asia,South-eastern Asia,1990,156619,729377,572758
+Singapore,SGP,Asia,South-eastern Asia,1995,170806,993616,822810
+Singapore,SGP,Asia,South-eastern Asia,2000,186401,1319433,1133032
+Singapore,SGP,Asia,South-eastern Asia,2005,206277,1494527,1288250
+Singapore,SGP,Asia,South-eastern Asia,2010,231411,2160350,1928939
+Singapore,SGP,Asia,South-eastern Asia,2015,254347,2535340,2280993
+Singapore,SGP,Asia,South-eastern Asia,2020,264487,2589107,2324620
+Singapore,SGP,Asia,South-eastern Asia,2024,269613,2841665,2572052
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,1990,1108,23861,22753
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,1995,1320,23861,22541
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2000,1594,23861,22267
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2005,1655,13099,11444
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2010,1698,26203,24505
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2015,1793,27295,25502
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2020,1945,28845,26900
+Sint Maarten (Dutch part),SXM,Americas,Latin America and the Caribbean,2024,2464,30148,27684
+Slovakia,SVK,Europe,Eastern Europe,1990,322859,41295,-281564
+Slovakia,SVK,Europe,Eastern Europe,1995,335476,69323,-266153
+Slovakia,SVK,Europe,Eastern Europe,2000,352303,116376,-235927
+Slovakia,SVK,Europe,Eastern Europe,2005,370695,130491,-240204
+Slovakia,SVK,Europe,Eastern Europe,2010,399133,146319,-252814
+Slovakia,SVK,Europe,Eastern Europe,2015,400856,177624,-223232
+Slovakia,SVK,Europe,Eastern Europe,2020,394449,197161,-197288
+Slovakia,SVK,Europe,Eastern Europe,2024,389909,323991,-65918
+Slovenia,SVN,Europe,Southern Europe,1990,112702,178077,65375
+Slovenia,SVN,Europe,Southern Europe,1995,124463,174419,49956
+Slovenia,SVN,Europe,Southern Europe,2000,107988,214508,106520
+Slovenia,SVN,Europe,Southern Europe,2005,94891,217218,122327
+Slovenia,SVN,Europe,Southern Europe,2010,91568,253786,162218
+Slovenia,SVN,Europe,Southern Europe,2015,91655,237616,145961
+Slovenia,SVN,Europe,Southern Europe,2020,81068,277964,196896
+Slovenia,SVN,Europe,Southern Europe,2024,78808,315122,236314
+Small Island Developing States (SIDS),,,,1990,4758273,2208579,-2549694
+Small Island Developing States (SIDS),,,,1995,5678716,2621962,-3056754
+Small Island Developing States (SIDS),,,,2000,6749895,3082560,-3667335
+Small Island Developing States (SIDS),,,,2005,7350981,3341149,-4009832
+Small Island Developing States (SIDS),,,,2010,8502622,4039607,-4463015
+Small Island Developing States (SIDS),,,,2015,9708235,4603415,-5104820
+Small Island Developing States (SIDS),,,,2020,10911697,4807366,-6104331
+Small Island Developing States (SIDS),,,,2024,11966357,5308114,-6658243
+Solomon Islands,SLB,Oceania,Melanesia,1990,2171,4226,2055
+Solomon Islands,SLB,Oceania,Melanesia,1995,2348,4178,1830
+Solomon Islands,SLB,Oceania,Melanesia,2000,2398,3981,1583
+Solomon Islands,SLB,Oceania,Melanesia,2005,2671,3271,600
+Solomon Islands,SLB,Oceania,Melanesia,2010,3024,2760,-264
+Solomon Islands,SLB,Oceania,Melanesia,2015,3447,2585,-862
+Solomon Islands,SLB,Oceania,Melanesia,2020,4047,2520,-1527
+Solomon Islands,SLB,Oceania,Melanesia,2024,8352,2469,-5883
+Somalia,SOM,Africa,Sub-Saharan Africa,1990,599233,478294,-120939
+Somalia,SOM,Africa,Sub-Saharan Africa,1995,791721,19527,-772194
+Somalia,SOM,Africa,Sub-Saharan Africa,2000,758781,20097,-738684
+Somalia,SOM,Africa,Sub-Saharan Africa,2005,756046,20768,-735278
+Somalia,SOM,Africa,Sub-Saharan Africa,2010,1237640,48106,-1189534
+Somalia,SOM,Africa,Sub-Saharan Africa,2015,1719780,40990,-1678790
+Somalia,SOM,Africa,Sub-Saharan Africa,2020,1701493,58590,-1642903
+Somalia,SOM,Africa,Sub-Saharan Africa,2024,1935594,77972,-1857622
+South Africa,ZAF,Africa,Sub-Saharan Africa,1990,295392,1285707,990315
+South Africa,ZAF,Africa,Sub-Saharan Africa,1995,357986,1006597,648611
+South Africa,ZAF,Africa,Sub-Saharan Africa,2000,494645,997703,503058
+South Africa,ZAF,Africa,Sub-Saharan Africa,2005,613772,1513855,900083
+South Africa,ZAF,Africa,Sub-Saharan Africa,2010,704402,2274466,1570064
+South Africa,ZAF,Africa,Sub-Saharan Africa,2015,782819,3162564,2379745
+South Africa,ZAF,Africa,Sub-Saharan Africa,2020,898203,2639076,1740873
+South Africa,ZAF,Africa,Sub-Saharan Africa,2024,1005800,2631100,1625300
+South America,,,,1990,4094918,4319559,224641
+South America,,,,1995,4915310,4243306,-672004
+South America,,,,2000,6240669,4210082,-2030587
+South America,,,,2005,8405080,4423159,-3981921
+South America,,,,2010,10398188,5198444,-5199744
+South America,,,,2015,10829815,5673584,-5156231
+South America,,,,2020,16909320,10242853,-6666467
+South America,,,,2024,21243834,12577921,-8665913
+South Sudan,SSD,Africa,Sub-Saharan Africa,1990,479199,652365,173166
+South Sudan,SSD,Africa,Sub-Saharan Africa,1995,266027,652365,386338
+South Sudan,SSD,Africa,Sub-Saharan Africa,2000,283331,652365,369034
+South Sudan,SSD,Africa,Sub-Saharan Africa,2005,211198,652365,441167
+South Sudan,SSD,Africa,Sub-Saharan Africa,2010,321713,230732,-90981
+South Sudan,SSD,Africa,Sub-Saharan Africa,2015,853845,844112,-9733
+South Sudan,SSD,Africa,Sub-Saharan Africa,2020,2374400,882252,-1492148
+South Sudan,SSD,Africa,Sub-Saharan Africa,2024,3168836,914001,-2254835
+South-Eastern Asia,,,,1990,6884845,2637040,-4247805
+South-Eastern Asia,,,,1995,8557750,3250697,-5307053
+South-Eastern Asia,,,,2000,10788055,4608647,-6179408
+South-Eastern Asia,,,,2005,12830697,6040145,-6790552
+South-Eastern Asia,,,,2010,16314789,8567047,-7747742
+South-Eastern Asia,,,,2015,18969075,9631549,-9337526
+South-Eastern Asia,,,,2020,21787389,10242239,-11545150
+South-Eastern Asia,,,,2024,24224991,11029593,-13195398
+Southern Africa,,,,1990,526813,1517089,990276
+Southern Africa,,,,1995,562868,1204498,641630
+Southern Africa,,,,2000,712756,1248435,535679
+Southern Africa,,,,2005,855864,1745545,889681
+Southern Africa,,,,2010,969080,2512206,1543126
+Southern Africa,,,,2015,1064677,3408739,2344062
+Southern Africa,,,,2020,1201659,2903653,1701994
+Southern Africa,,,,2024,1321401,2911844,1590443
+Southern Asia,,,,1990,24262062,19155930,-5106132
+Southern Asia,,,,1995,21535336,15227642,-6307694
+Southern Asia,,,,2000,23333766,14930955,-8402811
+Southern Asia,,,,2005,25278283,13636926,-11641357
+Southern Asia,,,,2010,31962340,14439064,-17523276
+Southern Asia,,,,2015,39106237,13914922,-25191315
+Southern Asia,,,,2020,41985779,13914646,-28071133
+Southern Asia,,,,2024,47616527,16459536,-31156991
+Southern Europe,,,,1990,10381163,5472616,-4908547
+Southern Europe,,,,1995,11086187,7250345,-3835842
+Southern Europe,,,,2000,11216178,8585552,-2630626
+Southern Europe,,,,2005,10737085,11897749,1160664
+Southern Europe,,,,2010,10833950,15213351,4379401
+Southern Europe,,,,2015,11356238,15507903,4151665
+Southern Europe,,,,2020,11909456,17716268,5806812
+Southern Europe,,,,2024,12511512,20119984,7608472
+Spain,ESP,Europe,Southern Europe,1990,1374696,813588,-561108
+Spain,ESP,Europe,Southern Europe,1995,1238438,1258176,19738
+Spain,ESP,Europe,Southern Europe,2000,1177275,2023886,846611
+Spain,ESP,Europe,Southern Europe,2005,1126330,4372449,3246119
+Spain,ESP,Europe,Southern Europe,2010,1138608,6281193,5142585
+Spain,ESP,Europe,Southern Europe,2015,1307006,5892847,4585841
+Spain,ESP,Europe,Southern Europe,2020,1471585,7146130,5674545
+Spain,ESP,Europe,Southern Europe,2024,1623550,8870527,7246977
+Sri Lanka,LKA,Asia,Southern Asia,1990,843476,41561,-801915
+Sri Lanka,LKA,Asia,Southern Asia,1995,721651,40841,-680810
+Sri Lanka,LKA,Asia,Southern Asia,2000,786520,40132,-746388
+Sri Lanka,LKA,Asia,Southern Asia,2005,910507,39526,-870981
+Sri Lanka,LKA,Asia,Southern Asia,2010,1108466,38959,-1069507
+Sri Lanka,LKA,Asia,Southern Asia,2015,1246445,39706,-1206739
+Sri Lanka,LKA,Asia,Southern Asia,2020,1409777,40254,-1369523
+Sri Lanka,LKA,Asia,Southern Asia,2024,1492103,40698,-1451405
+State of Palestine,PSE,Asia,Western Asia,1990,1824634,288332,-1536302
+State of Palestine,PSE,Asia,Western Asia,1995,2368382,281767,-2086615
+State of Palestine,PSE,Asia,Western Asia,2000,2851675,275202,-2576473
+State of Palestine,PSE,Asia,Western Asia,2005,3445320,274520,-3170800
+State of Palestine,PSE,Asia,Western Asia,2010,3493678,273840,-3219838
+State of Palestine,PSE,Asia,Western Asia,2015,3797793,273163,-3524630
+State of Palestine,PSE,Asia,Western Asia,2020,4072904,272784,-3800120
+State of Palestine,PSE,Asia,Western Asia,2024,4233248,272481,-3960767
+Sub-Saharan Africa,,,,1990,14124662,13802710,-321952
+Sub-Saharan Africa,,,,1995,15183742,14578211,-605531
+Sub-Saharan Africa,,,,2000,14584913,13518102,-1066811
+Sub-Saharan Africa,,,,2005,16004417,14849146,-1155271
+Sub-Saharan Africa,,,,2010,18243295,15787016,-2456279
+Sub-Saharan Africa,,,,2015,22763602,20399360,-2364242
+Sub-Saharan Africa,,,,2020,27134957,22040895,-5094062
+Sub-Saharan Africa,,,,2024,30661610,24306400,-6355210
+Sudan,SDN,Africa,Northern Africa,1990,465978,1402896,936918
+Sudan,SDN,Africa,Northern Africa,1995,660265,1053396,393131
+Sudan,SDN,Africa,Northern Africa,2000,743460,805086,61626
+Sudan,SDN,Africa,Northern Africa,2005,1119655,546419,-573236
+Sudan,SDN,Africa,Northern Africa,2010,1194477,618709,-575768
+Sudan,SDN,Africa,Northern Africa,2015,2209101,620523,-1588578
+Sudan,SDN,Africa,Northern Africa,2020,2378503,1379147,-999356
+Sudan,SDN,Africa,Northern Africa,2024,3786603,2397113,-1389490
+Suriname,SUR,Americas,Latin America and the Caribbean,1990,201053,18083,-182970
+Suriname,SUR,Americas,Latin America and the Caribbean,1995,214997,22320,-192677
+Suriname,SUR,Americas,Latin America and the Caribbean,2000,224382,27506,-196876
+Suriname,SUR,Americas,Latin America and the Caribbean,2005,240484,33662,-206822
+Suriname,SUR,Americas,Latin America and the Caribbean,2010,243661,39713,-203948
+Suriname,SUR,Americas,Latin America and the Caribbean,2015,238769,43127,-195642
+Suriname,SUR,Americas,Latin America and the Caribbean,2020,250122,47801,-202321
+Suriname,SUR,Americas,Latin America and the Caribbean,2024,258026,51902,-206124
+Sweden,SWE,Europe,Northern Europe,1990,114669,784283,669614
+Sweden,SWE,Europe,Northern Europe,1995,121543,944802,823259
+Sweden,SWE,Europe,Northern Europe,2000,139034,1022156,883122
+Sweden,SWE,Europe,Northern Europe,2005,153310,1126971,973661
+Sweden,SWE,Europe,Northern Europe,2010,177468,1372074,1194606
+Sweden,SWE,Europe,Northern Europe,2015,190827,1638195,1447368
+Sweden,SWE,Europe,Northern Europe,2020,200769,2033902,1833133
+Sweden,SWE,Europe,Northern Europe,2024,223508,2272158,2048650
+Switzerland,CHE,Europe,Western Europe,1990,396651,1252320,855669
+Switzerland,CHE,Europe,Western Europe,1995,420665,1363586,942921
+Switzerland,CHE,Europe,Western Europe,2000,440639,1484514,1043875
+Switzerland,CHE,Europe,Western Europe,2005,467978,1740312,1272334
+Switzerland,CHE,Europe,Western Europe,2010,491884,2053953,1562069
+Switzerland,CHE,Europe,Western Europe,2015,499929,2385713,1885784
+Switzerland,CHE,Europe,Western Europe,2020,507043,2610189,2103146
+Switzerland,CHE,Europe,Western Europe,2024,512547,2773840,2261293
+Syrian Arab Republic,SYR,Asia,Western Asia,1990,296211,714140,417929
+Syrian Arab Republic,SYR,Asia,Western Asia,1995,342460,830610,488150
+Syrian Arab Republic,SYR,Asia,Western Asia,2000,382108,834916,452808
+Syrian Arab Republic,SYR,Asia,Western Asia,2005,547473,882398,334925
+Syrian Arab Republic,SYR,Asia,Western Asia,2010,1265925,1783595,517670
+Syrian Arab Republic,SYR,Asia,Western Asia,2015,5981460,835716,-5145744
+Syrian Arab Republic,SYR,Asia,Western Asia,2020,8652202,868711,-7783491
+Syrian Arab Republic,SYR,Asia,Western Asia,2024,8927523,896042,-8031481
+Tajikistan,TJK,Asia,Central Asia,1990,552860,428900,-123960
+Tajikistan,TJK,Asia,Central Asia,1995,566001,348347,-217654
+Tajikistan,TJK,Asia,Central Asia,2000,542408,299499,-242909
+Tajikistan,TJK,Asia,Central Asia,2005,574337,280466,-293871
+Tajikistan,TJK,Asia,Central Asia,2010,555214,279808,-275406
+Tajikistan,TJK,Asia,Central Asia,2015,536498,275101,-261397
+Tajikistan,TJK,Asia,Central Asia,2020,517979,276031,-241948
+Tajikistan,TJK,Asia,Central Asia,2024,514478,276777,-237701
+Thailand,THA,Asia,South-eastern Asia,1990,298071,287933,-10138
+Thailand,THA,Asia,South-eastern Asia,1995,479776,271568,-208208
+Thailand,THA,Asia,South-eastern Asia,2000,607699,771234,163535
+Thailand,THA,Asia,South-eastern Asia,2005,648137,1705845,1057708
+Thailand,THA,Asia,South-eastern Asia,2010,724614,2640454,1915840
+Thailand,THA,Asia,South-eastern Asia,2015,907298,2853248,1945950
+Thailand,THA,Asia,South-eastern Asia,2020,1075834,3015007,1939173
+Thailand,THA,Asia,South-eastern Asia,2024,1178757,3179399,2000642
+Timor-Leste,TLS,Asia,South-eastern Asia,1990,27505,8954,-18551
+Timor-Leste,TLS,Asia,South-eastern Asia,1995,35137,9743,-25394
+Timor-Leste,TLS,Asia,South-eastern Asia,2000,188495,10602,-177893
+Timor-Leste,TLS,Asia,South-eastern Asia,2005,43229,11286,-31943
+Timor-Leste,TLS,Asia,South-eastern Asia,2010,45740,11540,-34200
+Timor-Leste,TLS,Asia,South-eastern Asia,2015,64935,8520,-56415
+Timor-Leste,TLS,Asia,South-eastern Asia,2020,96759,8399,-88360
+Timor-Leste,TLS,Asia,South-eastern Asia,2024,109613,8303,-101310
+Togo,TGO,Africa,Sub-Saharan Africa,1990,184145,84844,-99301
+Togo,TGO,Africa,Sub-Saharan Africa,1995,294188,101583,-192605
+Togo,TGO,Africa,Sub-Saharan Africa,2000,253143,137968,-115175
+Togo,TGO,Africa,Sub-Saharan Africa,2005,391527,204219,-187308
+Togo,TGO,Africa,Sub-Saharan Africa,2010,407152,255564,-151588
+Togo,TGO,Africa,Sub-Saharan Africa,2015,489237,277384,-211853
+Togo,TGO,Africa,Sub-Saharan Africa,2020,539877,279936,-259941
+Togo,TGO,Africa,Sub-Saharan Africa,2024,584790,281994,-302796
+Tokelau,TKL,Oceania,Polynesia,1990,295,360,65
+Tokelau,TKL,Oceania,Polynesia,1995,352,506,154
+Tokelau,TKL,Oceania,Polynesia,2000,441,712,271
+Tokelau,TKL,Oceania,Polynesia,2005,576,1003,427
+Tokelau,TKL,Oceania,Polynesia,2010,703,1128,425
+Tokelau,TKL,Oceania,Polynesia,2015,779,1185,406
+Tokelau,TKL,Oceania,Polynesia,2020,714,1238,524
+Tokelau,TKL,Oceania,Polynesia,2024,688,1282,594
+Tonga,TON,Oceania,Polynesia,1990,19954,2911,-17043
+Tonga,TON,Oceania,Polynesia,1995,23967,3274,-20693
+Tonga,TON,Oceania,Polynesia,2000,28245,3684,-24561
+Tonga,TON,Oceania,Polynesia,2005,31622,4301,-27321
+Tonga,TON,Oceania,Polynesia,2010,34619,4607,-30012
+Tonga,TON,Oceania,Polynesia,2015,40233,3954,-36279
+Tonga,TON,Oceania,Polynesia,2020,47094,3742,-43352
+Tonga,TON,Oceania,Polynesia,2024,53237,3581,-49656
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,1990,181630,50666,-130964
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,1995,188536,45994,-142542
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2000,281792,41753,-240039
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2005,291912,44812,-247100
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2010,314851,48226,-266625
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2015,323450,50021,-273429
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2020,310552,78849,-231703
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2024,323630,113478,-210152
+Tunisia,TUN,Africa,Northern Africa,1990,453179,37984,-415195
+Tunisia,TUN,Africa,Northern Africa,1995,466515,37867,-428648
+Tunisia,TUN,Africa,Northern Africa,2000,482798,36719,-446079
+Tunisia,TUN,Africa,Northern Africa,2005,526777,35040,-491737
+Tunisia,TUN,Africa,Northern Africa,2010,569831,43172,-526659
+Tunisia,TUN,Africa,Northern Africa,2015,619432,56532,-562900
+Tunisia,TUN,Africa,Northern Africa,2020,674089,60145,-613944
+Tunisia,TUN,Africa,Northern Africa,2024,715249,63201,-652048
+Turkmenistan,TKM,Asia,Central Asia,1990,293445,306500,13055
+Turkmenistan,TKM,Asia,Central Asia,1995,303119,273565,-29554
+Turkmenistan,TKM,Asia,Central Asia,2000,320900,219067,-101833
+Turkmenistan,TKM,Asia,Central Asia,2005,335113,213053,-122060
+Turkmenistan,TKM,Asia,Central Asia,2010,342391,197979,-144412
+Turkmenistan,TKM,Asia,Central Asia,2015,317031,196376,-120655
+Turkmenistan,TKM,Asia,Central Asia,2020,384184,194920,-189264
+Turkmenistan,TKM,Asia,Central Asia,2024,365787,193763,-172024
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,1990,2246,5062,2816
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,1995,1431,7039,5608
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2000,595,9015,8420
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2005,1039,13115,12076
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2010,2009,17216,15207
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2015,2251,22723,20472
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2020,2470,25748,23278
+Turks and Caicos Islands,TCA,Americas,Latin America and the Caribbean,2024,2663,28455,25792
+Tuvalu,TUV,Oceania,Polynesia,1990,1265,318,-947
+Tuvalu,TUV,Oceania,Polynesia,1995,1283,263,-1020
+Tuvalu,TUV,Oceania,Polynesia,2000,1334,218,-1116
+Tuvalu,TUV,Oceania,Polynesia,2005,1300,209,-1091
+Tuvalu,TUV,Oceania,Polynesia,2010,1035,220,-815
+Tuvalu,TUV,Oceania,Polynesia,2015,1094,230,-864
+Tuvalu,TUV,Oceania,Polynesia,2020,1164,239,-925
+Tuvalu,TUV,Oceania,Polynesia,2024,1239,246,-993
+Türkiye,TUR,Asia,Western Asia,1990,1862302,1159415,-702887
+Türkiye,TUR,Asia,Western Asia,1995,2388133,1220898,-1167235
+Türkiye,TUR,Asia,Western Asia,2000,2673854,1279019,-1394835
+Türkiye,TUR,Asia,Western Asia,2005,2651430,1345188,-1306242
+Türkiye,TUR,Asia,Western Asia,2010,2709646,1420433,-1289213
+Türkiye,TUR,Asia,Western Asia,2015,2727575,3750982,1023407
+Türkiye,TUR,Asia,Western Asia,2020,2837815,6580295,3742480
+Türkiye,TUR,Asia,Western Asia,2024,3130337,7083501,3953164
+Uganda,UGA,Africa,Sub-Saharan Africa,1990,247275,560570,313295
+Uganda,UGA,Africa,Sub-Saharan Africa,1995,294857,666211,371354
+Uganda,UGA,Africa,Sub-Saharan Africa,2000,446491,624296,177805
+Uganda,UGA,Africa,Sub-Saharan Africa,2005,477529,637596,160067
+Uganda,UGA,Africa,Sub-Saharan Africa,2010,582479,515055,-67424
+Uganda,UGA,Africa,Sub-Saharan Africa,2015,619064,823181,204117
+Uganda,UGA,Africa,Sub-Saharan Africa,2020,586241,1776038,1189797
+Uganda,UGA,Africa,Sub-Saharan Africa,2024,578034,2057759,1479725
+Ukraine,UKR,Europe,Eastern Europe,1990,5528990,6892920,1363930
+Ukraine,UKR,Europe,Eastern Europe,1995,5507530,6172338,664808
+Ukraine,UKR,Europe,Eastern Europe,2000,5483590,5527087,43497
+Ukraine,UKR,Europe,Eastern Europe,2005,5401295,5050302,-350993
+Ukraine,UKR,Europe,Eastern Europe,2010,5179224,4818767,-360457
+Ukraine,UKR,Europe,Eastern Europe,2015,4644011,4915142,271131
+Ukraine,UKR,Europe,Eastern Europe,2020,4353031,4997387,644356
+Ukraine,UKR,Europe,Eastern Europe,2024,9769216,5064173,-4705043
+United Arab Emirates,ARE,Asia,Western Asia,1990,61137,1302298,1241161
+United Arab Emirates,ARE,Asia,Western Asia,1995,74060,1795514,1721454
+United Arab Emirates,ARE,Asia,Western Asia,2000,93827,2373577,2279750
+United Arab Emirates,ARE,Asia,Western Asia,2005,86261,3218730,3132469
+United Arab Emirates,ARE,Asia,Western Asia,2010,108381,5446000,5337619
+United Arab Emirates,ARE,Asia,Western Asia,2015,121499,6859000,6737501
+United Arab Emirates,ARE,Asia,Western Asia,2020,142981,7184000,7041019
+United Arab Emirates,ARE,Asia,Western Asia,2024,166074,8157000,7990926
+United Kingdom,GBR,Europe,Northern Europe,1990,3869251,3664896,-204355
+United Kingdom,GBR,Europe,Northern Europe,1995,3958015,4173053,215038
+United Kingdom,GBR,Europe,Northern Europe,2000,3965079,4747902,782823
+United Kingdom,GBR,Europe,Northern Europe,2005,4236414,5989992,1753578
+United Kingdom,GBR,Europe,Northern Europe,2010,4535077,7713303,3178226
+United Kingdom,GBR,Europe,Northern Europe,2015,4583485,9071431,4487946
+United Kingdom,GBR,Europe,Northern Europe,2020,4710579,10520870,5810291
+United Kingdom,GBR,Europe,Northern Europe,2024,4804944,11845479,7040535
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,1990,194717,574025,379308
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,1995,210718,1106043,895325
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2000,192774,949600,756826
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2005,202455,771153,568698
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2010,208185,309847,101662
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2015,221603,384567,162964
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2020,219530,426017,206487
+United Republic of Tanzania,TZA,Africa,Sub-Saharan Africa,2024,225017,462371,237354
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,1990,2348,51970,49622
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,1995,3012,54241,51229
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2000,3728,56611,52883
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2005,3474,56647,53173
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2010,3555,56684,53129
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2015,3795,56721,52926
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2020,3840,56753,52913
+United States Virgin Islands,VIR,Americas,Latin America and the Caribbean,2024,4047,56779,52732
+United States of America,USA,Americas,Northern America,1990,1725058,23266147,21541089
+United States of America,USA,Americas,Northern America,1995,1860615,28525723,26665108
+United States of America,USA,Americas,Northern America,2000,2017599,34806848,32789249
+United States of America,USA,Americas,Northern America,2005,2320398,39545828,37225430
+United States of America,USA,Americas,Northern America,2010,2774899,43947211,41172312
+United States of America,USA,Americas,Northern America,2015,2968434,47942986,44974552
+United States of America,USA,Americas,Northern America,2020,3082359,50471028,47388669
+United States of America,USA,Americas,Northern America,2024,3186999,52375047,49188048
+Upper-middle-income countries,,,,1990,46231104,29709448,-16521656
+Upper-middle-income countries,,,,1995,51938081,29469488,-22468593
+Upper-middle-income countries,,,,2000,57307181,29596235,-27710946
+Upper-middle-income countries,,,,2005,64222196,30996867,-33225329
+Upper-middle-income countries,,,,2010,72320683,33657677,-38663006
+Upper-middle-income countries,,,,2015,74439438,36700080,-37739358
+Upper-middle-income countries,,,,2020,78523298,42171211,-36352087
+Upper-middle-income countries,,,,2024,83119977,47028685,-36091292
+Uruguay,URY,Americas,Latin America and the Caribbean,1990,178551,98116,-80435
+Uruguay,URY,Americas,Latin America and the Caribbean,1995,186030,93428,-92602
+Uruguay,URY,Americas,Latin America and the Caribbean,2000,202378,88874,-113504
+Uruguay,URY,Americas,Latin America and the Caribbean,2005,256391,82317,-174074
+Uruguay,URY,Americas,Latin America and the Caribbean,2010,272665,76303,-196362
+Uruguay,URY,Americas,Latin America and the Caribbean,2015,256293,78799,-177494
+Uruguay,URY,Americas,Latin America and the Caribbean,2020,259028,108267,-150761
+Uruguay,URY,Americas,Latin America and the Caribbean,2024,263285,160064,-103221
+Uzbekistan,UZB,Asia,Central Asia,1990,1449406,1653000,203594
+Uzbekistan,UZB,Asia,Central Asia,1995,1655021,1512577,-142444
+Uzbekistan,UZB,Asia,Central Asia,2000,1813688,1406498,-407190
+Uzbekistan,UZB,Asia,Central Asia,2005,1946322,1329932,-616390
+Uzbekistan,UZB,Asia,Central Asia,2010,2073283,1220149,-853134
+Uzbekistan,UZB,Asia,Central Asia,2015,2061736,1170873,-890863
+Uzbekistan,UZB,Asia,Central Asia,2020,2092741,1162007,-930734
+Uzbekistan,UZB,Asia,Central Asia,2024,2114480,1154963,-959517
+Vanuatu,VUT,Oceania,Melanesia,1990,4927,2308,-2619
+Vanuatu,VUT,Oceania,Melanesia,1995,5656,2461,-3195
+Vanuatu,VUT,Oceania,Melanesia,2000,6184,2626,-3558
+Vanuatu,VUT,Oceania,Melanesia,2005,6597,2800,-3797
+Vanuatu,VUT,Oceania,Melanesia,2010,6898,2991,-3907
+Vanuatu,VUT,Oceania,Melanesia,2015,5840,3186,-2654
+Vanuatu,VUT,Oceania,Melanesia,2020,8465,3257,-5208
+Vanuatu,VUT,Oceania,Melanesia,2024,15202,3315,-11887
+Venezuela,VEN,Americas,Latin America and the Caribbean,1990,216183,1025009,808826
+Venezuela,VEN,Americas,Latin America and the Caribbean,1995,248789,1019996,771207
+Venezuela,VEN,Americas,Latin America and the Caribbean,2000,338356,1013738,675382
+Venezuela,VEN,Americas,Latin America and the Caribbean,2005,451384,1076474,625090
+Venezuela,VEN,Americas,Latin America and the Caribbean,2010,550930,1347347,796417
+Venezuela,VEN,Americas,Latin America and the Caribbean,2015,760196,1404448,644252
+Venezuela,VEN,Americas,Latin America and the Caribbean,2020,5477198,1324193,-4153005
+Venezuela,VEN,Americas,Latin America and the Caribbean,2024,8328514,1263304,-7065210
+Viet Nam,VNM,Asia,South-eastern Asia,1990,1128520,88560,-1039960
+Viet Nam,VNM,Asia,South-eastern Asia,1995,1362168,88376,-1273792
+Viet Nam,VNM,Asia,South-eastern Asia,2000,1805287,86213,-1719074
+Viet Nam,VNM,Asia,South-eastern Asia,2005,2091843,81997,-2009846
+Viet Nam,VNM,Asia,South-eastern Asia,2010,2339779,84408,-2255371
+Viet Nam,VNM,Asia,South-eastern Asia,2015,2719796,101386,-2618410
+Viet Nam,VNM,Asia,South-eastern Asia,2020,3330404,200639,-3129765
+Viet Nam,VNM,Asia,South-eastern Asia,2024,3693537,326418,-3367119
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,1990,6650,1402,-5248
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,1995,7067,1704,-5363
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2000,7532,2015,-5517
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2005,7617,2191,-5426
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2010,7724,2111,-5613
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2015,11527,2050,-9477
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2020,12231,2040,-10191
+Wallis and Futuna Islands,WLF,Oceania,Polynesia,2024,12822,2032,-10790
+Western Africa,,,,1990,4733959,4476686,-257273
+Western Africa,,,,1995,5817272,5350182,-467090
+Western Africa,,,,2000,5991272,5254826,-736446
+Western Africa,,,,2005,7012547,6000026,-1012521
+Western Africa,,,,2010,7801378,6413896,-1387482
+Western Africa,,,,2015,9118066,7206050,-1912016
+Western Africa,,,,2020,10347311,7747495,-2599816
+Western Africa,,,,2024,11328701,8236829,-3091872
+Western Asia,,,,1990,9432901,14489476,5056575
+Western Asia,,,,1995,11159862,16497765,5337903
+Western Asia,,,,2000,12150630,18138496,5987866
+Western Asia,,,,2005,13122062,21262754,8140692
+Western Asia,,,,2010,15843567,30063216,14219649
+Western Asia,,,,2015,20612157,41799209,21187052
+Western Asia,,,,2020,24325077,45765868,21440791
+Western Asia,,,,2024,25440263,49211670,23771407
+Western Europe,,,,1990,6953771,17019914,10066143
+Western Europe,,,,1995,8144490,20263560,12119070
+Western Europe,,,,2000,7559096,21781702,14222606
+Western Europe,,,,2005,7799384,24134692,16335308
+Western Europe,,,,2010,8270225,25952723,17682498
+Western Europe,,,,2015,8471120,28688766,20217646
+Western Europe,,,,2020,8695422,32846290,24150868
+Western Europe,,,,2024,9039660,36742379,27702719
+Western Sahara,ESH,Africa,Northern Africa,1990,168120,2688,-165432
+Western Sahara,ESH,Africa,Northern Africa,1995,167018,2989,-164029
+Western Sahara,ESH,Africa,Northern Africa,2000,165927,3289,-162638
+Western Sahara,ESH,Africa,Northern Africa,2005,131181,3891,-127290
+Western Sahara,ESH,Africa,Northern Africa,2010,170154,4493,-165661
+Western Sahara,ESH,Africa,Northern Africa,2015,184784,5179,-179605
+Western Sahara,ESH,Africa,Northern Africa,2020,193812,5424,-188388
+Western Sahara,ESH,Africa,Northern Africa,2024,202107,5628,-196479
+World,,,,1990,153916063,153916063,0
+World,,,,1995,163176002,163176002,0
+World,,,,2000,174566152,174566152,0
+World,,,,2005,192788721,192788721,0
+World,,,,2010,221020392,221020392,0
+World,,,,2015,250042020,250042020,0
+World,,,,2020,275284032,275284032,0
+World,,,,2024,304021813,304021813,0
+Yemen,YEM,Asia,Western Asia,1990,388323,118863,-269460
+Yemen,YEM,Asia,Western Asia,1995,490575,136515,-354060
+Yemen,YEM,Asia,Western Asia,2000,533500,144940,-388560
+Yemen,YEM,Asia,Western Asia,2005,668381,171871,-496510
+Yemen,YEM,Asia,Western Asia,2010,1199914,288394,-911520
+Yemen,YEM,Asia,Western Asia,2015,2169838,379882,-1789956
+Yemen,YEM,Asia,Western Asia,2020,2240104,387113,-1852991
+Yemen,YEM,Asia,Western Asia,2024,2480734,392997,-2087737
+Zambia,ZMB,Africa,Sub-Saharan Africa,1990,73861,279463,205602
+Zambia,ZMB,Africa,Sub-Saharan Africa,1995,116003,244338,128335
+Zambia,ZMB,Africa,Sub-Saharan Africa,2000,125019,343703,218684
+Zambia,ZMB,Africa,Sub-Saharan Africa,2005,133582,252895,119313
+Zambia,ZMB,Africa,Sub-Saharan Africa,2010,134473,149962,15489
+Zambia,ZMB,Africa,Sub-Saharan Africa,2015,128590,132107,3517
+Zambia,ZMB,Africa,Sub-Saharan Africa,2020,122981,187955,64974
+Zambia,ZMB,Africa,Sub-Saharan Africa,2024,122793,249205,126412
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,1990,221449,634621,413172
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,1995,272384,431226,158842
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2000,321579,410109,88530
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2005,543425,402226,-141199
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2010,931334,398307,-533027
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2015,1237826,400482,-837344
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2020,1390279,416141,-974138
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2024,1519324,429108,-1090216
