@@ -3,7 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-*.csv
+#*.csv
 
 # C extensions
 *.so
@@ -138,7 +138,3 @@ cython_debug/
 
 .cursorindexingignore
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
