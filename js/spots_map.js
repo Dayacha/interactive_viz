@@ -315,8 +315,8 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
 
         tooltip.style("opacity",1).html(`
           <b>${name}</b><br>
-          <span style="color:#D94F70">emigrants → ${country}:</span> ${totalOut.toFixed(2)}M<br>
-          <span style="color:#3A71C4">immigrants ← ${country}:</span> ${totalIn.toFixed(2)}M
+          <span style="color:#D94F70">emigrants from ${country}:</span> ${totalOut.toFixed(2)}M<br>
+          <span style="color:#3A71C4">immigrants to ${country}:</span> ${totalIn.toFixed(2)}M
         `);
       })
       .on("mousemove", placeTooltip)
