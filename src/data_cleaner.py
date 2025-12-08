@@ -1,89 +1,36 @@
 """
 Script to clean the migrants stock data and enrich it
-with region and subregion information using country_codes.csv.
+with region and subregion information using country_codes.csv & 
+with total population data from The World Bank. 
 
 Outputs (saved into data/clean/):
-- migrants_stock_clean.csv
+- country_migration_totals.csv
 """
 
 from pathlib import Path
 import polars as pl
 
 
-# -------------------------------------------------------------------
-# Directory Resolver
-# -------------------------------------------------------------------
-
-def get_data_dir() -> Path:
-    """
-    Returns the absolute path to the /data directory.
-    Assumes the script is inside: PROJECT/src/data_cleaner.py
-    """
-    script_path = Path(__file__).resolve()
-    data_dir = script_path.parent.parent / "data"
-    return data_dir
-
-
-# -------------------------------------------------------------------
-# Loading Functions
-# -------------------------------------------------------------------
-
-def load_migrants_stock(data_dir: Path) -> pl.DataFrame:
-    """
-    Load the raw UNDESA migrants stock data.
-    """
-    file_path = data_dir / "raw" / "migrants_stock_undesa.csv"
-    print(f"Loading migrants stock from: {file_path}")
-
-    df = pl.read_csv(file_path)
-    print(f"  Loaded {df.height} rows and {df.width} columns.")
-    return df
-
-
-def load_country_codes(data_dir: Path) -> pl.DataFrame:
-    """
-    Load ISO / M49 country codes with region and subregion.
-    Handles #N/A in numeric columns.
-    """
-    file_path = data_dir / "raw" / "country_codes.csv"
-    print(f"Loading country codes from: {file_path}")
-
+def load_data_set(file_path):
+    print(f"Loading data from: {file_path}")
     df = pl.read_csv(
         file_path,
-        null_values=["#N/A", "N/A", ""],   # <-- FIX
-        infer_schema_length=5000,          # more robust for wide files
-        ignore_errors=True                 # avoid hard crashes if weird rows appear
+        null_values=["#N/A", "N/A", ""],
+        ignore_errors=True
     )
-
     print(f"  Loaded {df.height} rows and {df.width} columns.")
     return df
 
 
-
-# -------------------------------------------------------------------
-# LONG FORMAT
-# -------------------------------------------------------------------
-
-def reshape_to_long(df: pl.DataFrame) -> pl.DataFrame:
-    """
-    Convert UNDESA migrants stock data from wide format (years as columns)
-    into long format.
-    """
-
+def reshape_to_long(df: pl.DataFrame):
     print("Reshaping dataset: wide → long...")
 
     YEAR_COLS = ["1990", "1995", "2000", "2005", "2010", "2015", "2020", "2024"]
 
     long_df = df.unpivot(
         index=[
-            "index",
-            "destination",
-            "coverage",
-            "type",
-            "destination_code",
-            "origin",
-            "origin_code",
-            "gender"
+            "index", "destination", "coverage", "type",
+            "destination_code", "origin", "origin_code", "gender"
         ],
         on=YEAR_COLS,
         variable_name="year",
@@ -94,14 +41,7 @@ def reshape_to_long(df: pl.DataFrame) -> pl.DataFrame:
     return long_df
 
 
-# -------------------------------------------------------------------
-# CLEANING
-# -------------------------------------------------------------------
-
-def clean_migrants_long(df: pl.DataFrame) -> pl.DataFrame:
-    """
-    Clean the long-format migrants dataset.
-    """
+def clean_migrants_long(df: pl.DataFrame):
     print("Cleaning long-format migrant data...")
 
     cleaned = df.with_columns([
@@ -116,32 +56,19 @@ def clean_migrants_long(df: pl.DataFrame) -> pl.DataFrame:
             .cast(pl.Int64, strict=False)
         ).alias("migrants"),
 
-        # clean names
         pl.col("origin").str.replace_all(r"\*", "").alias("origin"),
         pl.col("destination").str.replace_all(r"\*", "").alias("destination"),
 
-        # rename codes
         pl.col("destination_code").alias("M49_destination"),
         pl.col("origin_code").alias("M49_origin"),
     ])
 
-    cleaned = cleaned.with_columns(
+    return cleaned.with_columns(
         (pl.col("migrants") / 1_000_000).alias("migrants_millions")
     )
 
-    print("  Migrant values cleaned and standardized.")
-    return cleaned
 
-
-# -------------------------------------------------------------------
-# METADATA JOIN
-# -------------------------------------------------------------------
-
-def add_country_metadata(migrants: pl.DataFrame, country_codes: pl.DataFrame) -> pl.DataFrame:
-    """
-    Enrich migrants dataset with ISO3, region, subregion for both
-    destination and origin.
-    """
+def add_country_metadata(migrants: pl.DataFrame, country_codes: pl.DataFrame):
     print("Adding ISO3 + region info...")
 
     cc = country_codes.rename({
@@ -149,10 +76,10 @@ def add_country_metadata(migrants: pl.DataFrame, country_codes: pl.DataFrame) ->
         "name": "country",
         "region": "region",
         "sub-region": "subregion",
-        "M49": "M49"
+        "M49": "M49",
+        
     }).select(["M49", "iso3", "country", "region", "subregion"])
 
-    # destination cc table
     cc_dest = cc.rename({
         "M49": "M49_destination",
         "iso3": "destination_iso3",
@@ -161,7 +88,6 @@ def add_country_metadata(migrants: pl.DataFrame, country_codes: pl.DataFrame) ->
         "subregion": "destination_subregion"
     })
 
-    # origin cc table
     cc_orig = cc.rename({
         "M49": "M49_origin",
         "iso3": "origin_iso3",
@@ -170,43 +96,20 @@ def add_country_metadata(migrants: pl.DataFrame, country_codes: pl.DataFrame) ->
         "subregion": "origin_subregion"
     })
 
-    # LEFT joins (preserve UNDESA region aggregates)
     migrated = migrants.join(cc_dest, on="M49_destination", how="left")
     migrated = migrated.join(cc_orig, on="M49_origin", how="left")
 
-    print(f"  Metadata added: {migrated.height} rows.")
     return migrated
 
-# -------------------------------------------------------------------
-# SAVE
-# -------------------------------------------------------------------
 
-def save_dataframe(df: pl.DataFrame, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    df.write_csv(path)
-    print(f"Saved → {path} ({df.height} rows).")
-
-def make_country_totals(df: pl.DataFrame, data_dir: Path) -> None:
-    """
-    Create a unified country-level dataset with:
-        - emigrants (origin totals)
-        - immigrants (destination totals)
-        - net_migration (immigrants - emigrants)
-
-    Merges only by ["country", "year"] and keeps the first available metadata
-    (iso3, region, subregion) from either origin or destination.
-    """
-
+def make_country_totals(df: pl.DataFrame):
     print("Creating unified country migration totals…")
 
-    # ------------------------------------------------------------
-    # 1. ORIGIN TOTALS (emigrants)
-    # ------------------------------------------------------------
     origin = (
         df.filter(pl.col("destination") == "World")
         .group_by(["origin", "origin_iso3", "origin_region",
                    "origin_subregion", "year"])
-        .agg(pl.sum("migrants").alias("emigrants"))
+        .agg(pl.sum("migrants_millions").alias("emigrants"))
         .rename({
             "origin": "country",
             "origin_iso3": "origin_iso3",
@@ -215,14 +118,11 @@ def make_country_totals(df: pl.DataFrame, data_dir: Path) -> None:
         })
     )
 
-    # ------------------------------------------------------------
-    # 2. DESTINATION TOTALS (immigrants)
-    # ------------------------------------------------------------
     destination = (
         df.filter(pl.col("origin") == "World")
         .group_by(["destination", "destination_iso3", "destination_region",
                    "destination_subregion", "year"])
-        .agg(pl.sum("migrants").alias("immigrants"))
+        .agg(pl.sum("migrants_millions").alias("immigrants"))
         .rename({
             "destination": "country",
             "destination_iso3": "destination_iso3",
@@ -231,89 +131,131 @@ def make_country_totals(df: pl.DataFrame, data_dir: Path) -> None:
         })
     )
 
-    # ------------------------------------------------------------
-    # 3. MERGE ONLY BY ["country", "year"]
-    # ------------------------------------------------------------
-    combined = origin.join(
-        destination,
-        on=["country", "year"],
-        how="outer"
-    )
+    combined = origin.join(destination, on=["country", "year"], how="outer")
 
-    # ------------------------------------------------------------
-    # 4. COALESCE METADATA
-    # ------------------------------------------------------------
     combined = combined.with_columns([
-        # keep any non-null iso3
         pl.coalesce(["origin_iso3", "destination_iso3"]).alias("iso3"),
-
-        # keep any non-null region/subregion
         pl.coalesce(["origin_region", "destination_region"]).alias("region"),
         pl.coalesce(["origin_subregion", "destination_subregion"]).alias("subregion"),
-
-        # fill missing migration values
         pl.col("emigrants").fill_null(0),
         pl.col("immigrants").fill_null(0),
     ])
 
-    # ------------------------------------------------------------
-    # 5. NET MIGRATION
-    # ------------------------------------------------------------
     combined = combined.with_columns(
         (pl.col("immigrants") - pl.col("emigrants")).alias("net_migration")
     )
 
-    # ------------------------------------------------------------
-    # 6. CLEAN + KEEP FINAL COLUMN ORDER
-    # ------------------------------------------------------------
     combined = combined.select([
         "country", "iso3", "region", "subregion", "year",
-        "emigrants", "immigrants", "net_migration"
+        "emigrants", "immigrants", "net_migration",
     ]).sort(["country", "year"])
 
-    # ------------------------------------------------------------
-    # 7. SAVE
-    # ------------------------------------------------------------
-    output_path = data_dir / "clean" / "country_migration_totals.csv"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    combined.write_csv(output_path)
-    print(f"Saved → {output_path} ({combined.height} rows)")
+    return combined.filter(
+        pl.col("iso3").is_not_null() &
+        pl.col("country").is_not_null()
+    )
 
 
+def add_total_population(combined: pl.DataFrame, pop_df: pl.DataFrame):
+    print("Adding total population data…")
+
+    population = pop_df.select([
+        pl.col("REF_AREA").alias("iso3"),
+        pl.col("TIME_PERIOD").alias("year"),
+        (pl.col("OBS_VALUE") / 1_000_000).alias("population_millions")
+    ])
+
+    joined = combined.join(
+        population,
+        on=["iso3", "year"],
+        how="left"
+    )
+
+    return joined.with_columns([
+        pl.when(pl.col("population_millions") > 0)
+          .then(pl.col("immigrants") / pl.col("population_millions") * 100)
+          .otherwise(None)
+          .alias("immigrants_perc_pop"),
+
+        pl.when(pl.col("population_millions") > 0)
+          .then(pl.col("emigrants") / pl.col("population_millions") * 100)
+          .otherwise(None)
+          .alias("emigrants_perc_pop"),
+    ])
+
+
+def make_bilateral_dataset(df: pl.DataFrame):
+    """
+    Build a bilateral origin→destination migration dataset
+    from the fully enriched migrants dataframe.
+
+    Output columns:
+    - year
+    - origin_iso3, origin_country_name, origin_region, origin_subregion
+    - destination_iso3, destination_country_name, destination_region, destination_subregion
+    - migrants_millions
+    """
+    print("Creating bilateral origin→destination migration dataset…")
+
+    # 1. Filtrar solo filas útiles (quitar "World" y duplicados vacíos)
+    filtered = df.filter(
+        (pl.col("origin") != "World") &
+        (pl.col("destination") != "World") &
+        (pl.col("origin_country_name").is_not_null()) &
+        (pl.col("destination_country_name").is_not_null()) &
+        (pl.col("origin_iso3").is_not_null()) &
+        (pl.col("destination_iso3").is_not_null()) &
+        (pl.col("migrants").is_not_null())
+    )
+
+    # 2. Agrupar por O-D-year y sumar male+female
+    agg = (
+        filtered
+        .group_by([
+            "year",
+            "origin_iso3", "origin_country_name", "origin_region", "origin_subregion",
+            "destination_iso3", "destination_country_name", "destination_region", "destination_subregion"
+        ])
+        .agg([
+            pl.sum("migrants_millions").alias("migrants_millions")
+        ])
+    )
+
+    bilateral = agg.sort(["origin_iso3", "destination_iso3", "year"])
+
+    print(f"  Bilateral dataset: {bilateral.height} rows.")
+    return bilateral
 
 
 
-# -------------------------------------------------------------------
-# MAIN PIPELINE
-# -------------------------------------------------------------------
+def save_dataframe(df: pl.DataFrame, path):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    df.write_csv(path)
+    print(f"Saved → {path}")
+
 
 def main():
-    print("\n=== RUNNING MIGRANTS DATA CLEANER ===\n")
+    print("\n DATA CLEANER\n")
 
-    data_dir = get_data_dir()
-    print(f"Using data directory: {data_dir}")
-
-    migrants_raw = load_migrants_stock(data_dir)
-    country_codes = load_country_codes(data_dir)
+    migrants_raw = load_data_set("data/raw/UN-Data/migrants_stock_undesa.csv")
+    country_codes = load_data_set("data/raw/country_codes.csv")
+    population_data = load_data_set("data/raw/WB-Data/WB_WDI_SP_POP_TOTL.csv")
 
     migrants_long = reshape_to_long(migrants_raw)
     migrants_clean = clean_migrants_long(migrants_long)
     migrants_final = add_country_metadata(migrants_clean, country_codes)
 
-    output_path = data_dir / "clean" / "migrants_stock_clean.csv"
-    save_dataframe(migrants_final, output_path)
+    # (1) Dataset totals  by country
+    country_totals = make_country_totals(migrants_final)
+    complete_data = add_total_population(country_totals, population_data)
+    save_dataframe(complete_data, "data/clean/country_migration_totals.csv")
 
-    # Create country  dataset
-    make_country_totals(migrants_final, data_dir=data_dir)
-
+    # (2) Dataset bilaterals
+    bilateral = make_bilateral_dataset(migrants_final)
+    save_dataframe(bilateral, "data/clean/migration_bilateral_clean.csv")
 
     print("\n✔ All done!\n")
 
-
-# -------------------------------------------------------------------
-# RUN FROM TERMINAL
-# -------------------------------------------------------------------
 
 if __name__ == "__main__":
     main()
