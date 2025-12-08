@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+data/clean/migrants_stock_clean.csv
 #*.csv
 
 # C extensions
