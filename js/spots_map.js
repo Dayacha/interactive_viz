@@ -246,13 +246,8 @@ function init_spots_map(countryISO = window.currentCountryISO, targetYear = wind
 
         tooltip.style("opacity",1).html(`
           <b>${name}</b><br>
-<<<<<<< HEAD
-          <span style="color:#D94F70">emigrants from ${country}:</span> ${totalOut.toFixed(2)}M<br>
-          <span style="color:#3A71C4">immigrants to ${country}:</span> ${totalIn.toFixed(2)}M
-=======
           <span style="color:#D94F70">emigrants from ${selectedName}:</span> ${totalOut.toFixed(2)}M<br>
           <span style="color:#3A71C4">immigrants to ${selectedName}:</span> ${totalIn.toFixed(2)}M
->>>>>>> 76219d9 (updates)
         `);
       })
       .on("mousemove", placeTooltip)
