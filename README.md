@@ -32,26 +32,21 @@ to show:
     cd interactive_viz
     ```
 2.  Install dependencies (optional). Everything is plain HTML/CSS/JS
-
-3.  Start a static file server. Any server works—here are two options:
-    ```bash
-    # Python 3
-    python3 -m http.server 8000
-    # or, if you have Node
-    npx serve .
-    ```
-4.  Visit  the port you chose in your browser.
-5.  Make changes and refresh; no bundler or watcher is required.
+3.  Visit  the port you chose in your browser.
+4.  Make changes and refresh.
 
 ## Data Sources
 
-All raw data was downloaded manually and cleaned into the `data/clean`
-directory. These CSVs are the ones the visualization reads at runtime.
+The original downloads from **UN DESA** (International Migrant Stock) and
+the **World Bank** (World Development Indicators) live inside
+`data/raw.zip` — a snapshot that mirrors the uncompressed `data/raw/`
+folder. Running `python3 src/data_cleaner.py` transforms those files into
+the `data/clean/*.csv` outputs consumed by the visualization.
 
 | File | Description | Source |
 | --- | --- | --- |
-| `data/clean/country_migration_totals.csv` | Country-level totals for immigration, emigration, and net migration by year (1990–2020) | **UN DESA**: International Migrant Stock + **World Bank** population denominators |
-| `data/clean/migration_bilateral_clean.csv` | Aggregated bilateral corridors with start/end countries, migrant counts, and region metadata | **UN DESA** (stock) + custom cleaning |
+| `data/clean/country_migration_totals.csv` | Cleaner output combining migrant stock totals with population denominators to produce immigration, emigration, and net migration series (1990–2020) | Derived via `src/data_cleaner.py` from **UN DESA** + **World Bank** raw files in `data/raw.zip` |
+| `data/clean/migration_bilateral_clean.csv` | Cleaner output aggregating bilateral corridors with origin/destination ISO codes and subregions | Derived via `src/data_cleaner.py` from **UN DESA** raw corridors inside `data/raw.zip` |
 
 If you need to regenerate the clean files, check the scripts and
 notebooks inside `src/` and `milestones/` for the transformation steps.
