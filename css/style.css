@@ -1,6 +1,9 @@
+/* Colors where selected with the help of ChatGPT to evaluate contrast 
+and aesthetics for a data visualization accesibility. */
+*/
 
 :root {
-
+ 
   /* Neutrals */
   --bg: #FAF9F6;
   --bg-alt: #F1EEE8;
