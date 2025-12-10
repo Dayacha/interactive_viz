@@ -8,6 +8,7 @@ last three decades. It combines UN DESA migrant stock statistics,
 World Bank population indicators, and custom bilateral flow summaries
 to show:
 
+- Live demo: https://dayacha.github.io/interactive_viz/
 - Long-term emigration, immigration, and net migration trajectories
 - Animated bilateral flows with directional particles
 - Country-level partners and a choropleth map using a blue–rose palette
