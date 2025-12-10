@@ -14,9 +14,20 @@
   --mx-pink: #E4007C;
   --primary: #1F4E79;
   --primary-dark: #0D3B66;
+  --accent: #2A9D8F;
+  --accent-dark: #264653;
+  --highlight: #E9C46A;
+
   --div-neg: #2A9D8F;
   --div-mid: #EAF2F8;
   --div-pos: #1B3B5F;
+
+  /* Sequential blues */
+  --seq-1: #E9EEF4;
+  --seq-2: #AFC6DD;
+  --seq-3: #3E6FA8;
+  --seq-4: #1F4E79;
+  --seq-5: #0D3B66;
 
   /* Layout tokens */
   --border-radius-lg: 18px;
@@ -190,7 +201,6 @@ body {
   flex-direction: column;
   gap: 20vh;
   padding-bottom: 30vh;
-  pointer-events: none;
 }
 
 .step {
@@ -200,7 +210,6 @@ body {
   opacity: 0.4;
   transform: translateY(12px);
   transition: 0.25s ease;
-  pointer-events: none;
 }
 
 .step.is-active {
@@ -246,10 +255,6 @@ body {
   min-height: 280px;
 }
 
-.top5-controls {
-  margin-top: 4px;
-}
-
 
 .static-section {
   margin-top: 120px;
@@ -284,7 +289,7 @@ body {
   margin-top: 18px;
 }
 
-.year-controls button {
+#year-play {
   background: var(--primary);
   color: white;
   padding: 6px 12px;
@@ -292,7 +297,7 @@ body {
   border: none;
   cursor: pointer;
 }
-.year-controls button:hover {
+#year-play:hover {
   background: var(--primary-dark);
 }
 
@@ -465,3 +470,4 @@ body {
 .limit-btn:hover {
   background: var(--primary-dark);
 }
+

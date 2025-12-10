@@ -81,13 +81,14 @@ function draw_line_chart(data) {
   yAxis.selectAll("text")
     .style("font-size", `${11 * scale}px`);
 
-  const axisLabelX = margin.left - 24 * scale;
-  svg.append("text")
+  yAxis.append("text")
     .attr("fill", "#555")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -innerH / 2)
+    .attr("y", -margin.left + 14 * scale)
     .attr("text-anchor", "middle")
     .attr("font-size", `${12 * scale}px`)
     .attr("font-weight", 600)
-    .attr("transform", `translate(${axisLabelX},${margin.top + innerH / 2}) rotate(-90)`)
     .text("Million migrants (stock)");
 }
 
