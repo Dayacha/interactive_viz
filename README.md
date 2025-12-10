@@ -93,3 +93,8 @@ MSCAPP · University of Chicago
 GitHub: https://github.com/danielaayala\
 LinkedIn: https://www.linkedin.com/in/daniela-ayala\
 Email: danielaayala@uchicago.edu
+
+## Acknowledgments
+
+- Thanks to **James Turk** for mentorship and feedback on early data stories.
+- Shout-out to the **MSCAPP Data Visualization (Fall 2025)** cohort for critiques and usability testing sessions that shaped the final experience.
