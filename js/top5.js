@@ -219,9 +219,9 @@ function drawMiniChart(containerID, data, title, color) {
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(4))
     .selectAll("text")
-    .attr("transform", "rotate(-45)")
-    .style("text-anchor", "end")
-    .attr("font-size", "10px");
+    .attr("text-anchor", "middle")
+    .attr("font-size", "10px")
+    .attr("dy", "1.2em");
 }
 
 // update the descriptive text next to the charts
