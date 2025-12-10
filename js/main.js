@@ -3,8 +3,13 @@
 let storyData = {};
 let globalData = [];
 
-window.currentCountry = "Mexico";
-window.currentCountryISO = null;
+const DEFAULT_COUNTRY_ISO = "MEX";
+
+window.currentTop5Year = window.currentTop5Year || null;
+
+window.currentCountryISO  = window.currentCountryISO  || DEFAULT_COUNTRY_ISO;
+window.currentCountryName = window.currentCountryName || "Mexico";
+window.currentCountry     = window.currentCountryName;
 
 
 // color palette (aligned with choropleth and line charts)
@@ -15,9 +20,11 @@ const immigrants_color = "#3F6FBF";
 
 // load country-level time series
 
-async function load_data(country = "Mexico") {
+async function load_data(countryISO = DEFAULT_COUNTRY_ISO) {
   try {
     const raw = await d3.csv("data/clean/country_migration_totals.csv");
+    const isoToName = window.isoToName = window.isoToName || {};
+    const nameToIso = window.nameToIso = window.nameToIso || {};
 
     const data = raw.map(d => ({
       country: d.country,
@@ -30,17 +37,28 @@ async function load_data(country = "Mexico") {
       net_migration_millions: (+d.immigrants) - (+d.emigrants)
     }));
 
+    data.forEach(d => {
+      if (d.iso && d.country) {
+        isoToName[d.iso] = isoToName[d.iso] || d.country;
+        nameToIso[d.country.toLowerCase()] = d.iso;
+      }
+    });
+
     const filtered = data
-      .filter(d => d.country === country)
+      .filter(d => d.iso === countryISO)
       .sort((a, b) => a.year - b.year);
 
     if (!filtered.length) {
-      console.warn("no data found for country:", country);
+      console.warn("no data found for iso:", countryISO);
       return [];
     }
 
-    // keep iso for narrative and map interactions
-    window.currentCountryISO = filtered[0].iso;
+    // keep iso/name for narrative and map interactions
+    const countryName = filtered[0].country;
+    window.currentCountryISO  = filtered[0].iso;
+    window.currentCountryName = countryName;
+    window.currentCountry     = countryName;
+    window.selectedMapCountryISO = filtered[0].iso;
 
     return filtered;
 
@@ -121,9 +139,8 @@ async function init_app() {
 
   console.log("initializing visualizations");
 
-  window.currentCountry = "Mexico";
-
-  globalData = await load_data(window.currentCountry);
+  window.currentCountryISO = DEFAULT_COUNTRY_ISO;
+  globalData = await load_data(window.currentCountryISO);
   if (!globalData.length) return;
 
   storyData = computeStoryData(globalData);
@@ -137,10 +154,11 @@ async function init_app() {
 
   // main charts
   draw_line_chart(globalData);
-  init_spots_map(window.currentCountry, storyData.lastYear);
+  init_spots_map(window.currentCountryISO, storyData.lastYear, window.currentCountryName);
   initChoroplethMap("immigration", storyData.lastYear);
 
-  updateTop5(window.currentCountry);
+  const top5Year = window.currentTop5Year || undefined;
+  updateTop5(window.currentCountryISO, window.currentCountryName, top5Year);
 
   if (typeof init_scroll === "function") init_scroll();
 
@@ -157,16 +175,20 @@ document.addEventListener("DOMContentLoaded", init_app);
 
 // update all charts when the user selects a new country
 
-window.updateAllCharts = async function (country) {
+window.updateAllCharts = async function (countryISO) {
 
-  window.currentCountry = country;
+  const iso = (countryISO && countryISO.length === 3)
+    ? countryISO.toUpperCase()
+    : (window.nameToIso?.[String(countryISO || "").toLowerCase()] || window.currentCountryISO);
 
-  console.log("updating all charts for:", country);
+  console.log("updating all charts for ISO:", iso);
 
-  globalData = await load_data(country);
+  globalData = await load_data(iso);
   if (!globalData.length) return;
 
   storyData = computeStoryData(globalData);
+
+  const displayName = window.currentCountryName || window.isoToName?.[iso] || iso;
 
   // clean chart areas
   d3.select("#chart-line").selectAll("*").remove();
@@ -177,10 +199,11 @@ window.updateAllCharts = async function (country) {
 
   // redraw
   draw_line_chart(globalData);
-  init_spots_map(country, storyData.lastYear);
+  init_spots_map(iso, storyData.lastYear, displayName);
   initChoroplethMap("immigration", storyData.lastYear);
 
-  updateTop5(country);
+  const top5Year = window.currentTop5Year || undefined;
+  updateTop5(iso, displayName, top5Year);
   updateChart(1);
 
   console.log("country update complete");

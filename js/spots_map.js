@@ -1,78 +1,12 @@
 // global state
 
-window.currentCountry = window.currentCountry || "Mexico";
-window.currentYear    = window.currentYear    || 2024;
-window.validYears     = window.validYears     || null;
-window.flowLimit      = window.flowLimit      || "top10";   // top10 or all
+window.currentCountryISO  = window.currentCountryISO  || "MEX";
+window.currentCountryName = window.currentCountryName || "Mexico";
+window.currentYear        = window.currentYear        || 2024;
+window.validYears         = window.validYears         || null;
+window.flowLimit          = window.flowLimit          || "top10";   // top10 or all
 
 let playInterval = null;
-
-
-// helper: check if country is in gulf region
-
-function isGulfCountry(name = "") {
-  const gulf = [
-    "Saudi Arabia", "United Arab Emirates", "Qatar",
-    "Kuwait", "Bahrain", "Oman"
-  ];
-  return gulf.includes(name);
-}
-
-
-// helper: check if country is in list of spanish-speaking countries
-
-function isSpanishSpeakingCountry(name = "") {
-  const list = [
-    "Spain","Mexico","Argentina","Chile","Colombia","Peru","Ecuador","Bolivia",
-    "Paraguay","Uruguay","Venezuela","Guatemala","Honduras","El Salvador",
-    "Nicaragua","Costa Rica","Panama","Cuba","Dominican Republic"
-  ];
-  return list.includes(name);
-}
-
-
-// classify country into broad region groups
-
-function getRegion(name = "") {
-  const n = name.trim();
-
-  const northAmerica = ["United States", "Canada", "Mexico"];
-  const latinAmerica = [
-    "Mexico","Guatemala","Honduras","El Salvador","Nicaragua","Costa Rica","Panama","Belize",
-    "Cuba","Dominican Republic","Haiti","Colombia","Venezuela","Ecuador","Peru","Bolivia",
-    "Chile","Argentina","Paraguay","Uruguay","Brazil"
-  ];
-  const europe = [
-    "Spain","Portugal","France","Germany","Italy","United Kingdom","Ireland","Netherlands",
-    "Belgium","Sweden","Norway","Denmark","Finland","Switzerland","Austria","Poland",
-    "Czech Republic","Hungary","Greece"
-  ];
-  const gulf = ["Saudi Arabia","United Arab Emirates","Qatar","Kuwait","Bahrain","Oman"];
-  const mena = [
-    "Morocco","Algeria","Tunisia","Egypt","Jordan","Lebanon","Israel","Palestine",
-    ...gulf
-  ];
-  const asia = [
-    "India","Pakistan","Bangladesh","Sri Lanka","Philippines","China",
-    "Indonesia","Vietnam","Thailand","Malaysia","Nepal"
-  ];
-  const africa = [
-    "Nigeria","Ghana","Kenya","South Africa","Ethiopia",
-    "Senegal","Côte d'Ivoire","Angola","Cameroon"
-  ];
-  const oceania = ["Australia","New Zealand"];
-
-  if (northAmerica.includes(n)) return "North America";
-  if (latinAmerica.includes(n)) return "Latin America & Caribbean";
-  if (europe.includes(n)) return "Europe";
-  if (gulf.includes(n)) return "Gulf countries";
-  if (mena.includes(n)) return "Middle East & North Africa";
-  if (asia.includes(n)) return "Asia";
-  if (africa.includes(n)) return "Africa";
-  if (oceania.includes(n)) return "Oceania";
-  return "Other";
-}
-
 
 // build text for the flow map narrative
 
@@ -145,9 +79,11 @@ function updateSpotsText(country, year, flowsOut, flowsIn) {
 
 // initialize the flow map
 
-function init_spots_map(country = window.currentCountry, targetYear = window.currentYear) {
+function init_spots_map(countryISO = window.currentCountryISO, targetYear = window.currentYear, countryName = window.currentCountryName) {
 
-  window.currentCountry = country;
+  window.currentCountryISO  = countryISO;
+  window.currentCountryName = countryName || window.isoToName?.[countryISO] || countryISO;
+  window.currentCountry     = window.currentCountryName;
 
   const container = d3.select("#chart-map-spots");
   container.selectAll("*").remove();
@@ -157,20 +93,6 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
   const height = rect.height || 520;
 
   const tooltip = d3.select("#spots-tooltip");
-
-  // normalize names for comparison
-  function normalize(name = "") {
-    return name
-      .toLowerCase()
-      .replace(/ of america/g, "")
-      .replace(/united states of america/g, "usa")
-      .replace(/united states/g, "usa")
-      .replace(/united kingdom/g, "uk")
-      .replace(/republic of/g, "")
-      .replace(/democratic republic/g, "")
-      .replace(/-/g, " ")
-      .trim();
-  }
 
   function placeTooltip(e) {
     tooltip
@@ -195,6 +117,7 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
 
       slider.min = window.validYears[0];
       slider.max = window.validYears[window.validYears.length - 1];
+      slider.step = 1;
 
       if (!window.validYears.includes(window.currentYear)) {
         window.currentYear = window.validYears[window.validYears.length - 1];
@@ -239,12 +162,16 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
 
     // click to change country
     countries.on("click", (e,d) => {
-      const name = d.properties?.name;
-      if (!name) return;
-      window.currentCountry = name;
-      init_spots_map(name, window.currentYear);
+      const iso = d.id;
+      if (!iso) return;
+      const name = window.isoToName?.[iso] || d.properties?.name || iso;
+      window.currentCountryISO  = iso;
+      window.currentCountryName = name;
+      window.currentCountry     = name;
+      init_spots_map(iso, window.currentYear, name);
       const input = document.querySelector("#country-search");
       if (input) input.value = name;
+      if (window.updateAllCharts) window.updateAllCharts(iso);
     });
 
     // compute centroids
@@ -254,7 +181,7 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
     // outgoing flows
     let flowsOut = csv.filter(d =>
       +d.year === targetYear &&
-      normalize(d.origin_country_name) === normalize(country) &&
+      d.origin_iso3 === countryISO &&
       centroids[d.origin_iso3] &&
       centroids[d.destination_iso3]
     ).sort((a,b)=> b.migrants_millions - a.migrants_millions);
@@ -268,7 +195,7 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
     // incoming flows
     let flowsIn = csv.filter(d =>
       +d.year === targetYear &&
-      normalize(d.destination_country_name) === normalize(country) &&
+      d.destination_iso3 === countryISO &&
       centroids[d.origin_iso3] &&
       centroids[d.destination_iso3]
     ).sort((a,b)=> b.migrants_millions - a.migrants_millions);
@@ -283,16 +210,18 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
     const flows = [...flowsOut, ...flowsIn];
 
     // update narrative
-    updateSpotsText(country, targetYear, flowsOut, flowsIn);
+    const displayName = window.currentCountryName || window.isoToName?.[countryISO] || countryISO;
+    updateSpotsText(displayName, targetYear, flowsOut, flowsIn);
 
     // special coloring for partners
     const outDest = new Set(flowsOut.map(f => f.destination_iso3));
     const inOrig  = new Set(flowsIn.map(f => f.origin_iso3));
+    const selectedName = window.currentCountryName || displayName;
 
     countries.attr("fill", d => {
-      if (normalize(d.properties?.name) === normalize(country)) return "#999";
-      if (outDest.has(d.id)) return "#DCE8FF";
-      if (inOrig.has(d.id))  return "#FFD6E3";
+      if (d.id === countryISO) return "#999";
+      if (outDest.has(d.id)) return "#FFD6E3";
+      if (inOrig.has(d.id))  return "#DCE8FF";
       return "#F2F2F2";
     });
 
@@ -300,23 +229,30 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
     countries
       .on("mouseover", function (e,d) {
 
-        const name = d.properties?.name;
+        const name = d.properties?.name || d.id;
         if (!name) return;
 
         d3.select(this)
           .attr("stroke", "#000")
           .attr("stroke-width", 1.3);
 
-        const outgoing = flowsOut.filter(f => normalize(f.destination_country_name) === normalize(name));
-        const incoming = flowsIn.filter(f => normalize(f.origin_country_name) === normalize(name));
+        const countryIso = d.id;
+
+        const outgoing = flowsOut.filter(f => f.destination_iso3 === countryIso);
+        const incoming = flowsIn.filter(f => f.origin_iso3 === countryIso);
 
         const totalOut = d3.sum(outgoing, f => f.migrants_millions) || 0;
         const totalIn  = d3.sum(incoming, f => f.migrants_millions) || 0;
 
         tooltip.style("opacity",1).html(`
           <b>${name}</b><br>
+<<<<<<< HEAD
           <span style="color:#D94F70">emigrants from ${country}:</span> ${totalOut.toFixed(2)}M<br>
           <span style="color:#3A71C4">immigrants to ${country}:</span> ${totalIn.toFixed(2)}M
+=======
+          <span style="color:#D94F70">emigrants from ${selectedName}:</span> ${totalOut.toFixed(2)}M<br>
+          <span style="color:#3A71C4">immigrants to ${selectedName}:</span> ${totalIn.toFixed(2)}M
+>>>>>>> 76219d9 (updates)
         `);
       })
       .on("mousemove", placeTooltip)
@@ -450,8 +386,8 @@ function init_spots_map(country = window.currentCountry, targetYear = window.cur
     legend.html(`
       <div><span style="color:#D94F70">●</span> emigration (outflows)</div>
       <div><span style="color:#3A71C4">●</span> immigration (inflows)</div>
-      <div><span style="background:#DCE8FF;padding:2px 6px;border-radius:4px"></span> top destinations</div>
-      <div><span style="background:#FFD6E3;padding:2px 6px;border-radius:4px"></span> top origins</div>
+      <div><span style="background:#FFD6E3;padding:2px 6px;border-radius:4px"></span> top destinations</div>
+      <div><span style="background:#DCE8FF;padding:2px 6px;border-radius:4px"></span> top origins</div>
       <div style="margin-top:4px;color:#555;">particles show flow direction</div>
     `);
   });
@@ -472,7 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!window.validYears.includes(y)) return;
     window.currentYear = y;
     label.textContent = y;
-    init_spots_map(window.currentCountry, y);
+    init_spots_map(window.currentCountryISO, y, window.currentCountryName);
   });
 
   playBtn.addEventListener("click", () => {
@@ -493,7 +429,7 @@ document.addEventListener("DOMContentLoaded", () => {
       window.currentYear = y;
       slider.value = y;
       label.textContent = y;
-      init_spots_map(window.currentCountry, y);
+      init_spots_map(window.currentCountryISO, y, window.currentCountryName);
     }, 900);
   });
 
@@ -505,7 +441,6 @@ document.addEventListener("DOMContentLoaded", () => {
       window.flowLimit = "top10";
       limitBtn.textContent = "Show All";
     }
-    init_spots_map(window.currentCountry, window.currentYear);
+    init_spots_map(window.currentCountryISO, window.currentYear, window.currentCountryName);
   });
 });
-

@@ -55,7 +55,7 @@ trends\
     │   ├── top5.js
     │   ├── autocomplete.js
     │   ├── main.js
-    │   └── scroll.js
+    │   └── (removed scroll controller)
     │── data/
     │   └── clean/
     │       ├── country_migration_totals.csv

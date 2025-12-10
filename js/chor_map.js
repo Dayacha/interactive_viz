@@ -1,14 +1,7 @@
-/* ==============================================================
-   CHOROPLETH MAP — BLUE/ROSE DIVERGING PALETTE
-   Clean version following your map design system
-=============================================================== */
+
 
 console.log("Choropleth module loaded.");
 
-
-// --------------------------------------------------------------
-// GLOBAL STATE
-// --------------------------------------------------------------
 window.currentMapMetric      = window.currentMapMetric      || "net";
 window.currentMapYear        = window.currentMapYear        || 2024;
 window.chorPlayInterval      = window.chorPlayInterval      || null;
@@ -17,9 +10,6 @@ window.selectedMapCountryISO = window.selectedMapCountryISO || null;
 const MAP_YEARS = [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024];
 
 
-// --------------------------------------------------------------
-// METRIC KEYS (HTML ↔ internal)
-// --------------------------------------------------------------
 function htmlMetricToInternal(key) {
   const map = {
     immigration_rate: "immigration",
@@ -39,9 +29,6 @@ function internalMetricToHtml(key) {
 }
 
 
-// --------------------------------------------------------------
-// COLOR SCALES — Blue, Rose, Diverging
-// --------------------------------------------------------------
 function createColorScale(metric) {
 
   // Immigration (blue)
@@ -81,10 +68,6 @@ function createColorScale(metric) {
     .range([NEG5, NEG4, NEG3, NEG2, ZERO, POS2, POS4]);
 }
 
-
-// --------------------------------------------------------------
-// SPARKLINE HELPERS (mini chart for tooltip)
-// --------------------------------------------------------------
 function sparklineScales(series) {
   const vals = [];
 
@@ -140,9 +123,6 @@ function buildSparkline(series) {
 }
 
 
-// --------------------------------------------------------------
-// LEGEND
-// --------------------------------------------------------------
 function renderLegend(metric) {
   const legend = d3.select("#chor-legend");
   legend.html("");
@@ -192,9 +172,6 @@ function renderLegend(metric) {
 }
 
 
-// --------------------------------------------------------------
-// NARRATIVE BOX
-// --------------------------------------------------------------
 function updateNarrative(row, metric, year, ctx) {
   const box = d3.select("#chor-text");
 
@@ -220,9 +197,6 @@ function updateNarrative(row, metric, year, ctx) {
 }
 
 
-// --------------------------------------------------------------
-// TOOLTIP
-// --------------------------------------------------------------
 function showTooltip(tooltip, event, row, metric, spark) {
   const label =
     metric === "immigration" ? `${row.immigrants_perc_pop.toFixed(2)}% immigrants` :
@@ -246,9 +220,6 @@ function hideTooltip(tooltip) {
 }
 
 
-// --------------------------------------------------------------
-// MAIN MAP RENDERER
-// --------------------------------------------------------------
 function renderChoropleth(container, geo, csv, metric, year) {
 
   // Wrapper
@@ -259,10 +230,11 @@ function renderChoropleth(container, geo, csv, metric, year) {
     .attr("class", "chor-legend");
 
   // Controls (year slider + play)
-  const controls = wrapper.append("div").attr("class", "chor-controls");
+  const controls = wrapper.append("div").attr("class", "chor-controls year-controls");
 
   const playBtn = controls.append("button")
     .attr("id", "chor-play")
+    .attr("class", "limit-btn")
     .text(window.chorPlayInterval ? "⏸" : "▶");
 
   const slider = controls.append("input")
@@ -367,8 +339,6 @@ function renderChoropleth(container, geo, csv, metric, year) {
 
       const spark = buildSparkline(seriesByISO[row.iso3]);
       showTooltip(tooltip, event, row, metric, spark);
-
-      updateNarrative(row, metric, year, ctx);
     })
     .on("mousemove", function (event) {
       tooltip
@@ -381,20 +351,19 @@ function renderChoropleth(container, geo, csv, metric, year) {
       d3.select(this)
         .attr("stroke", "#ffffff")
         .attr("stroke-width", 0.7);
-
-      if (window.selectedMapCountryISO) {
-        const row = ctx.rowsByISO[window.selectedMapCountryISO];
-        updateNarrative(row, metric, year, ctx);
-      } else {
-        updateNarrative(null, metric, year, ctx);
-      }
     })
     .on("click", function (event, d) {
       const row = rowsByISO[d.id];
       if (!row) return;
 
+      const prevISO = window.currentCountryISO;
       window.selectedMapCountryISO = row.iso3;
+      window.currentCountryISO     = row.iso3;
       window.currentCountry        = row.country;
+      window.currentCountryName    = row.country;
+
+      const input = document.querySelector("#country-search");
+      if (input) input.value = row.country;
 
       countryPaths
         .attr("stroke", "#ffffff")
@@ -405,6 +374,10 @@ function renderChoropleth(container, geo, csv, metric, year) {
         .attr("stroke-width", 1.2);
 
       updateNarrative(row, metric, year, ctx);
+
+      if (window.updateAllCharts && prevISO !== row.iso3) {
+        window.updateAllCharts(row.iso3);
+      }
     });
 
   // Slider
@@ -451,9 +424,6 @@ function renderChoropleth(container, geo, csv, metric, year) {
 }
 
 
-// --------------------------------------------------------------
-// ENTRY POINT
-// --------------------------------------------------------------
 function initChoroplethMap(metric = window.currentMapMetric, year = window.currentMapYear) {
   metric = metric || "net";
   window.currentMapMetric = metric;

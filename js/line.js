@@ -75,10 +75,21 @@ function draw_line_chart(data) {
     .selectAll("text")
     .style("font-size", `${11 * scale}px`);
 
-  chart.append("g")
-    .call(d3.axisLeft(y).ticks(6))
-    .selectAll("text")
+  const yAxis = chart.append("g")
+    .call(d3.axisLeft(y).ticks(6));
+
+  yAxis.selectAll("text")
     .style("font-size", `${11 * scale}px`);
+
+  yAxis.append("text")
+    .attr("fill", "#555")
+    .attr("transform", "rotate(-90)")
+    .attr("x", -innerH / 2)
+    .attr("y", -margin.left + 14 * scale)
+    .attr("text-anchor", "middle")
+    .attr("font-size", `${12 * scale}px`)
+    .attr("font-weight", 600)
+    .text("Million migrants (stock)");
 }
 
 
@@ -138,8 +149,8 @@ function addDots(chart, data, x, y, scale, tooltip, field, color, cls) {
     })
     .on("mousemove", event => {
       tooltip
-        .style("left", `${event.clientX + 14}px`)
-        .style("top", `${event.clientY - 20}px`);
+        .style("left", `${event.pageX + 14}px`)
+        .style("top", `${event.pageY - 20}px`);
     })
     .on("mouseout", () => tooltip.style("opacity", 0));
 

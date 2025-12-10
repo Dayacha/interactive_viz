@@ -9,13 +9,6 @@ function pctChange(oldVal, newVal) {
   return ((newVal - oldVal) / oldVal) * 100;
 }
 
-function normalizeName(s) {
-  return s
-    ?.normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
-}
-
 function updateChart(step) {
 
   // all data is ready

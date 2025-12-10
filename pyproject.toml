@@ -16,7 +16,16 @@ dependencies = [
 dev = [
     "ipykernel",
     "jupyter",
+    "ruff>=0.14.0",
 ]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100

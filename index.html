@@ -105,13 +105,13 @@
         <div class="year-controls">
           <button id="year-play">▶</button>
 
-          <input 
-            id="year-slider" 
+          <input
+            id="year-slider"
             type="range"
             min="1995" 
             max="2024"
             value="2024"
-            step="5"
+            step="1"
           />
           <span id="year-label">2024</span>
 
@@ -128,6 +128,19 @@
         <div class="graphic-title">Top migration partners</div>
 
         <p id="top5-text" class="top5-description"></p>
+
+        <div class="year-controls top5-controls">
+          <button id="top5-play" class="limit-btn">▶</button>
+          <input
+            id="top5-year-slider"
+            type="range"
+            min="1990"
+            max="2024"
+            value="2024"
+            step="1"
+          />
+          <span id="top5-year-label">2024</span>
+        </div>
 
         <div class="top5-wrapper">
           <div id="top5-destinations" class="top5-chart"></div>
