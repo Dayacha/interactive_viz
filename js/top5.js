@@ -173,16 +173,23 @@ function drawMiniChart(containerID, data, title, color) {
     .attr("class", "value-label")
     .attr("y", d => y(d.label) + y.bandwidth() / 1.6)
     .attr("font-size", "11px")
+    .attr("font-weight", "700")
     .text(d => fmt(d.migrants_millions))
     .each(function(d) {
       const valX = x(d.migrants_millions);
       const spaceRight = width - margin.right - valX;
       const t = d3.select(this);
 
-      if (spaceRight > 40) {
-        t.attr("x", valX + 6).attr("fill", "#333").attr("text-anchor", "start");
+      const insideBar = spaceRight <= 55;
+
+      t.style("paint-order", insideBar ? "stroke" : null)
+        .attr("stroke", insideBar ? "rgba(0,0,0,0.35)" : null)
+        .attr("stroke-width", insideBar ? 0.6 : null);
+
+      if (insideBar) {
+        t.attr("x", valX - 8).attr("fill", "#FFFFFF").attr("text-anchor", "end");
       } else {
-        t.attr("x", valX - 6).attr("fill", "#000").attr("text-anchor", "end");
+        t.attr("x", valX + 6).attr("fill", "#1F2937").attr("text-anchor", "start");
       }
     });
 
@@ -370,3 +377,4 @@ function setupTop5Controls() {
     }, 1000);
   });
 }
+
