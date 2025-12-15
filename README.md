@@ -14,9 +14,7 @@ to show:
 - Country-level partners and a choropleth map using a blue–rose palette
 - Narrative copy that syncs with the visuals as you scroll
 
-<video src="Demo.mov" controls muted playsinline style="max-width:100%;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.1);">
-  Your browser does not support the video tag. You can download the demo here: <a href="Demo.mov">Demo.mov</a>.
-</video>
+![Migration Explorer screenshot](Migration%20Explorer.png)
 
 ## Features
 
@@ -100,4 +98,3 @@ Email: danielaayala@uchicago.edu
 
 - Thanks to **James Turk** for mentorship and feedback on early data stories.
 - Shout-out to the **MSCAPP Data Visualization (Fall 2025)** cohort for critiques and usability testing sessions that shaped the final experience.
-
