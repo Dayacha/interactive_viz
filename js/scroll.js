@@ -22,8 +22,10 @@ function init_scroll() {
     return;
   }
 
-  // threshold changes slightly on large screens
-  const threshold = window.innerWidth > 900 ? 0.55 : 0.45;
+  // threshold adjusts for small screens so steps trigger sooner
+  const isWide = window.innerWidth > 900;
+  const threshold = isWide ? 0.55 : 0.25;
+  const rootMargin = isWide ? "0px 0px -20% 0px" : "0px 0px -5% 0px";
 
   scrollObserver = new IntersectionObserver(
     entries => {
@@ -68,10 +70,7 @@ function init_scroll() {
         }
       });
     },
-    {
-      threshold: threshold,
-      rootMargin: "0px 0px -20% 0px"
-    }
+    { threshold, rootMargin }
   );
 
   // observe all steps
@@ -83,3 +82,4 @@ function init_scroll() {
 
 // export globally
 window.init_scroll = init_scroll;
+
