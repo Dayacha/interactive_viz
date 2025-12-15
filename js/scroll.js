@@ -24,8 +24,8 @@ function init_scroll() {
 
   // threshold adjusts for small screens so steps trigger sooner
   const isWide = window.innerWidth > 900;
-  const threshold = isWide ? 0.55 : 0.25;
-  const rootMargin = isWide ? "0px 0px -20% 0px" : "0px 0px -5% 0px";
+  const threshold = isWide ? 0.55 : 0.12;
+  const rootMargin = isWide ? "0px 0px -20% 0px" : "0px 0px -10% 0px";
 
   scrollObserver = new IntersectionObserver(
     entries => {
