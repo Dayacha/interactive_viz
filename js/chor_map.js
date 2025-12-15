@@ -9,6 +9,73 @@ window.selectedMapCountryISO = window.selectedMapCountryISO || null;
 
 const MAP_YEARS = [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024];
 
+let chorDataPromise = null;
+let chorGeoCache    = null;
+let chorCsvCache    = null;
+let chorSeriesByISO = null;
+
+function loadChoroplethData() {
+  if (chorDataPromise) {
+    return chorDataPromise.then(() => ({
+      geo: chorGeoCache,
+      csv: chorCsvCache,
+      series: chorSeriesByISO
+    }));
+  }
+
+  chorDataPromise = Promise.all([
+    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+    d3.csv("data/clean/country_migration_totals.csv")
+  ]).then(([geo, csv]) => {
+
+    csv.forEach(d => {
+      d.year                = +d.year;
+      d.immigrants_perc_pop = +d.immigrants_perc_pop;
+      d.emigrants_perc_pop  = +d.emigrants_perc_pop;
+      d.net_migration       = +d.net_migration;
+    });
+
+    const series = {};
+    csv.forEach(d => {
+      if (!series[d.iso3]) series[d.iso3] = [];
+      series[d.iso3].push(d);
+    });
+
+    chorGeoCache    = geo;
+    chorCsvCache    = csv;
+    chorSeriesByISO = series;
+
+    return { geo, csv, series };
+  });
+
+  return chorDataPromise;
+}
+
+function stopChorAnimation() {
+  if (window.chorPlayInterval) {
+    clearInterval(window.chorPlayInterval);
+    window.chorPlayInterval = null;
+  }
+  d3.select("#chor-play").text("▶");
+}
+
+function nextMapYear(currentYear) {
+  const idx = MAP_YEARS.indexOf(+currentYear);
+  const safeIdx = idx >= 0 ? idx : 0;
+  return MAP_YEARS[(safeIdx + 1) % MAP_YEARS.length];
+}
+
+function advanceChorYear(metric, slider, yearLabel) {
+  const newYear = nextMapYear(window.currentMapYear);
+  window.currentMapYear = newYear;
+
+  const yearIdx = MAP_YEARS.indexOf(newYear);
+  if (yearIdx >= 0) slider.property("value", yearIdx);
+  yearLabel.text(newYear);
+
+  initChoroplethMap(metric, newYear);
+}
+
 
 function htmlMetricToInternal(key) {
   const map = {
@@ -220,14 +287,12 @@ function hideTooltip(tooltip) {
 }
 
 
-function renderChoropleth(container, geo, csv, metric, year) {
+function renderChoropleth(container, geo, csv, seriesByISO, metric, year) {
 
   // Wrapper
   const wrapper = container.append("div").attr("class", "chor-wrapper");
 
-  wrapper.append("div")
-    .attr("id", "chor-legend")
-    .attr("class", "chor-legend");
+  d3.select("#chor-legend").attr("class", "chor-legend");
 
   // Controls (year slider + play)
   const controls = wrapper.append("div").attr("class", "chor-controls year-controls");
@@ -241,9 +306,10 @@ function renderChoropleth(container, geo, csv, metric, year) {
     .attr("type", "range")
     .attr("min", 0)
     .attr("max", MAP_YEARS.length - 1)
+    .attr("step", 1)
     .property("value", MAP_YEARS.indexOf(year));
 
-  controls.append("span")
+  const yearLabel = controls.append("span")
     .attr("id", "chor-year-label")
     .text(year);
 
@@ -261,25 +327,11 @@ function renderChoropleth(container, geo, csv, metric, year) {
   const projection = d3.geoMercator().fitSize([width, height], geo);
   const path = d3.geoPath().projection(projection);
 
-  // Convert columns to numeric
-  csv.forEach(d => {
-    d.year                = +d.year;
-    d.immigrants_perc_pop = +d.immigrants_perc_pop;
-    d.emigrants_perc_pop  = +d.emigrants_perc_pop;
-    d.net_migration       = +d.net_migration;
-  });
-
   // Indexed by year / iso3
   const yearData = csv.filter(d => d.year === year);
 
   const rowsByISO = {};
   yearData.forEach(d => rowsByISO[d.iso3] = d);
-
-  const seriesByISO = {};
-  csv.forEach(d => {
-    if (!seriesByISO[d.iso3]) seriesByISO[d.iso3] = [];
-    seriesByISO[d.iso3].push(d);
-  });
 
   const ctx = { metric, year, rows: yearData, rowsByISO, seriesByISO };
   window.choroplethContext = ctx;
@@ -292,6 +344,7 @@ function renderChoropleth(container, geo, csv, metric, year) {
       return this.dataset.metric === internalMetricToHtml(metric);
     })
     .on("click", function () {
+      stopChorAnimation();
       const newMetric = htmlMetricToInternal(this.dataset.metric);
       window.currentMapMetric = newMetric;
       initChoroplethMap(newMetric, window.currentMapYear);
@@ -382,35 +435,31 @@ function renderChoropleth(container, geo, csv, metric, year) {
 
   // Slider
   slider.on("input", function () {
+    stopChorAnimation();
+
     const idx = +this.value;
     const newYear = MAP_YEARS[idx];
     window.currentMapYear = newYear;
 
-    d3.select("#chor-year-label").text(newYear);
+    yearLabel.text(newYear);
     initChoroplethMap(metric, newYear);
   });
 
   // Play button
   playBtn.on("click", function () {
     if (window.chorPlayInterval) {
-      clearInterval(window.chorPlayInterval);
-      window.chorPlayInterval = null;
-      d3.select(this).text("▶");
+      stopChorAnimation();
       return;
     }
 
-    d3.select(this).text("⏸");
+    const btn = d3.select(this);
+    btn.text("⏸");
+
+    // show the first step immediately so users see the animation start
+    advanceChorYear(metric, slider, yearLabel);
 
     window.chorPlayInterval = setInterval(() => {
-      const idx = MAP_YEARS.indexOf(window.currentMapYear);
-      const next = (idx + 1) % MAP_YEARS.length;
-      const newYear = MAP_YEARS[next];
-
-      window.currentMapYear = newYear;
-      slider.property("value", next);
-      d3.select("#chor-year-label").text(newYear);
-
-      initChoroplethMap(metric, newYear);
+      advanceChorYear(metric, slider, yearLabel);
     }, 1200);
   });
 
@@ -432,14 +481,12 @@ function initChoroplethMap(metric = window.currentMapMetric, year = window.curre
   const container = d3.select("#chart-map");
   container.selectAll("*").remove();
 
-  Promise.all([
-    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-    d3.csv("data/clean/country_migration_totals.csv")
-  ])
-    .then(([geo, csv]) => {
-      renderChoropleth(container, geo, csv, metric, year);
+  loadChoroplethData()
+    .then(({ geo, csv, series }) => {
+      renderChoropleth(container, geo, csv, series, metric, year);
     })
     .catch(err => console.error("Error loading choropleth data:", err));
 }
 
 window.initChoroplethMap = initChoroplethMap;
+
