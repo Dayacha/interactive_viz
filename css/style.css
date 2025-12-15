@@ -85,6 +85,7 @@ body {
 .nav-links {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -287,6 +288,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-top: 18px;
+  flex-wrap: wrap;
 }
 
 #year-play {
@@ -355,6 +357,93 @@ body {
   color: white;
 }
 
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 32px 1.4rem 80px;
+  }
+
+  .graphic {
+    position: static;
+    top: auto;
+  }
+
+  .line-layout {
+    flex-direction: column;
+  }
+
+  .line-text {
+    flex: 1 1 100%;
+  }
+
+  #chart-line {
+    height: 280px;
+  }
+
+  .top5-wrapper {
+    flex-direction: column;
+  }
+
+  .flowmap-hero,
+  .chor-map {
+    height: 360px;
+  }
+}
+
+@media (max-width: 720px) {
+  .nav-inner {
+    gap: 10px;
+  }
+
+  .nav-logo {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    gap: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .wrapper {
+    padding: 26px 1rem 70px;
+  }
+
+  .header h1 {
+    font-size: 1.9rem;
+  }
+
+  .graphic {
+    padding: 26px;
+  }
+
+  .static-section {
+    margin: 90px 0;
+  }
+
+  .flowmap-hero,
+  .chor-map {
+    height: 300px;
+  }
+
+  .year-controls {
+    gap: 8px;
+  }
+
+  .line-text {
+    font-size: 0.96rem;
+  }
+
+  .steps {
+    gap: 12vh;
+    padding-bottom: 18vh;
+  }
+
+  .step {
+    height: auto;
+    min-height: 220px;
+  }
+}
 /* Legend */
 .chor-legend-gradient {
   width: 180px;
@@ -470,4 +559,5 @@ body {
 .limit-btn:hover {
   background: var(--primary-dark);
 }
+
 
